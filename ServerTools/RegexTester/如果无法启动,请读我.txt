@@ -1,0 +1,3 @@
+如果无法启动,请自行下载安装 Microsoft .Net Framework 4.0 Client Profile 后再试:
+
+http://www.microsoft.com/downloads/zh-cn/details.aspx?familyid=5765d7a8-7722-4888-a970-ac39b33fd8ab&displaylang=zh-cn
