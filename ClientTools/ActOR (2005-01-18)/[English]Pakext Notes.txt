@@ -1,0 +1,25 @@
+    * List files
+      pakext -t data.grf
+      pakext -t data.grf > datagrflist.txt
+    * Extract while grf
+      pakext data.grf
+    * Extract a part of grf which Match key word.
+      pakext -m .spr data.grf
+      pakext -m .act data.grf
+      pakext -m sprite data.grf
+    * Charactors preview
+      pakext -C data.grf
+      You will get a great RO doll system after run this
+    * Delete a Part of files
+      pakext -s sdata.grf data.grf
+      Will get an new sdata.grf= (old sdata.grf) - (files were also in data.grf)
+
+More information please see readme_pakext.txt(in binary package.)
+
+pakext:
+A command line program GRF/GPF extractor, type "pakext -h" for more
+infomation. When customize file type grf/gpf setup well, it's very
+convenient to click and then extract/encode(?)/preview/list GRF/GPF
+files.
+
+-Gratia Huang

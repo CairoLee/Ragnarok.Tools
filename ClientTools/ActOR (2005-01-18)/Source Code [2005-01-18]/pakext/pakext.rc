@@ -1,0 +1,201 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PATCH98 DIALOGEX 0, 0, 265, 178
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "対応ファイルに従ってパッチ作成"
+FONT 10, "ＭＳ Ｐゴシック", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "終了",IDCLOSE,108,157,50,14
+    EDITTEXT        IDC_VSFILES,52,23,129,13,ES_AUTOHSCROLL
+    LTEXT           "対応ファイル",IDC_STATIC,7,24,42,8
+    PUSHBUTTON      "参照",IDC_VSFILEREF,184,23,24,12
+    PUSHBUTTON      "対応の確認",IDC_CONF,208,50,42,11
+    EDITTEXT        IDC_CONFV,7,50,190,102,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "version",IDC_STATIC,208,84,43,37
+    CONTROL         "01xx",IDC_VER1,"Button",BS_AUTORADIOBUTTON,214,95,32,10
+    CONTROL         "02xx",IDC_VER2,"Button",BS_AUTORADIOBUTTON,214,106,32,
+                    10
+    PUSHBUTTON      "update.gpf作成",IDC_MP98EXEC,201,137,57,13
+    EDITTEXT        IDC_LISTFILE,52,7,129,13,ES_AUTOHSCROLL
+    LTEXT           "リストファイル",IDC_STATIC,7,7,43,8
+    PUSHBUTTON      "参照",IDC_LISTREF,184,7,24,12
+END
+
+IDD_CHRVIEW DIALOGEX 0, 0, 341, 231
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "キャラクタビューワ"
+FONT 10, "ＭＳ Ｐゴシック", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "見飽きたら押す",IDCLOSE,279,7,55,14
+    CONTROL         "",IDC_GLAREA,"Static",SS_BLACKFRAME,81,31,171,184
+    PUSHBUTTON      "＼",IDC_BTNDIRECTION3,279,136,9,10
+    PUSHBUTTON      "｜",IDC_BTNDIRECTION4,290,136,9,10
+    PUSHBUTTON      "／",IDC_BTNDIRECTION5,301,136,9,10
+    PUSHBUTTON      "／",IDC_BTNDIRECTION1,279,158,9,10
+    PUSHBUTTON      "｜",IDC_BTNDIRECTION0,290,158,9,10
+    PUSHBUTTON      "＼",IDC_BTNDIRECTION7,301,158,9,10
+    PUSHBUTTON      "－",IDC_BTNDIRECTION2,279,147,9,10
+    PUSHBUTTON      "－",IDC_BTNDIRECTION6,301,147,9,10
+    LTEXT           "向き",IDC_STATIC,288,123,15,8
+    COMBOBOX        IDC_CBBODY,7,73,70,12,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CBACT,274,103,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "･",IDC_STATIC,292,149,8,8
+    GROUPBOX        "種類",IDC_STATIC,7,7,95,23
+    RADIOBUTTON     "PC",IDC_RBPC,15,17,23,9
+    RADIOBUTTON     "Mob",IDC_RBMOB,40,17,29,9
+    RADIOBUTTON     "NPC",IDC_RBNPC,68,17,30,10
+    GROUPBOX        "性別",IDC_MFGROUP,7,34,60,23
+    RADIOBUTTON     "男",IDC_RBMALE,14,44,23,10
+    RADIOBUTTON     "女",IDC_RBFEMALE,41,44,23,10
+    LTEXT           "胴体",IDC_STATIC,7,63,16,8
+    LTEXT           "頭",IDC_STATIC,7,96,8,8
+    COMBOBOX        IDC_CBHEAD,7,106,71,14,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "装飾1",IDC_STATIC,7,128,20,8
+    COMBOBOX        IDC_CBACC1,7,138,70,13,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "装飾2",IDC_STATIC,7,154,20,8
+    COMBOBOX        IDC_CBACC2,7,164,70,13,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "装飾3",IDC_STATIC,7,180,20,8
+    COMBOBOX        IDC_CBACC3,7,191,70,13,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "盾",IDC_STATIC,265,30,20,8
+    COMBOBOX        IDC_CBSHIELD,264,40,70,13,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "武器",IDC_STATIC,265,61,20,8
+    COMBOBOX        IDC_CBWEAPON,264,71,70,13,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "動作",IDC_STATIC,275,92,20,8
+    PUSHBUTTON      "自動ｺﾏ送り",IDC_BTNAUTO,266,181,39,12
+    PUSHBUTTON      "停止",IDC_BTNSTOP,310,180,24,13
+    PUSHBUTTON      "Reset View",IDC_BTNRESETVIEW,147,19,46,11
+    LTEXT           "スタティック",IDC_LBPATNO,290,215,35,9
+    SCROLLBAR       IDC_SCRFRM,266,199,68,11
+    PUSHBUTTON      "イージーモードへ",IDC_BTNTOEASY,207,7,56,13
+    PUSHBUTTON      "背景",IDC_BTNBG,113,19,18,11
+END
+
+IDD_EASYEXT DIALOGEX 0, 0, 237, 202
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "イージーモード"
+FONT 10, "ＭＳ Ｐゴシック", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "終了",IDCLOSE,163,7,67,14
+    CONTROL         "",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | 
+                    WS_BORDER | WS_TABSTOP,7,7,110,188,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "選択したものを解凍",IDC_BTNEXTRACT,131,94,86,25
+    PUSHBUTTON      "選択したものとして\r01xx式パッチ作成",IDC_BTNEEMAKE,131,
+                    134,87,24,BS_MULTILINE
+    PUSHBUTTON      "選択したものとして\r02xx式パッチ作成",IDC_BTNEEMAKE2,
+                    130,161,87,24,BS_MULTILINE
+    PUSHBUTTON      "キャラクタビューワへ",IDC_BTNTOCV,163,29,67,15
+    PUSHBUTTON      "見る、聞く",IDC_BTNANYPROC,132,61,85,22
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PATCH98, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_CHRVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_EASYEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

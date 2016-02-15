@@ -1,0 +1,2 @@
+5089	mycharacter.spr
+5102	d:\program files\tmp\a.act

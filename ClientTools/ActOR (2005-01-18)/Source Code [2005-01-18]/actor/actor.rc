@@ -1,0 +1,411 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MAINMENU MENU 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "開く...(&O)",                 IDM_READ
+        MENUITEM SEPARATOR
+        MENUITEM "ACT保存...\tCtrl+S",          IDM_WRITEACT
+        MENUITEM "BMP保存...",                  IDM_WRITEBMP
+        MENUITEM "SPR保存...",                  IDM_WRITESPR
+        MENUITEM "ACT テキスト出力...",         IDM_WRITEACTTEXT
+        MENUITEM SEPARATOR
+        MENUITEM "監査...",                     IDM_AUDIT, INACTIVE
+        MENUITEM SEPARATOR
+        MENUITEM "終了(&X)",                    IDM_EXIT
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtrl+Z",        IDM_UNDO
+        MENUITEM "やり直し(&R)\tCtrl+Y",        IDM_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "選択イメージの置換...",       IDM_REPLACEIMAGE
+        MENUITEM "選択イメージの書き出し...",   IDM_WRITE1IMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "選択イメージの前に挿入...",   IDM_INSERTBEFORE
+        MENUITEM "選択イメージの後ろに挿入...", IDM_INSERTAFTER
+        MENUITEM SEPARATOR
+        MENUITEM "選択イメージを削除",          IDM_DELETEIMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "未使用パレット同一色化...",   IDM_PALLETSAME
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "背景色...",                   IDM_COLSELBG
+        MENUITEM "選択枠...",                   IDM_COLSELSEL
+        MENUITEM "インジケータ...",             IDM_COLSELLINE
+        MENUITEM SEPARATOR
+        MENUITEM "水平線(&H)",                  IDM_HORIZON
+        MENUITEM "垂直線(&V)",                  IDM_VERTICAL
+        MENUITEM SEPARATOR
+        MENUITEM "次のフレーム\tALT+2",         IDM_NEXTFRAME
+        MENUITEM "前のフレーム\tALT+1",         IDM_PREVFRAME
+    END
+    POPUP "各値変更"
+    BEGIN
+        MENUITEM "飽和度R +5\tAlt+R",           IDM_SATRPLUS
+        MENUITEM "飽和度R -5\tAlt+Shift+R",     IDM_SATRMINUS
+        MENUITEM "飽和度G +5\tAlt+G",           IDM_SATGPLUS
+        MENUITEM "飽和度G -5\tAlt+Shift+G",     IDM_SATGMINUS
+        MENUITEM "飽和度B +5\tAlt+B",           IDM_SATBPLUS
+        MENUITEM "飽和度B -5\tAlt+Shift+B",     IDM_SATBMINUS
+        MENUITEM "飽和度A +5\tAlt+A",           IDM_SATAPLUS
+        MENUITEM "飽和度A -5\tAlt+Shift+A",     IDM_SATAMINUS
+        MENUITEM "スプライト反転\tM",           IDM_MIRRORCHANGE
+    END
+    MENUITEM "フレーム編集",                IDM_FRAMEEDIT
+    MENUITEM "アクション(向き)コピー",      IDM_ACTCOPY
+    MENUITEM "マウスボタン変更(&M)",        IDM_MBASSIGN
+    MENUITEM "スプライト優先度変更...",     IDM_PRIORREFSPR
+    MENUITEM "音",                          40095
+    MENUITEM "actORについて(&H)",           IDM_ABOUT
+END
+
+FRMIMG_MENU MENU 
+BEGIN
+    POPUP "--"
+    BEGIN
+        MENUITEM "選択イメージの置換...",       IDM_REPLACEIMAGE
+        MENUITEM "選択イメージの書き出し...",   IDM_WRITE1IMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "選択イメージの前に挿入...",   IDM_INSERTBEFORE
+        MENUITEM "選択イメージの後ろに挿入...", IDM_INSERTAFTER
+        MENUITEM SEPARATOR
+        MENUITEM "選択イメージを削除",          IDM_DELETEIMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "未使用パレット同一色化...",   IDM_PALLETSAME
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS 
+BEGIN
+    "H",            IDM_HORIZON,            VIRTKEY, NOINVERT
+    "M",            IDM_MIRRORCHANGE,       VIRTKEY, NOINVERT
+    "Y",            IDM_REDO,               VIRTKEY, CONTROL, NOINVERT
+    "A",            IDM_SATAMINUS,          VIRTKEY, SHIFT, ALT, NOINVERT
+    "A",            IDM_SATAPLUS,           VIRTKEY, ALT, NOINVERT
+    "B",            IDM_SATBMINUS,          VIRTKEY, SHIFT, ALT, NOINVERT
+    "B",            IDM_SATBPLUS,           VIRTKEY, ALT, NOINVERT
+    "G",            IDM_SATGMINUS,          VIRTKEY, SHIFT, ALT, NOINVERT
+    "G",            IDM_SATGPLUS,           VIRTKEY, ALT, NOINVERT
+    "R",            IDM_SATRMINUS,          VIRTKEY, SHIFT, ALT, NOINVERT
+    "R",            IDM_SATRPLUS,           VIRTKEY, ALT, NOINVERT
+    "Z",            IDM_UNDO,               VIRTKEY, CONTROL, NOINVERT
+    "V",            IDM_VERTICAL,           VIRTKEY, NOINVERT
+    "S",            IDM_WRITEACT,           VIRTKEY, CONTROL, NOINVERT
+    "2",            IDM_NEXTFRAME,          VIRTKEY, ALT, NOINVERT
+    "1",            IDM_PREVFRAME,          VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGMBASSIGN DIALOGEX 0, 0, 175, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "マウスボタン変更"
+FONT 10, "ＭＳ Ｐゴシック", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,131,26,37,14
+    RADIOBUTTON     "移動",IDC_RADIO1,20,17,31,10
+    RADIOBUTTON     "回転",IDC_RADIO2,51,17,31,10
+    RADIOBUTTON     "拡大",IDC_RADIO3,80,17,31,10
+    GROUPBOX        "左ボタン",IDC_GRLABEL1,7,7,112,24
+    RADIOBUTTON     "移動",IDC_RADIO4,20,44,31,10
+    RADIOBUTTON     "回転",IDC_RADIO5,51,44,31,10
+    RADIOBUTTON     "拡大",IDC_RADIO6,80,44,31,10
+    GROUPBOX        "中ボタン",IDC_GRLABEL2,7,34,112,24
+    RADIOBUTTON     "移動",IDC_RADIO7,20,74,31,10
+    RADIOBUTTON     "回転",IDC_RADIO8,51,74,31,10
+    RADIOBUTTON     "拡大",IDC_RADIO9,80,74,31,10
+    GROUPBOX        "右ボタン",IDC_GRLABEL3,7,64,112,24
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,131,48,37,14
+END
+
+IDD_DIALOGFRAME DIALOGEX 0, 0, 174, 135
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "フレーム編集"
+FONT 10, "ＭＳ Ｐゴシック", 400, 0, 0x80
+BEGIN
+    PUSHBUTTON      "閉じる",IDCLOSE,99,114,36,14
+    CONTROL         "",IDC_RADIO_FDEL,"Button",BS_AUTORADIOBUTTON,7,10,16,8
+    CONTROL         "",IDC_RADIO_FCOPY,"Button",BS_AUTORADIOBUTTON,7,42,16,8
+    CONTROL         "",IDC_RADIO_FSWAP,"Button",BS_AUTORADIOBUTTON,7,78,16,8
+    CONTROL         "",IDC_SPIN_FDEL,"msctls_updown32",UDS_ARROWKEYS,48,7,8,
+                    13
+    EDITTEXT        IDC_EDIT_FDEL,24,7,24,13,ES_AUTOHSCROLL
+    LTEXT           "フレームを消す",IDC_FELABEL1,59,9,105,8
+    CONTROL         "",IDC_SPIN_FCOPY,"msctls_updown32",UDS_ARROWKEYS,48,39,
+                    8,13
+    EDITTEXT        IDC_EDIT_FCOPY,24,39,24,13,ES_AUTOHSCROLL
+    LTEXT           "フレームを直後にコピー",IDC_FELABEL2,59,42,96,8
+    CONTROL         "",IDC_SPIN_FSWAP1,"msctls_updown32",UDS_ARROWKEYS,48,75,
+                    9,13
+    EDITTEXT        IDC_EDIT_FSWAP1,24,75,24,13,ES_AUTOHSCROLL
+    LTEXT           "と",IDC_FELABEL3,61,77,14,8
+    CONTROL         "",IDC_SPIN_FSWAP2,"msctls_updown32",UDS_ARROWKEYS,97,75,
+                    9,13
+    EDITTEXT        IDC_EDIT_FSWAP2,73,75,24,13,ES_AUTOHSCROLL
+    LTEXT           "フレームを入れ替える",IDC_FELABEL4,38,93,129,8
+    PUSHBUTTON      "適用",ID_BTN_FAPPLY,46,114,36,14
+END
+
+IDD_DIALOGABOUT DIALOGEX 0, 0, 239, 94
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "actORについて"
+FONT 10, "ＭＳ Ｐゴシック", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,96,73,50,14
+    LTEXT           "アークトゥルスとかのactファイルを編集するツールです",
+                    IDC_ABOUTLABEL1,7,7,225,8
+    LTEXT           "ビルド日時：",IDC_ABOUTLABEL2,7,29,78,8
+    EDITTEXT        IDC_ABOUTBUILD,101,26,77,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "License: Gnu General Public License version 2",
+                    IDC_ABOUTLABEL3,7,52,152,8
+END
+
+IDD_DIALOGACOPY DIALOGEX 0, 0, 289, 210
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "アクション(向き)コピー"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "適用",ID_APPLYA,90,189,50,14
+    PUSHBUTTON      "閉じる",ID_CLOSEA,158,189,50,14
+    CONTROL         111,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,165,
+                    74,32,30
+    CONTROL         112,IDC_STATIC,"Static",SS_BITMAP,165,34,32,30
+    CONTROL         "",IDC_RBACDETAIL,"Button",BS_AUTORADIOBUTTON,43,140,16,
+                    8
+    CONTROL         "",IDC_RBACCW,"Button",BS_AUTORADIOBUTTON,16,44,16,8
+    CONTROL         "",IDC_RBACCCW,"Button",BS_AUTORADIOBUTTON,16,85,16,8
+    COMBOBOX        IDC_CBAC11,97,119,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CBAC2,29,41,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CBAC3,29,82,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "の各向きを",IDC_ACDLABEL3,95,44,63,8
+    LTEXT           "の各向きを",IDC_ACDLABEL4,94,84,66,8
+    LTEXT           "のようにコピー",IDC_ACDLABEL5,208,44,74,19
+    LTEXT           "のようにコピー",IDC_ACDLABEL6,208,84,74,23
+    LTEXT           "の",IDC_ACDLABEL7,149,119,8,8
+    COMBOBOX        IDC_CBAC12,185,119,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "の",IDC_ACDLABEL9,237,119,8,8
+    RADIOBUTTON     "",IDC_RADIOAC0,113,159,16,8
+    RADIOBUTTON     "",IDC_RADIOAC1,99,159,16,8
+    RADIOBUTTON     "",IDC_RADIOAC2,99,148,16,8
+    RADIOBUTTON     "",IDC_RADIOAC3,99,137,16,8
+    RADIOBUTTON     "",IDC_RADIOAC4,113,137,16,8
+    RADIOBUTTON     "",IDC_RADIOAC5,129,137,16,8
+    RADIOBUTTON     "",IDC_RADIOAC6,129,148,16,8
+    RADIOBUTTON     "",IDC_RADIOAC7,129,159,16,8
+    RADIOBUTTON     "",IDC_RADIOAC10,201,159,16,8
+    RADIOBUTTON     "",IDC_RADIOAC11,187,159,16,8
+    RADIOBUTTON     "",IDC_RADIOAC12,187,148,16,8
+    RADIOBUTTON     "",IDC_RADIOAC13,187,137,16,8
+    RADIOBUTTON     "",IDC_RADIOAC14,201,137,16,8
+    RADIOBUTTON     "",IDC_RADIOAC15,217,137,16,8
+    RADIOBUTTON     "",IDC_RADIOAC16,217,148,16,8
+    RADIOBUTTON     "",IDC_RADIOAC17,217,159,16,8
+    LTEXT           "の向きを",IDC_ACDLABEL8,147,146,28,8
+    LTEXT           "の向きへコピー",IDC_ACDLABEL10,237,146,46,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,7,275,172
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,27,275,152
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,69,275,42
+    CTEXT           "↓選択",IDC_ACDLABEL1,10,15,74,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,87,7,195,172
+    CTEXT           "コピーの詳細",IDC_ACDLABEL2,100,14,174,8
+    LTEXT           "-> 1方向ずつコピー",IDC_ACDLABEL11,150,168,119,8
+END
+
+IDD_DIALOGPRIOR DIALOGEX 0, 0, 187, 82
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "参照スプライト優先度変更"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,72,61,50,14
+    GROUPBOX        "頭",IDC_GRPLABEL1,7,7,82,20
+    RADIOBUTTON     "前",IDC_RADIOHEADFRONT,15,15,34,10
+    RADIOBUTTON     "後",IDC_RADIOHEADBACK,54,15,34,10
+    GROUPBOX        "胴",IDC_GRPLABEL2,98,7,82,20
+    RADIOBUTTON     "前",IDC_RADIOBODYFRONT,106,15,35,10
+    RADIOBUTTON     "後",IDC_RADIOBODYBACK,146,15,32,10
+    GROUPBOX        "その他",IDC_GRPLABEL3,7,32,82,20
+    RADIOBUTTON     "前",IDC_RADIOETCFRONT,15,40,34,10
+    RADIOBUTTON     "後",IDC_RADIOETCBACK,54,40,34,10
+    GROUPBOX        "お隣",IDC_GRPLABEL4,98,32,82,20
+    RADIOBUTTON     "前",IDC_RADIONEIGHFRONT,106,40,38,10
+    RADIOBUTTON     "後",IDC_RADIONEIGHBACK,146,40,32,10
+END
+
+IDD_DIALOGSOUND DIALOGEX 0, 0, 240, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "閉じる",IDCLOSE,98,120,50,14
+    LISTBOX         IDC_LIST_SOUND,11,11,159,73,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME,7,7,226,104,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Add last",IDC_BTN_SADD,53,91,45,16
+    PUSHBUTTON      "Del. selected",IDC_BTN_SDEL,139,91,46,16
+    PUSHBUTTON      "Up",IDC_BTN_SUP,181,27,31,14
+    PUSHBUTTON      "Down",IDC_BTN_SDOWN,181,54,31,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOGMBASSIGN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOGFRAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOGABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DIALOGACOPY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DIALOGPRIOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_DIALOGSOUND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSORGRUB          CURSOR                  "cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAPCCW           BITMAP                  "bitmap_CCW.bmp"
+IDB_BITMAPCW            BITMAP                  "bitmap_CW.bmp"
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

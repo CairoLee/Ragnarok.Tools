@@ -1,0 +1,9 @@
+1. You may use this program in 'GNU GENERAL PUBLIC LICENSE version 2'.
+2. You may use this program for private use.
+  Use the remodeled data only in the home.
+  Don't distribute the remodeled data.
+  Don't put the screenshot that used remodeled data on view to the general public.
+  You must obey the law of each country about the others.
+
+
+Do you accept the terms? (yes/no)
