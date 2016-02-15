@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job version="8.13">
+<notifyjob>
+<abortonerror value="yes" />
+<result value="yes" />
+<includequery value="yes" />
+<includemsg value="yes" />
+<source>
+<host>localhost</host>
+<user>root</user>
+<pwd></pwd>
+<port>3307</port>
+<ssl>0</ssl> 
+<sslauth>0</sslauth> 
+<clientkey /> 
+<clientcert /> 
+<cacert /> 
+<cipher /> 
+<charset />
+<database>test</database>
+</source>
+<smtp>
+<displayname>Webyog Support</displayname>
+<toemail>support@webyog.com</toemail>
+<fromemail>sales@webyog.com</fromemail>
+<cc>hr@webyog.com</cc>
+<bcc>admin@webyog.com</bcc>
+<replyemail>somename@webyog.com</replyemail>
+<host>smtp.someserver.com</host>
+<encryption>no</encryption>
+<port>25</port>
+<auth required="yes">
+<user>bkavas</user>
+<pwd>aaaaaa</pwd>
+</auth>
+<subject>Subject</subject>
+</smtp>
+<query>select 1</query>
+</notifyjob>
+</job>

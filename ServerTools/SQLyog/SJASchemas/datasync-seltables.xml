@@ -1,0 +1,58 @@
+<job version="6.5">
+<syncjob>
+<abortonerror abort="yes" />
+<fkcheck check="yes" />
+<twowaysync twoway="no" />
+<source>
+<tunnelinfo type="http">
+<url>http://www.yourdomain.com/SQLyogTunnel.php</url>
+<timeout>30</timeout> 
+<contenttype>text/xml</contenttype> 
+</tunnelinfo>
+<host>localhost</host>
+<user>root</user>
+<pwd></pwd>
+<port>3306</port>
+<ssl>0</ssl> 
+<sslauth>0</sslauth> 
+<clientkey /> 
+<clientcert /> 
+<cacert /> 
+<cipher /> 
+<charset /> 
+<database>mysql</database>
+</source>
+<target>
+<host>localhost</host>
+<user>root</user>
+<pwd></pwd>
+<port>3306</port>
+<ssl>0</ssl> 
+<sslauth>0</sslauth> 
+<clientkey /> 
+<clientcert /> 
+<cacert /> 
+<cipher /> 
+<charset /> 
+<database>new_mysql</database>
+</target>
+<tables all="no">
+<table>
+<name>`columns_priv`</name>
+<columns all="yes" />
+</table>
+<table>
+<name>`db`</name>
+<columns all="no">
+<column>`Host`</column>
+<column>`Db`</column>
+<column>`User`</column>
+</columns>
+</table>
+<table>
+<name>`host`</name>
+<columns all="yes" />
+<sqlwhere>host like '%%'</sqlwhere></table>
+</tables>
+</syncjob>
+</job>

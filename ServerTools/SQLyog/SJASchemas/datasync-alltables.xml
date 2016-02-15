@@ -1,0 +1,36 @@
+<job version="6.5"> 
+<syncjob>
+<abortonerror abort="no" />
+<fkcheck check="no" />
+<twowaysync twoway="yes" />
+<source>
+<host>remotehost</host>
+<user>root</user>
+<pwd />
+<port>3306</port>
+<ssl>0</ssl> 
+<sslauth>0</sslauth> 
+<clientkey /> 
+<clientcert /> 
+<cacert /> 
+<cipher /> 
+<charset /> 
+<database>data</database>
+</source>
+<target>
+<host>localhost</host>
+<user>root</user>
+<pwd>complex</pwd>
+<port>3306</port>
+<ssl>0</ssl> 
+<sslauth>0</sslauth> 
+<clientkey /> 
+<clientcert /> 
+<cacert /> 
+<cipher /> 
+<charset /> 
+<database>localcopy</database>
+</target>
+<tables all="yes" />
+</syncjob>
+</job>

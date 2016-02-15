@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job version="6.5">
+<exportjob>
+<source>
+<host>192.168.1.21</host>
+<user>root</user>
+<pwd></pwd>
+<port>3304</port>
+<ssl>0</ssl>
+<sslauth>0</sslauth>
+<clientkey></clientkey>
+<clientcert></clientcert>
+<cacert></cacert>
+<cipher></cipher>
+<charset></charset>
+</source>
+<export>
+<databases all="yes" mysqldb ="yes"></databases>
+<script fileordir="file" timestampdir="" timestamp="no">E:\export\new\struc.sql</script>
+</export>
+<options>
+<createdb>yes</createdb>
+<usedb>yes</usedb>
+<dropobjects>yes</dropobjects>
+<bulkinsert>yes</bulkinsert>
+<completeinsert>no</completeinsert>
+<insertdelayed>no</insertdelayed>
+<flushlogs>no</flushlogs>
+<flushmaster>no</flushmaster>
+<flushslave>no</flushslave>
+<locktableread>no</locktableread>
+<disablekeys>no</disablekeys>
+<locktablewrite>no</locktablewrite>
+<fkchecks>yes</fkchecks>
+<autocommit>no</autocommit>
+<usecharset>utf8</usecharset>
+<bulksize>1</bulksize>
+<chunkinsert>yes</chunkinsert>
+<chunklimit>2000</chunklimit>
+<appendtofile>no</appendtofile>
+</options>
+<abortonerror>no</abortonerror>
+<sendreport send="no" /></exportjob>
+</job>

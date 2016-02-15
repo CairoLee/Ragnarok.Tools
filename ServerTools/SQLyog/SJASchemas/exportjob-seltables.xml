@@ -1,0 +1,43 @@
+<job version="6.5">
+<exportjob>
+<source>
+<host>localhost</host>
+<user>root</user>
+<pwd>root</pwd>
+<port>3306</port>
+<ssl>0</ssl>
+<sslauth>0</sslauth>
+<clientkey></clientkey>
+<clientcert></clientcert>
+<cacert></cacert>
+<cipher></cipher>
+<charset></charset>
+</source>
+<export>
+<databases all="no">
+<database name="test">
+<objects all="no">
+<tables all="no"><table>table0</table><table>table1</table><table>table10</table><table>table100</table><table>table101</table><table>table102</table></tables><script fileordir="dir">C:\dss</script>
+</objects>
+</database>
+</databases>
+</export>
+<options>
+<createdb>yes</createdb>
+<usedb>yes</usedb>
+<dropobjects>yes</dropobjects> 
+<bulkinsert>yes</bulkinsert>
+<completeinsert>yes</completeinsert>
+<insertdelayed>yes</insertdelayed>
+<flushlogs>no</flushlogs>
+<flushmaster>no</flushmaster>
+<flushslave>no</flushslave>
+<locktableread>yes</locktableread>
+<disablekeys>yes</disablekeys>
+<locktablewrite>yes</locktablewrite>
+<fkchecks>yes</fkchecks>
+<autocommit>yes</autocommit>
+<appendtofile>no</appendtofile>
+</options>
+<abortonerror>no</abortonerror><sendreport send="no" /></exportjob>
+</job>

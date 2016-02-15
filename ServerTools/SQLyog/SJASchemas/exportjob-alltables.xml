@@ -1,0 +1,42 @@
+<job version="6.5">
+<exportjob>
+<source>
+<host>localhost</host>
+<user>root</user>
+<pwd>root</pwd>
+<port>3306</port>
+</source>
+<export>
+<databases all="no">
+<database name="test">
+<objects all="no">
+<tables all="yes" />
+<views all="yes" />
+<procedures all="yes" />
+<triggers all="yes" />
+</objects>
+</database>
+</databases>
+<script fileordir="file">c:\x.sql</script>
+</export>
+<options>
+<createdb>yes</createdb>
+<usedb>yes</usedb>
+<dropobjects>yes</dropobjects>
+<bulkinsert>yes</bulkinsert>
+<completeinsert>yes</completeinsert>
+<insertdelayed>yes</insertdelayed>
+<flushlogs>no</flushlogs>
+<flushmaster>no</flushmaster>
+<flushslave>no</flushslave>
+<locktableread>yes</locktableread>
+<disablekeys>yes</disablekeys>
+<locktablewrite>yes</locktablewrite>
+<fkchecks>yes</fkchecks>
+<autocommit>yes</autocommit>
+<chunkinsert>yes</chunkinsert>
+<chunklimit>1000</chunklimit>
+<appendtofile>no</appendtofile>
+</options>
+<abortonerror>no</abortonerror><sendreport send="no" /></exportjob>
+</job>

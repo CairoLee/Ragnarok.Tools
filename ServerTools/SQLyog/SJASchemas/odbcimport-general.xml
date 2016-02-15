@@ -1,0 +1,275 @@
+<job version="6.5">
+<odbcimport>
+<source>
+<host>localhost</host>
+<user>root</user>
+<pwd>root</pwd>
+<port>3306</port>
+<ssl>0</ssl> 
+<sslauth>0</sslauth> 
+<clientkey /> 
+<clientcert /> 
+<cacert /> 
+<cipher /> 
+<charset /> 
+<database>test</database>
+</source>
+<dsn type="system">
+<name>manusrc</name>
+<user/>
+<pwd/>
+</dsn>
+<import source="data">
+</import>
+<export target="data">
+</export>
+<tables all="no">
+<table source="table0" target="table0" type="InnoDB" index="yes" foreignkey="yes">
+<ddl onconflict="recreate"/>
+<dml import="yes" onconflict="update" />
+<triggers>
+<delete>no</delete>
+</triggers>
+<whereclause></whereclause>
+<columns>
+<column>
+<source>id</source>
+<target>id</target>
+<type>bigint</type>
+<length>20</length>
+<default>0</default>
+<primary>yes</primary>
+<binary>no</binary>
+<notnull>yes</notnull>
+<unsigned>yes</unsigned>
+<autoincr>yes</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col1</source>
+<target>col1</target>
+<type>tinyint</type>
+<length>4</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col2</source>
+<target>col2</target>
+<type>smallint</type>
+<length>6</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+</columns>
+</table>
+<table source="table1" target="table1" type="InnoDB" index="yes" foreignkey="yes">
+<ddl onconflict="recreate"/>
+<dml import="yes" onconflict="update" />
+<triggers>
+<delete>no</delete>
+</triggers>
+<whereclause></whereclause>
+<columns>
+<column>
+<source>id</source>
+<target>id</target>
+<type>bigint</type>
+<length>20</length>
+<default>0</default>
+<primary>yes</primary>
+<binary>no</binary>
+<notnull>yes</notnull>
+<unsigned>yes</unsigned>
+<autoincr>yes</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col1</source>
+<target>col1</target>
+<type>tinyint</type>
+<length>4</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col2</source>
+<target>col2</target>
+<type>smallint</type>
+<length>6</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+</columns>
+</table>
+<table source="table10" target="table10" type="InnoDB" index="yes" foreignkey="yes">
+<ddl onconflict="recreate"/>
+<dml import="yes" onconflict="update" />
+<triggers>
+<delete>no</delete>
+</triggers>
+<whereclause></whereclause>
+<columns>
+<column>
+<source>id</source>
+<target>id</target>
+<type>bigint</type>
+<length>20</length>
+<default>0</default>
+<primary>yes</primary>
+<binary>no</binary>
+<notnull>yes</notnull>
+<unsigned>yes</unsigned>
+<autoincr>yes</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col1</source>
+<target>col1</target>
+<type>tinyint</type>
+<length>4</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col2</source>
+<target>col2</target>
+<type>smallint</type>
+<length>6</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+</columns>
+</table>
+<table source="table100" target="table100" type="InnoDB" index="yes" foreignkey="yes">
+<ddl onconflict="recreate"/>
+<dml import="yes" onconflict="update" />
+<triggers>
+<delete>no</delete>
+</triggers>
+<whereclause></whereclause>
+<columns>
+<column>
+<source>id</source>
+<target>id</target>
+<type>bigint</type>
+<length>20</length>
+<default>0</default>
+<primary>yes</primary>
+<binary>no</binary>
+<notnull>yes</notnull>
+<unsigned>yes</unsigned>
+<autoincr>yes</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col1</source>
+<target>col1</target>
+<type>tinyint</type>
+<length>4</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col2</source>
+<target>col2</target>
+<type>smallint</type>
+<length>6</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+</columns>
+</table>
+<table source="table101" target="table101" type="InnoDB" index="yes" foreignkey="yes">
+<ddl onconflict="recreate"/>
+<dml import="yes" onconflict="update" />
+<triggers>
+<delete>no</delete>
+</triggers>
+<whereclause></whereclause>
+<columns>
+<column>
+<source>id</source>
+<target>id</target>
+<type>bigint</type>
+<length>20</length>
+<default>0</default>
+<primary>yes</primary>
+<binary>no</binary>
+<notnull>yes</notnull>
+<unsigned>yes</unsigned>
+<autoincr>yes</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col1</source>
+<target>col1</target>
+<type>tinyint</type>
+<length>4</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+<column>
+<source>col2</source>
+<target>col2</target>
+<type>smallint</type>
+<length>6</length>
+<default></default>
+<primary>no</primary>
+<binary>no</binary>
+<notnull>no</notnull>
+<unsigned>no</unsigned>
+<autoincr>no</autoincr>
+<zerofill>no</zerofill>
+</column>
+</columns>
+</table>
+</tables>
+<abortonerror>no</abortonerror>
+<sendreport send="no" /></odbcimport>
+</job>

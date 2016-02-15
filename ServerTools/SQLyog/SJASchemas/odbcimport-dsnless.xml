@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job version="8.1">
+<odbcimport>
+<source>
+<host>localhost</host>
+<user>root</user>
+<pwd>root</pwd>
+<port>3306</port>
+<ssl>0</ssl>
+<sslauth>0</sslauth>
+<clientkey></clientkey>
+<clientcert></clientcert>
+<cacert></cacert>
+<cipher></cipher>
+<charset></charset>
+<database>test</database>
+</source>
+<dsn type="csv">
+<name>E:\actorfile</name>
+<user/>
+<pwd/>
+</dsn>
+<import source="data">
+</import>
+<export target="data">
+</export>
+<tables all="yes">
+</tables>
+<abortonerror>yes</abortonerror>
+<sendreport send="no" /></odbcimport>
+</job>
