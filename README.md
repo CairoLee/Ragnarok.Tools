@@ -30,3 +30,5 @@ ClientTools
 **browedit** 				- 用来创建和编辑客户端地图的工具
 
 **CodePageConvert**			- 这是一款文字页码转换工具(将GBK韩文乱码转正常韩文)
+
+**Big5GBKConvert**			- 简体中文和繁体中文互转的小工具, 支持批量处理
