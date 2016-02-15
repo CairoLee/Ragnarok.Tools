@@ -1,0 +1,181 @@
+<window translation="clearmap">
+	<closebutton/>
+	<width>300</width>
+	<height>220</height>
+
+	<checkbox name="chkTextures" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>4</y>
+	</checkbox>
+	<button name="btnTextures" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>4</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblTextures" value="TEXTURES">
+		<x>100</x>
+		<y>0</y>
+	</label>
+
+	<checkbox name="chkHeight" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>24</y>
+	</checkbox>
+	<button name="btnHeight" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>24</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblHeight" value="HEIGHT">
+		<x>100</x>
+		<y>20</y>
+	</label>
+
+	<checkbox name="chkWalls" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>44</y>
+	</checkbox>
+	<button name="btnWalls" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>44</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblWalls" value="WALLS">
+		<x>100</x>
+		<y>40</y>
+	</label>
+
+	<checkbox name="chkGat" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>64</y>
+	</checkbox>
+	<button name="btnGat" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>64</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblGat" value="GAT">
+		<x>100</x>
+		<y>60</y>
+	</label>
+
+	<checkbox name="chkLightmaps" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>84</y>
+	</checkbox>
+	<button name="btnLightmaps" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>84</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblLightmaps" value="LIGHTMAPS">
+		<x>100</x>
+		<y>80</y>
+	</label>
+
+	<checkbox name="chkObjects" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>104</y>
+	</checkbox>
+	<button name="btnObjects" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>104</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblObjects" value="OBJECTS">
+		<x>100</x>
+		<y>100</y>
+	</label>
+
+	<checkbox name="chkLights" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>124</y>
+	</checkbox>
+	<button name="btnLights" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>124</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblLights" value="LIGHTS">
+		<x>100</x>
+		<y>120</y>
+	</label>
+
+	<checkbox name="chkSounds" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>144</y>
+	</checkbox>
+	<button name="btnSounds" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>144</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblSounds" value="SOUNDS">
+		<x>100</x>
+		<y>140</y>
+	</label>
+
+	<checkbox name="chkEffects" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>164</y>
+	</checkbox>
+	<button name="btnEffects" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>164</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblEffects" value="EFFECTS">
+		<x>100</x>
+		<y>160</y>
+	</label>
+
+	<checkbox name="chkSprites" value="1">
+		<align>topleft</align>
+		<x>20</x>
+		<y>184</y>
+	</checkbox>
+	<button name="btnSprites" value="">
+		<align>topleft</align>
+		<x>40</x>
+		<y>184</y>
+		<width>15</width>
+		<height>15</height>
+	</button>
+	<label name="lblSprites" value="SPRITES">
+		<x>100</x>
+		<y>180</y>
+	</label>
+
+	<button name="btnOk" value="Ok">
+		<x>100</x>
+		<y>200</y>
+	</button>
+
+</window>

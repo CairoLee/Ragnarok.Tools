@@ -1,0 +1,25 @@
+<table>
+<tr><td width="350"></td><td width="150"></td><td></td></tr>
+<tr><td><div class="keyback">Backspace</div></td><td></td><td>Delete Selected Light</td></tr>
+<tr><td><div class="keyenter">Enter</div></td><td></td><td>Show Properties of selected light</td></tr>
+<tr><td><div class="mouseleft"></div></td><td></td><td>Select a light</td></tr>
+<tr><td><div class="mouseright"></div></td><td></td><td>Deselect a light</td></tr>
+<tr><td><div class="mouseleftdrag"></div></td><td>(with light selected)</td><td>Move selected light</td></tr>
+<tr><td><div class="keymed">Ctrl</div><div class="plus"></div><div class="mouseleftdrag"></div></td><td>(with light selected)</td><td>Move selected light up/down</td></tr>
+</table>
+<br/><br/>
+By showing the properties of a light you can edit them. Lights have several properties<br/>
+Most importantly:<br/><br/>
+<table>
+<tr><td>Position</td><td>Undocumented feature</td></tr>
+<tr><td>Color</td><td>Changes the color of a light. Values range from 0 to 1, 0 being no color and 1 being white. If you want normal lights, do NOT put these at 1, but at 0</td></tr>
+<tr><td>Intensity</td><td>The maximum brightness a light gives. Values range from 0 to 256</td></tr>
+<tr><td>Range</td><td>The range a light shines (1 texture tile = 10 range)</td></tr>
+<tr><td>Light Falloff</td><td>The speed at which the light falls off (use 1 for linear falloff)</td></tr>
+<tr><td>Casts Shadow</td><td>Determines if this light casts shadows</td></tr>
+<tr><td>Max. Light Increment</td><td>The maximum a light should increment a voxel. Values range from 0 to 256</td></tr>
+</table>
+<br/>
+Light's intensity is stretched from the light's origin to the range around it. If you'd map the distance to the light to the intensity, these are some graphs:<br/>
+<img src="../img/intmap0.1.png"><img src="../img/intmap0.25.png"><img src="../img/intmap0.5.png">
+<img src="../img/intmap1.png"><img src="../img/intmap2.png"><img src="../img/intmap5.png">

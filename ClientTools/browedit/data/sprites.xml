@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<sprites directory="data\sprite\">
+	<body directory="">
+		<male directory="ÀÎ°£Á·\¸öÅë\³²\">
+			<sprite id="1" name="Swordsman">°Ë»ç_³²</sprite>
+			<sprite id="2" name="Mage">¸¶¹ý»ç_³²</sprite>
+			<sprite id="3" name="Archer">±Ã¼ö_³²</sprite>
+			<sprite id="4" name="Acolyte">¼ºÁ÷ÀÚ_³²</sprite>
+			<sprite id="5" name="Merchant">»óÀÎ_³²</sprite>
+			<sprite id="6" name="Thief">µµµÏ_³²</sprite>
+			<sprite id="7" name="Knight">±â»ç_³²</sprite>
+			<sprite id="8" name="Priest">ÇÁ¸®½ºÆ®_³²</sprite>
+			<sprite id="9" name="Wizard">À§Àúµå_³²</sprite>
+			<sprite id="10" name="Blacksmith">Á¦Ã¶°ø_³²</sprite>
+			<sprite id="11" name="Hunter">ÇåÅÍ_³²</sprite>
+			<sprite id="12" name="Assassin">¾î¼¼½Å_³²</sprite>
+			<sprite id="13" name="Peco Knight">ÆäÄÚÆäÄÚ_±â»ç_³²</sprite>
+			<sprite id="14" name="Crusader">Å©·ç¼¼ÀÌ´õ_³²</sprite>
+			<sprite id="15" name="Monk">¸ùÅ©_³²</sprite>
+			<sprite id="16" name="¼¼ÀÌÁö_³²">¼¼ÀÌÁö_³²</sprite>
+			<sprite id="17" name="·Î±×_³²">·Î±×_³²</sprite>
+			<sprite id="18" name="¿¬±Ý¼ú»ç_³²">¿¬±Ý¼ú»ç_³²</sprite>
+			<sprite id="19" name="¹Ùµå_³²">¹Ùµå_³²</sprite>
+			<sprite id="20" name="¹«Èñ_³²">¹«Èñ_³²</sprite>
+			<sprite id="21" name="½ÅÆäÄÚÅ©·ç¼¼ÀÌ´õ_³²">½ÅÆäÄÚÅ©·ç¼¼ÀÌ´õ_³²</sprite>
+			<sprite id="22" name="°áÈ¥_³²">°áÈ¥_³²</sprite>
+			<sprite id="23" name="½´ÆÛ³ëºñ½º_³²">½´ÆÛ³ëºñ½º_³²</sprite>
+			<sprite id="24" name="°Ç³Ê_³²">°Ç³Ê_³²</sprite>
+			<sprite id="25" name="´ÑÀÚ_³²">´ÑÀÚ_³²</sprite>
+			<sprite id="26" name="»êÅ¸_³²">»êÅ¸_³²</sprite>
+
+			<sprite id="52" name="°Ë»ç_³²">°Ë»ç_³²</sprite>
+			<sprite id="53" name="¸¶¹ý»ç_³²">¸¶¹ý»ç_³²</sprite>
+			<sprite id="54" name="±Ã¼ö_³²">±Ã¼ö_³²</sprite>
+			<sprite id="55" name="¼ºÁ÷ÀÚ_³²">¼ºÁ÷ÀÚ_³²</sprite>
+			<sprite id="56" name="»óÀÎ_³²">»óÀÎ_³²</sprite>
+			<sprite id="57" name="µµµÏ_³²">µµµÏ_³²</sprite>
+			<sprite id="58" name="·Îµå³ªÀÌÆ®_³²">·Îµå³ªÀÌÆ®_³²</sprite>
+			<sprite id="59" name="ÇÏÀÌÇÁ¸®_³²">ÇÏÀÌÇÁ¸®_³²</sprite>
+			<sprite id="60" name="ÇÏÀÌÀ§Àúµå_³²">ÇÏÀÌÀ§Àúµå_³²</sprite>
+			<sprite id="61" name="È­ÀÌÆ®½º¹Ì½º_³²">È­ÀÌÆ®½º¹Ì½º_³²</sprite>
+			<sprite id="62" name="½º³ªÀÌÆÛ_³²">½º³ªÀÌÆÛ_³²</sprite>
+			<sprite id="63" name="¾î½Ø½ÅÅ©·Î½º_³²">¾î½Ø½ÅÅ©·Î½º_³²</sprite>
+			<sprite id="64" name="·ÎµåÆäÄÚ_³²">·ÎµåÆäÄÚ_³²</sprite>
+			<sprite id="65" name="ÆÈ¶óµò_³²">ÆÈ¶óµò_³²</sprite>
+			<sprite id="66" name="Ã¨ÇÇ¿Â_³²">Ã¨ÇÇ¿Â_³²</sprite>
+			<sprite id="67" name="ÇÁ·ÎÆä¼­_³²">ÇÁ·ÎÆä¼­_³²</sprite>
+			<sprite id="68" name="½ºÅäÄ¿_³²">½ºÅäÄ¿_³²</sprite>
+			<sprite id="69" name="Å©¸®¿¡ÀÌÅÍ_³²">Å©¸®¿¡ÀÌÅÍ_³²</sprite>
+			<sprite id="70" name="Å¬¶ó¿î_³²">Å¬¶ó¿î_³²</sprite>
+			<sprite id="71" name="Áý½Ã_³²">Áý½Ã_³²</sprite>
+			<sprite id="72" name="ÆäÄÚÆÈ¶óµò_³²">ÆäÄÚÆÈ¶óµò_³²</sprite>
+
+			<sprite id="74" name="°Ë»ç_³²">°Ë»ç_³²</sprite>
+			<sprite id="75" name="¸¶¹ý»ç_³²">¸¶¹ý»ç_³²</sprite>
+			<sprite id="76" name="±Ã¼ö_³²">±Ã¼ö_³²</sprite>
+			<sprite id="77" name="¼ºÁ÷ÀÚ_³²">¼ºÁ÷ÀÚ_³²</sprite>
+			<sprite id="78" name="»óÀÎ_³²">»óÀÎ_³²</sprite>
+			<sprite id="79" name="µµµÏ_³²">µµµÏ_³²</sprite>
+			<sprite id="80" name="±â»ç_³²">±â»ç_³²</sprite>
+			<sprite id="81" name="ÇÁ¸®½ºÆ®_³²">ÇÁ¸®½ºÆ®_³²</sprite>
+			<sprite id="82" name="À§Àúµå_³²">À§Àúµå_³²</sprite>
+			<sprite id="83" name="Á¦Ã¶°ø_³²">Á¦Ã¶°ø_³²</sprite>
+			<sprite id="84" name="ÇåÅÍ_³²">ÇåÅÍ_³²</sprite>
+			<sprite id="85" name="¾î¼¼½Å_³²">¾î¼¼½Å_³²</sprite>
+			<sprite id="86" name="ÆäÄÚÆäÄÚ_±â»ç_³²">ÆäÄÚÆäÄÚ_±â»ç_³²</sprite>
+			<sprite id="87" name="Å©·ç¼¼ÀÌ´õ_³²">Å©·ç¼¼ÀÌ´õ_³²</sprite>
+			<sprite id="88" name="¸ùÅ©_³²">¸ùÅ©_³²</sprite>
+			<sprite id="89" name="¼¼ÀÌÁö_³²">¼¼ÀÌÁö_³²</sprite>
+			<sprite id="90" name="·Î±×_³²">·Î±×_³²</sprite>
+			<sprite id="91" name="¿¬±Ý¼ú»ç_³²">¿¬±Ý¼ú»ç_³²</sprite>
+			<sprite id="92" name="¹Ùµå_³²">¹Ùµå_³²</sprite>
+			<sprite id="93" name="¹«Èñ¹ÙÁö_³²">¹«Èñ¹ÙÁö_³²</sprite>
+			<sprite id="94" name="±¸ÆäÄÚÅ©·ç¼¼ÀÌ´õ_³²">±¸ÆäÄÚÅ©·ç¼¼ÀÌ´õ_³²</sprite>
+			<sprite id="95" name="½´ÆÛ³ëºñ½º_³²">½´ÆÛ³ëºñ½º_³²</sprite>
+			<sprite id="96" name="ÅÂ±Ç¼Ò³â_³²">ÅÂ±Ç¼Ò³â_³²</sprite>
+			<sprite id="97" name="±Ç¼º_³²">±Ç¼º_³²</sprite>
+			<sprite id="98" name="±Ç¼ºÀ¶ÇÕ_³²">±Ç¼ºÀ¶ÇÕ_³²</sprite>
+			<sprite id="99" name="¼Ò¿ï¸µÄ¿_³²">¼Ò¿ï¸µÄ¿_³²</sprite>
+			<sprite id="100" name="¼ºÁ÷ÀÚ_³²">¼ºÁ÷ÀÚ_³²</sprite>
+			<sprite id="101" name="±â»ç_³²">±â»ç_³²</sprite>
+			<sprite id="102" name="¼¼ÀÌÁö_³²">¼¼ÀÌÁö_³²</sprite>
+			<sprite id="103" name="*ÃÊº¸ÀÚ_³²">*ÃÊº¸ÀÚ_³²</sprite>
+		</male>
+		<female directory="ÀÎ°£Á·\¸öÅë\¿©\">
+			<sprite id="1" name="°Ë»ç_¿©">°Ë»ç_¿©</sprite>
+			<sprite id="2" name="¸¶¹ý»ç_¿©">¸¶¹ý»ç_¿©</sprite>
+			<sprite id="3" name="±Ã¼ö_¿©">±Ã¼ö_¿©</sprite>
+			<sprite id="4" name="¼ºÁ÷ÀÚ_¿©">¼ºÁ÷ÀÚ_¿©</sprite>
+			<sprite id="5" name="»óÀÎ_¿©">»óÀÎ_¿©</sprite>
+			<sprite id="6" name="µµµÏ_¿©">µµµÏ_¿©</sprite>
+			<sprite id="7" name="±â»ç_¿©">±â»ç_¿©</sprite>
+			<sprite id="8" name="ÇÁ¸®½ºÆ®_¿©">ÇÁ¸®½ºÆ®_¿©</sprite>
+			<sprite id="9" name="À§Àúµå_¿©">À§Àúµå_¿©</sprite>
+			<sprite id="10" name="Á¦Ã¶°ø_¿©">Á¦Ã¶°ø_¿©</sprite>
+			<sprite id="11" name="ÇåÅÍ_¿©">ÇåÅÍ_¿©</sprite>
+			<sprite id="12" name="¾î¼¼½Å_¿©">¾î¼¼½Å_¿©</sprite>
+			<sprite id="13" name="ÆäÄÚÆäÄÚ_±â»ç_¿©">ÆäÄÚÆäÄÚ_±â»ç_¿©</sprite>
+			<sprite id="14" name="Å©·ç¼¼ÀÌ´õ_¿©">Å©·ç¼¼ÀÌ´õ_¿©</sprite>
+			<sprite id="15" name="¸ùÅ©_¿©">¸ùÅ©_¿©</sprite>
+			<sprite id="16" name="¼¼ÀÌÁö_¿©">¼¼ÀÌÁö_¿©</sprite>
+			<sprite id="17" name="·Î±×_¿©">·Î±×_¿©</sprite>
+			<sprite id="18" name="¿¬±Ý¼ú»ç_¿©">¿¬±Ý¼ú»ç_¿©</sprite>
+			<sprite id="19" name="¹Ùµå_¿©">¹Ùµå_¿©</sprite>
+			<sprite id="20" name="¹«Èñ_¿©">¹«Èñ_¿©</sprite>
+			<sprite id="21" name="½ÅÆäÄÚÅ©·ç¼¼ÀÌ´õ_¿©">½ÅÆäÄÚÅ©·ç¼¼ÀÌ´õ_¿©</sprite>
+			<sprite id="22" name="°áÈ¥_¿©">°áÈ¥_¿©</sprite>
+			<sprite id="23" name="½´ÆÛ³ëºñ½º_¿©">½´ÆÛ³ëºñ½º_¿©</sprite>
+			<sprite id="24" name="°Ç³Ê_¿©">°Ç³Ê_¿©</sprite>
+			<sprite id="25" name="´ÑÀÚ_¿©">´ÑÀÚ_¿©</sprite>
+			<sprite id="26" name="»êÅ¸_¿©">»êÅ¸_¿©</sprite>
+
+			<sprite id="52" name="°Ë»ç_¿©">°Ë»ç_¿©</sprite>
+			<sprite id="53" name="¸¶¹ý»ç_¿©">¸¶¹ý»ç_¿©</sprite>
+			<sprite id="54" name="±Ã¼ö_¿©">±Ã¼ö_¿©</sprite>
+			<sprite id="55" name="¼ºÁ÷ÀÚ_¿©">¼ºÁ÷ÀÚ_¿©</sprite>
+			<sprite id="56" name="»óÀÎ_¿©">»óÀÎ_¿©</sprite>
+			<sprite id="57" name="µµµÏ_¿©">µµµÏ_¿©</sprite>
+			<sprite id="58" name="·Îµå³ªÀÌÆ®_¿©">·Îµå³ªÀÌÆ®_¿©</sprite>
+			<sprite id="59" name="ÇÏÀÌÇÁ¸®_¿©">ÇÏÀÌÇÁ¸®_¿©</sprite>
+			<sprite id="60" name="ÇÏÀÌÀ§Àúµå_¿©">ÇÏÀÌÀ§Àúµå_¿©</sprite>
+			<sprite id="61" name="È­ÀÌÆ®½º¹Ì½º_¿©">È­ÀÌÆ®½º¹Ì½º_¿©</sprite>
+			<sprite id="62" name="½º³ªÀÌÆÛ_¿©">½º³ªÀÌÆÛ_¿©</sprite>
+			<sprite id="63" name="¾î½Ø½ÅÅ©·Î½º_¿©">¾î½Ø½ÅÅ©·Î½º_¿©</sprite>
+			<sprite id="64" name="·ÎµåÆäÄÚ_¿©">·ÎµåÆäÄÚ_¿©</sprite>
+			<sprite id="65" name="ÆÈ¶óµò_¿©">ÆÈ¶óµò_¿©</sprite>
+			<sprite id="66" name="Ã¨ÇÇ¿Â_¿©">Ã¨ÇÇ¿Â_¿©</sprite>
+			<sprite id="67" name="ÇÁ·ÎÆä¼­_¿©">ÇÁ·ÎÆä¼­_¿©</sprite>
+			<sprite id="68" name="½ºÅäÄ¿_¿©">½ºÅäÄ¿_¿©</sprite>
+			<sprite id="69" name="Å©¸®¿¡ÀÌÅÍ_¿©">Å©¸®¿¡ÀÌÅÍ_¿©</sprite>
+			<sprite id="70" name="Å¬¶ó¿î_¿©">Å¬¶ó¿î_¿©</sprite>
+			<sprite id="71" name="Áý½Ã_¿©">Áý½Ã_¿©</sprite>
+			<sprite id="72" name="ÆäÄÚÆÈ¶óµò_¿©">ÆäÄÚÆÈ¶óµò_¿©</sprite>
+
+			<sprite id="74" name="°Ë»ç_¿©">°Ë»ç_¿©</sprite>
+			<sprite id="75" name="¸¶¹ý»ç_¿©">¸¶¹ý»ç_¿©</sprite>
+			<sprite id="76" name="±Ã¼ö_¿©">±Ã¼ö_¿©</sprite>
+			<sprite id="77" name="¼ºÁ÷ÀÚ_¿©">¼ºÁ÷ÀÚ_¿©</sprite>
+			<sprite id="78" name="»óÀÎ_¿©">»óÀÎ_¿©</sprite>
+			<sprite id="79" name="µµµÏ_¿©">µµµÏ_¿©</sprite>
+			<sprite id="80" name="±â»ç_¿©">±â»ç_¿©</sprite>
+			<sprite id="81" name="ÇÁ¸®½ºÆ®_¿©">ÇÁ¸®½ºÆ®_¿©</sprite>
+			<sprite id="82" name="À§Àúµå_¿©">À§Àúµå_¿©</sprite>
+			<sprite id="83" name="Á¦Ã¶°ø_¿©">Á¦Ã¶°ø_¿©</sprite>
+			<sprite id="84" name="ÇåÅÍ_¿©">ÇåÅÍ_¿©</sprite>
+			<sprite id="85" name="¾î¼¼½Å_¿©">¾î¼¼½Å_¿©</sprite>
+			<sprite id="86" name="ÆäÄÚÆäÄÚ_±â»ç_¿©">ÆäÄÚÆäÄÚ_±â»ç_¿©</sprite>
+			<sprite id="87" name="Å©·ç¼¼ÀÌ´õ_¿©">Å©·ç¼¼ÀÌ´õ_¿©</sprite>
+			<sprite id="88" name="¸ùÅ©_¿©">¸ùÅ©_¿©</sprite>
+			<sprite id="89" name="¼¼ÀÌÁö_¿©">¼¼ÀÌÁö_¿©</sprite>
+			<sprite id="90" name="·Î±×_¿©">·Î±×_¿©</sprite>
+			<sprite id="91" name="¿¬±Ý¼ú»ç_¿©">¿¬±Ý¼ú»ç_¿©</sprite>
+			<sprite id="92" name="¹Ùµå_¿©">¹Ùµå_¿©</sprite>
+			<sprite id="93" name="¹«Èñ¹ÙÁö_¿©">¹«Èñ¹ÙÁö_¿©</sprite>
+			<sprite id="94" name="±¸ÆäÄÚÅ©·ç¼¼ÀÌ´õ_¿©">±¸ÆäÄÚÅ©·ç¼¼ÀÌ´õ_¿©</sprite>
+			<sprite id="95" name="½´ÆÛ³ëºñ½º_¿©">½´ÆÛ³ëºñ½º_¿©</sprite>
+			<sprite id="96" name="ÅÂ±Ç¼Ò³â_¿©">ÅÂ±Ç¼Ò³â_¿©</sprite>
+			<sprite id="97" name="±Ç¼º_¿©">±Ç¼º_¿©</sprite>
+			<sprite id="98" name="±Ç¼ºÀ¶ÇÕ_¿©">±Ç¼ºÀ¶ÇÕ_¿©</sprite>
+			<sprite id="99" name="¼Ò¿ï¸µÄ¿_¿©">¼Ò¿ï¸µÄ¿_¿©</sprite>
+			<sprite id="100" name="¼ºÁ÷ÀÚ_¿©">¼ºÁ÷ÀÚ_¿©</sprite>
+			<sprite id="101" name="±â»ç_¿©">±â»ç_¿©</sprite>
+			<sprite id="102" name="¼¼ÀÌÁö_¿©">¼¼ÀÌÁö_¿©</sprite>
+			<sprite id="103" name="*ÃÊº¸ÀÚ_¿©">*ÃÊº¸ÀÚ_¿©</sprite>
+		</female>
+		<npc directory="npc\">
+			<sprite id="47" name="1_M_01">1_M_01</sprite>
+			<sprite id="48" name="1_M_02">1_M_02</sprite>
+			<sprite id="49" name="1_M_03">1_M_03</sprite>
+			<sprite id="50" name="1_M_04">1_M_04</sprite>
+			<sprite id="51" name="1_M_BARD">1_M_BARD</sprite>
+			<sprite id="52" name="1_M_HOF">1_M_HOF</sprite>
+			<sprite id="53" name="1_M_INNKEEPER">1_M_INNKEEPER</sprite>
+			<sprite id="54" name="1_M_JOBGUIDER">1_M_JOBGUIDER</sprite>
+			<sprite id="55" name="1_M_JOBTESTER">1_M_JOBTESTER</sprite>
+			<sprite id="56" name="1_M_KNIGHTMASTER">1_M_KNIGHTMASTER</sprite>
+			<sprite id="57" name="1_M_LIBRARYMASTER">1_M_LIBRARYMASTER</sprite>
+			<sprite id="58" name="1_M_MERCHANT">1_M_MERCHANT</sprite>
+			<sprite id="59" name="1_M_ORIENT01">1_M_ORIENT01</sprite>
+			<sprite id="60" name="1_M_PASTOR">1_M_PASTOR</sprite>
+			<sprite id="61" name="1_M_PUBMASTER">1_M_PUBMASTER</sprite>
+			<sprite id="62" name="1_M_SIZ">1_M_SIZ</sprite>
+			<sprite id="63" name="1_M_SMITH">1_M_SMITH</sprite>
+			<sprite id="64" name="1_M_WIZARD">1_M_WIZARD</sprite>
+			<sprite id="65" name="1_M_YOUNGKNIGHT">1_M_YOUNGKNIGHT</sprite>
+			<sprite id="66" name="1_F_01">1_F_01</sprite>
+			<sprite id="67" name="1_F_02">1_F_02</sprite>
+			<sprite id="68" name="1_F_03">1_F_03</sprite>
+			<sprite id="69" name="1_F_04">1_F_04</sprite>
+			<sprite id="70" name="1_F_GYPSY">1_F_GYPSY</sprite>
+			<sprite id="71" name="1_F_LIBRARYGIRL">1_F_LIBRARYGIRL</sprite>
+			<sprite id="72" name="1_F_MARIA">1_F_MARIA</sprite>
+			<sprite id="73" name="1_F_MERCHANT_01">1_F_MERCHANT_01</sprite>
+			<sprite id="74" name="1_F_MERCHANT_02">1_F_MERCHANT_02</sprite>
+			<sprite id="75" name="1_F_ORIENT_01">1_F_ORIENT_01</sprite>
+			<sprite id="76" name="1_F_ORIENT_02">1_F_ORIENT_02</sprite>
+			<sprite id="77" name="1_F_ORIENT_03">1_F_ORIENT_03</sprite>
+			<sprite id="78" name="1_F_ORIENT_04">1_F_ORIENT_04</sprite>
+			<sprite id="79" name="1_F_PRIEST">1_F_PRIEST</sprite>
+			<sprite id="80" name="1_F_PUBGIRL">1_F_PUBGIRL</sprite>
+			<sprite id="81" name="4_DOG01">4_DOG01</sprite>
+			<sprite id="82" name="4_KID01">4_KID01</sprite>
+			<sprite id="83" name="4_M_01">4_M_01</sprite>
+			<sprite id="84" name="4_M_02">4_M_02</sprite>
+			<sprite id="85" name="4_M_03">4_M_03</sprite>
+			<sprite id="86" name="4_M_04">4_M_04</sprite>
+			<sprite id="87" name="4_M_BARBER">4_M_BARBER</sprite>
+			<sprite id="88" name="4_M_ORIENT01">4_M_ORIENT01</sprite>
+			<sprite id="89" name="4_M_ORIENT02">4_M_ORIENT02</sprite>
+			<sprite id="90" name="4_F_01">4_F_01</sprite>
+			<sprite id="91" name="4_F_02">4_F_02</sprite>
+			<sprite id="92" name="4_F_03">4_F_03</sprite>
+			<sprite id="93" name="4_F_04">4_F_04</sprite>
+			<sprite id="94" name="4_F_MAID">4_F_MAID</sprite>
+			<sprite id="95" name="4_F_SISTER">4_F_SISTER</sprite>
+			<sprite id="96" name="4W_KID">4W_KID</sprite>
+			<sprite id="97" name="4W_M_01">4W_M_01</sprite>
+			<sprite id="98" name="4W_M_02">4W_M_02</sprite>
+			<sprite id="99" name="4W_M_03">4W_M_03</sprite>
+			<sprite id="100" name="4W_SAILOR">4W_SAILOR</sprite>
+			<sprite id="101" name="4W_F_01">4W_F_01</sprite>
+			<sprite id="102" name="8_F">8_F</sprite>
+			<sprite id="103" name="8_F_GRANDMOTHER">8_F_GRANDMOTHER</sprite>
+			<sprite id="105" name="8W_SOLDIER">8W_SOLDIER</sprite>
+			<sprite id="106" name="1_M_MOC_LORD">1_M_MOC_LORD</sprite>
+			<sprite id="107" name="1_M_PAY_ELDER">1_M_PAY_ELDER</sprite>
+			<sprite id="108" name="1_M_PRON_KING">1_M_PRON_KING</sprite>
+			<sprite id="109" name="4_M_MANAGER">4_M_MANAGER</sprite>
+			<sprite id="110" name="4_M_MINISTER">4_M_MINISTER</sprite>
+			<sprite id="112" name="4_F_KAFRA6">4_F_KAFRA6</sprite>
+			<sprite id="113" name="4_F_KAFRA5">4_F_KAFRA5</sprite>
+			<sprite id="114" name="4_F_KAFRA4">4_F_KAFRA4</sprite>
+			<sprite id="115" name="4_F_KAFRA3">4_F_KAFRA3</sprite>
+			<sprite id="116" name="4_F_KAFRA2">4_F_KAFRA2</sprite>
+			<sprite id="117" name="4_F_KAFRA1">4_F_KAFRA1</sprite>
+			<sprite id="118" name="2_M_THIEFMASTER">2_M_THIEFMASTER</sprite>
+			<sprite id="119" name="2_M_SWORDMASTER">2_M_SWORDMASTER</sprite>
+			<sprite id="120" name="2_M_PHARMACIST">2_M_PHARMACIST</sprite>
+			<sprite id="121" name="2_M_MOLGENSTEIN">2_M_MOLGENSTEIN</sprite>
+			<sprite id="122" name="2_M_DYEINGER">2_M_DYEINGER</sprite>
+			<sprite id="123" name="2_F_MAGICMASTER">2_F_MAGICMASTER</sprite>
+			<sprite id="124" name="4_F_TELEPORTER">4_F_TELEPORTER</sprite>
+			<sprite id="125" name="4_M_TELEPORTER">4_M_TELEPORTER</sprite>
+			<sprite id="700" name="8_F_GIRL">8_F_GIRL</sprite>
+			<sprite id="701" name="4_F_GODEMOM">4_F_GODEMOM</sprite>
+			<sprite id="702" name="4_F_GON">4_F_GON</sprite>
+			<sprite id="703" name="4_F_KID2">4_F_KID2</sprite>
+			<sprite id="704" name="4_M_BIBI">4_M_BIBI</sprite>
+			<sprite id="705" name="4_M_GEF_SOLDIER">4_M_GEF_SOLDIER</sprite>
+			<sprite id="706" name="4_M_KID1">4_M_KID1</sprite>
+			<sprite id="707" name="4_M_MOC_SOLDIER">4_M_MOC_SOLDIER</sprite>
+			<sprite id="708" name="4_M_PAY_SOLDIER">4_M_PAY_SOLDIER</sprite>
+			<sprite id="709" name="4_M_SEAMAN">4_M_SEAMAN</sprite>
+			<sprite id="710" name="4_M_SNOWMAN">4_M_SNOWMAN</sprite>
+			<sprite id="711" name="4_F_05">4_F_05</sprite>
+			<sprite id="712" name="4_M_05">4_M_05</sprite>
+			<sprite id="713" name="4_M_06">4_M_06</sprite>
+			<sprite id="714" name="4_F_06">4_F_06</sprite>
+			<sprite id="715" name="4_M_PIERROT">4_M_PIERROT</sprite>
+			<sprite id="716" name="4_M_KID2">4_M_KID2</sprite>
+			<sprite id="717" name="4_F_KID3">4_F_KID3</sprite>
+			<sprite id="718" name="4_M_SANTA">4_M_SANTA</sprite>
+			<sprite id="719" name="4_F_NACORURI">4_F_NACORURI</sprite>
+			<sprite id="720" name="4_F_SHAMAN">4_F_SHAMAN</sprite>
+			<sprite id="721" name="4_F_KAFRA7">4_F_KAFRA7</sprite>
+			<sprite id="722" name="Guildflag90_1.gr2">Guildflag90_1.gr2</sprite>
+			<sprite id="723" name="1_SHADOW_NPC">1_SHADOW_NPC</sprite>
+			<sprite id="724" name="4_F_07">4_F_07</sprite>
+			<sprite id="725" name="4_F_JOB_ASSASSIN">4_F_JOB_ASSASSIN</sprite>
+			<sprite id="726" name="4_F_JOB_BLACKSMITH">4_F_JOB_BLACKSMITH</sprite>
+			<sprite id="727" name="4_F_JOB_HUNTER">4_F_JOB_HUNTER</sprite>
+			<sprite id="728" name="4_F_JOB_KNIGHT">4_F_JOB_KNIGHT</sprite>
+			<sprite id="729" name="4_F_NOVICE">4_F_NOVICE</sprite>
+			<sprite id="730" name="4_M_JOB_ASSASSIN">4_M_JOB_ASSASSIN</sprite>
+			<sprite id="731" name="4_M_JOB_BLACKSMITH">4_M_JOB_BLACKSMITH</sprite>
+			<sprite id="732" name="4_M_JOB_HUNTER">4_M_JOB_HUNTER</sprite>
+			<sprite id="733" name="4_M_JOB_KNIGHT1">4_M_JOB_KNIGHT1</sprite>
+			<sprite id="734" name="4_M_JOB_KNIGHT2">4_M_JOB_KNIGHT2</sprite>
+			<sprite id="735" name="4_M_JOB_WIZARD">4_M_JOB_WIZARD</sprite>
+			<sprite id="736" name="4_BAPHOMET">4_BAPHOMET</sprite>
+			<sprite id="737" name="4_DARKLORD">4_DARKLORD</sprite>
+			<sprite id="738" name="4_DEVIRUCHI">4_DEVIRUCHI</sprite>
+			<sprite id="739" name="8_DOPPEL">8_DOPPEL</sprite>
+			<sprite id="740" name="2_M_ALCHE">2_M_ALCHE</sprite>
+			<sprite id="741" name="2_M_BARD_ORIENT">2_M_BARD_ORIENT</sprite>
+			<sprite id="742" name="2_M_SAGE_B">2_M_SAGE_B</sprite>
+			<sprite id="743" name="2_M_SAGE_OLD">2_M_SAGE_OLD</sprite>
+			<sprite id="744" name="4_F_ALCHE">4_F_ALCHE</sprite>
+			<sprite id="745" name="4_F_CRU">4_F_CRU</sprite>
+			<sprite id="746" name="4_F_MONK">4_F_MONK</sprite>
+			<sprite id="747" name="4_F_ROGUE">4_F_ROGUE</sprite>
+			<sprite id="748" name="4_M_ALCHE_A">4_M_ALCHE_A</sprite>
+			<sprite id="749" name="4_M_ALCHE_B">4_M_ALCHE_B</sprite>
+			<sprite id="750" name="4_M_ALCHE_C">4_M_ALCHE_C</sprite>
+			<sprite id="751" name="4_M_CRU">4_M_CRU</sprite>
+			<sprite id="752" name="4_M_CRU_OLD">4_M_CRU_OLD</sprite>
+			<sprite id="753" name="4_M_MONK">4_M_MONK</sprite>
+			<sprite id="754" name="4_M_SAGE_A">4_M_SAGE_A</sprite>
+			<sprite id="755" name="4_M_SAGE_C">4_M_SAGE_C</sprite>
+			<sprite id="756" name="4_F_SON">4_F_SON</sprite>
+			<sprite id="757" name="4_F_JPN2">4_F_JPN2</sprite>
+			<sprite id="758" name="4_F_JPN">4_F_JPN</sprite>
+			<sprite id="759" name="4_F_JPNCHIBI">4_F_JPNCHIBI</sprite>
+			<sprite id="760" name="4_F_JPNOBA2">4_F_JPNOBA2</sprite>
+			<sprite id="761" name="4_F_JPNOBA">4_F_JPNOBA</sprite>
+			<sprite id="762" name="4_M_JPN2">4_M_JPN2</sprite>
+			<sprite id="763" name="4_M_JPN">4_M_JPN</sprite>
+			<sprite id="764" name="4_M_JPNCHIBI">4_M_JPNCHIBI</sprite>
+			<sprite id="765" name="4_M_JPNOJI2">4_M_JPNOJI2</sprite>
+			<sprite id="766" name="4_M_JPNOJI">4_M_JPNOJI</sprite>
+			<sprite id="767" name="8_M_JPNSOLDIER">8_M_JPNSOLDIER</sprite>
+			<sprite id="768" name="8_M_JPNMASTER">8_M_JPNMASTER</sprite>
+			<sprite id="769" name="4_F_JPNMU">4_F_JPNMU</sprite>
+			<sprite id="770" name="4_F_TWGIRL">4_F_TWGIRL</sprite>
+			<sprite id="771" name="4_F_TWGRANDMOM">4_F_TWGRANDMOM</sprite>
+			<sprite id="772" name="4_F_TWMASKGIRL">4_F_TWMASKGIRL</sprite>
+			<sprite id="773" name="4_F_TWMIDWOMAN">4_F_TWMIDWOMAN</sprite>
+			<sprite id="774" name="4_M_TWBOY">4_M_TWBOY</sprite>
+			<sprite id="775" name="4_M_TWMASKMAN">4_M_TWMASKMAN</sprite>
+			<sprite id="776" name="4_M_TWMIDMAN">4_M_TWMIDMAN</sprite>
+			<sprite id="777" name="4_M_TWOLDMAN">4_M_TWOLDMAN</sprite>
+			<sprite id="778" name="4_M_TWTEAMAN">4_M_TWTEAMAN</sprite>
+			<sprite id="779" name="4_M_YOYOROGUE">4_M_YOYOROGUE</sprite>
+			<sprite id="780" name="8_M_TWSOLDIER">8_M_TWSOLDIER</sprite>
+			<sprite id="781" name="4_F_UMGIRL">4_F_UMGIRL</sprite>
+			<sprite id="782" name="4_F_UMOLDWOMAN">4_F_UMOLDWOMAN</sprite>
+			<sprite id="783" name="4_F_UMWOMAN">4_F_UMWOMAN</sprite>
+			<sprite id="784" name="4_M_UMCHIEF">4_M_UMCHIEF</sprite>
+			<sprite id="785" name="4_M_UMDANCEKID2">4_M_UMDANCEKID2</sprite>
+			<sprite id="786" name="4_M_UMDANCEKID">4_M_UMDANCEKID</sprite>
+			<sprite id="787" name="4_M_UMKID">4_M_UMKID</sprite>
+			<sprite id="788" name="4_M_UMOLDMAN">4_M_UMOLDMAN</sprite>
+			<sprite id="789" name="4_M_UMSOLDIER">4_M_UMSOLDIER</sprite>
+			<sprite id="790" name="4_M_SALVATION">4_M_SALVATION</sprite>
+			<sprite id="791" name="4_F_NFDEADKAFRA">4_F_NFDEADKAFRA</sprite>
+			<sprite id="792" name="4_F_NFDEADMGCIAN">4_F_NFDEADMGCIAN</sprite>
+			<sprite id="793" name="4_F_NFLOSTGIRL">4_F_NFLOSTGIRL</sprite>
+			<sprite id="794" name="4_M_NFDEADMAN2">4_M_NFDEADMAN2</sprite>
+			<sprite id="795" name="4_M_NFDEADMAN">4_M_NFDEADMAN</sprite>
+			<sprite id="796" name="4_M_NFDEADSWDMAN">4_M_NFDEADSWDMAN</sprite>
+			<sprite id="797" name="4_M_NFLOSTMAN">4_M_NFLOSTMAN</sprite>
+			<sprite id="798" name="4_M_NFMAN">4_M_NFMAN</sprite>
+			<sprite id="799" name="4_NFBAT">4_NFBAT</sprite>
+			<sprite id="800" name="4_NFCOCK">4_NFCOCK</sprite>
+			<sprite id="801" name="4_NFCOFFIN">4_NFCOFFIN</sprite>
+			<sprite id="802" name="4_NFWISP">4_NFWISP</sprite>
+			<sprite id="803" name="1_F_SIGNZISK">1_F_SIGNZISK</sprite>
+			<sprite id="804" name="1_M_SIGN1">1_M_SIGN1</sprite>
+			<sprite id="805" name="1_M_SIGNALCHE">1_M_SIGNALCHE</sprite>
+			<sprite id="806" name="1_M_SIGNART">1_M_SIGNART</sprite>
+			<sprite id="807" name="1_M_SIGNMCNT">1_M_SIGNMCNT</sprite>
+			<sprite id="808" name="1_M_SIGNMONK2">1_M_SIGNMONK2</sprite>
+			<sprite id="809" name="1_M_SIGNMONK">1_M_SIGNMONK</sprite>
+			<sprite id="810" name="1_M_SIGNROGUE">1_M_SIGNROGUE</sprite>
+			<sprite id="811" name="4_F_VALKYRIE">4_F_VALKYRIE</sprite>
+			<sprite id="812" name="TW_TOWER">TW_TOWER</sprite>
+			<sprite id="813" name="2_M_OLDBLSMITH">2_M_OLDBLSMITH</sprite>
+			<sprite id="814" name="4_F_CHNDOCTOR">4_F_CHNDOCTOR</sprite>
+			<sprite id="815" name="4_F_CHNDRESS1">4_F_CHNDRESS1</sprite>
+			<sprite id="816" name="4_F_CHNDRESS2">4_F_CHNDRESS2</sprite>
+			<sprite id="817" name="4_F_CHNDRESS3">4_F_CHNDRESS3</sprite>
+			<sprite id="818" name="4_F_CHNWOMAN">4_F_CHNWOMAN</sprite>
+			<sprite id="819" name="4_M_CHN8GUEK">4_M_CHN8GUEK</sprite>
+			<sprite id="820" name="4_M_CHNCOOK">4_M_CHNCOOK</sprite>
+			<sprite id="821" name="4_M_CHNGENERL">4_M_CHNGENERL</sprite>
+			<sprite id="822" name="4_M_CHNMAN">4_M_CHNMAN</sprite>
+			<sprite id="823" name="4_M_CHNMONK">4_M_CHNMONK</sprite>
+			<sprite id="824" name="4_M_CHNOLD">4_M_CHNOLD</sprite>
+			<sprite id="825" name="4_M_CHNSOLDIER">4_M_CHNSOLDIER</sprite>
+			<sprite id="826" name="4_M_DWARF">4_M_DWARF</sprite>
+			<sprite id="827" name="4_M_GRANDMONK">4_M_GRANDMONK</sprite>
+			<sprite id="828" name="4_M_ROGUE">4_M_ROGUE</sprite>
+			<sprite id="829" name="4_M_DOMINO">4_M_DOMINO</sprite>
+			<sprite id="830" name="4_F_DOMINO">4_F_DOMINO</sprite>
+			<sprite id="831" name="4_F_ZONDAGIRL">4_F_ZONDAGIRL</sprite>
+			<sprite id="832" name="4_M_REIDIN_KURS">4_M_REIDIN_KURS</sprite>
+			<sprite id="833" name="4_M_ZONDAOYAJI">4_M_ZONDAOYAJI</sprite>
+			<sprite id="834" name="4_M_BUDDHIST">4_M_BUDDHIST</sprite>
+			<sprite id="835" name="2_BOARD1">2_BOARD1</sprite>
+			<sprite id="836" name="2_BOARD2">2_BOARD2</sprite>
+			<sprite id="837" name="2_BULLETIN_BOARD">2_BULLETIN_BOARD</sprite>
+			<sprite id="838" name="4_F_THAIAYO">4_F_THAIAYO</sprite>
+			<sprite id="839" name="4_F_THAIGIRL">4_F_THAIGIRL</sprite>
+			<sprite id="840" name="4_F_THAISHAMAN">4_F_THAISHAMAN</sprite>
+			<sprite id="841" name="4_M_THAIAYO">4_M_THAIAYO</sprite>
+			<sprite id="842" name="4_M_THAIOLD">4_M_THAIOLD</sprite>
+			<sprite id="843" name="4_M_THAIONGBAK">4_M_THAIONGBAK</sprite>
+			<sprite id="844" name="CLEAR_NPC">CLEAR_NPC</sprite>
+			<sprite id="845" name="4_F_RACING">4_F_RACING</sprite>
+			<sprite id="846" name="4_F_EINOLD">4_F_EINOLD</sprite>
+			<sprite id="847" name="4_M_EINOLD">4_M_EINOLD</sprite>
+			<sprite id="848" name="4_M_EINMINER">4_M_EINMINER</sprite>
+			<sprite id="849" name="4_M_DIEMAN">4_M_DIEMAN</sprite>
+			<sprite id="850" name="4_F_EINWOMAN">4_F_EINWOMAN</sprite>
+			<sprite id="851" name="4_M_REPAIR">4_M_REPAIR</sprite>
+			<sprite id="852" name="4_M_EIN_SOLDIER">4_M_EIN_SOLDIER</sprite>
+			<sprite id="853" name="4_M_YURI">4_M_YURI</sprite>
+			<sprite id="854" name="4_M_EINMAN2">4_M_EINMAN2</sprite>
+			<sprite id="855" name="4_M_EINMAN">4_M_EINMAN</sprite>
+			<sprite id="856" name="2_F_SIGN1">2_F_SIGN1</sprite>
+			<sprite id="857" name="4_BOARD3">4_BOARD3</sprite>
+			<sprite id="858" name="4_BULLETIN_BOARD2">4_BULLETIN_BOARD2</sprite>
+			<sprite id="859" name="4_F_AGENTKAFRA">4_F_AGENTKAFRA</sprite>
+			<sprite id="860" name="4_F_KAFRA8">4_F_KAFRA8</sprite>
+			<sprite id="861" name="4_F_KAFRA9">4_F_KAFRA9</sprite>
+			<sprite id="862" name="4_F_LGTGIRL">4_F_LGTGIRL</sprite>
+			<sprite id="863" name="4_F_LGTGRAND">4_F_LGTGRAND</sprite>
+			<sprite id="864" name="4_F_OPERATION">4_F_OPERATION</sprite>
+			<sprite id="865" name="4_LGTSCIENCE">4_LGTSCIENCE</sprite>
+			<sprite id="866" name="4_M_LGTGRAND">4_M_LGTGRAND</sprite>
+			<sprite id="867" name="4_M_LGTGUARD2">4_M_LGTGUARD2</sprite>
+			<sprite id="868" name="4_M_LGTGUARD">4_M_LGTGUARD</sprite>
+			<sprite id="869" name="4_M_LGTMAN">4_M_LGTMAN</sprite>
+			<sprite id="870" name="4_M_LGTPOOR">4_M_LGTPOOR</sprite>
+			<sprite id="871" name="4_M_OPERATION">4_M_OPERATION</sprite>
+			<sprite id="872" name="4_M_PRESIDENT">4_M_PRESIDENT</sprite>
+			<sprite id="873" name="4_M_REINDEER">4_M_REINDEER</sprite>
+			<sprite id="874" name="4_M_ZONDAMAN">4_M_ZONDAMAN</sprite>
+			<sprite id="875" name="4_M_PECOKNIGHT">4_M_PECOKNIGHT</sprite>
+			<sprite id="876" name="4_CAT">4_CAT</sprite>
+			<sprite id="877" name="4_F_YUNYANG">4_F_YUNYANG</sprite>
+			<sprite id="878" name="4_M_OILMAN">4_M_OILMAN</sprite>
+			<sprite id="879" name="4_F_CAPEGIRL">4_F_CAPEGIRL</sprite>
+			<sprite id="880" name="4_M_MASKMAN">4_M_MASKMAN</sprite>
+			<sprite id="881" name="4_M_SITDOWN">4_M_SITDOWN</sprite>
+			<sprite id="882" name="4_F_SITDOWN">4_F_SITDOWN</sprite>
+			<sprite id="883" name="4_M_ALCHE_D">4_M_ALCHE_D</sprite>
+			<sprite id="884" name="4_M_ACROSS">4_M_ACROSS</sprite>
+			<sprite id="885" name="4_F_ACROSS">4_F_ACROSS</sprite>
+			<sprite id="886" name="4_COOK">4_COOK</sprite>
+			<sprite id="887" name="4_M_LIEMAN">4_M_LIEMAN</sprite>
+			<sprite id="888" name="2_POSTBOX">2_POSTBOX</sprite>
+			<sprite id="889" name="4_BULL">4_BULL</sprite>
+			<sprite id="890" name="4_LAM">4_LAM</sprite>
+			<sprite id="891" name="4_F_HUGIRL">4_F_HUGIRL</sprite>
+			<sprite id="892" name="4_F_HUGRANMA">4_F_HUGRANMA</sprite>
+			<sprite id="893" name="4_F_HUWOMAN">4_F_HUWOMAN</sprite>
+			<sprite id="894" name="4_F_KHELLISIA">4_F_KHELLISIA</sprite>
+			<sprite id="895" name="4_F_KHELLY">4_F_KHELLY</sprite>
+			<sprite id="896" name="4_M_HUBOY">4_M_HUBOY</sprite>
+			<sprite id="897" name="4_M_HUGRANFA">4_M_HUGRANFA</sprite>
+			<sprite id="898" name="4_M_HUMAN_01">4_M_HUMAN_01</sprite>
+			<sprite id="899" name="4_M_HUMAN_02">4_M_HUMAN_02</sprite>
+			<sprite id="900" name="4_M_HUMERCHANT">4_M_HUMERCHANT</sprite>
+			<sprite id="901" name="4_M_HUOLDARMY">4_M_HUOLDARMY</sprite>
+			<sprite id="902" name="4_M_KHKIEL">4_M_KHKIEL</sprite>
+			<sprite id="903" name="4_M_KHKYEL">4_M_KHKYEL</sprite>
+			<sprite id="904" name="4_M_KHMAN">4_M_KHMAN</sprite>
+			<sprite id="905" name="4_F_KHWOMAN">4_F_KHWOMAN</sprite>
+			<sprite id="906" name="4_F_KHGIRL">4_F_KHGIRL</sprite>
+			<sprite id="907" name="4_M_KHBOY">4_M_KHBOY</sprite>
+			<sprite id="908" name="4_M_PHILMAN">4_M_PHILMAN</sprite>
+			<sprite id="909" name="4_PORING">4_PORING</sprite>
+			<sprite id="910" name="2_COLAVEND">2_COLAVEND</sprite>
+			<sprite id="911" name="4_F_SOCCER">4_F_SOCCER</sprite>
+			<sprite id="912" name="4_M_SOCCER7">4_M_SOCCER7</sprite>
+			<sprite id="913" name="4_M_SOCCER9">4_M_SOCCER9</sprite>
+			<sprite id="914" name="4_F_CHILD">4_F_CHILD</sprite>
+			<sprite id="915" name="4_F_MADAME">4_F_MADAME</sprite>
+			<sprite id="916" name="4_F_MASK1">4_F_MASK1</sprite>
+			<sprite id="917" name="4_F_MASK">4_F_MASK</sprite>
+			<sprite id="918" name="4_F_RACHOLD">4_F_RACHOLD</sprite>
+			<sprite id="919" name="4_F_SHABBY">4_F_SHABBY</sprite>
+			<sprite id="920" name="4_F_TRAINEE">4_F_TRAINEE</sprite>
+			<sprite id="921" name="4_M_CHILD1">4_M_CHILD1</sprite>
+			<sprite id="922" name="4_M_CHILD">4_M_CHILD</sprite>
+			<sprite id="923" name="4_M_DOCTOR">4_M_DOCTOR</sprite>
+			<sprite id="924" name="4_M_FROZEN1">4_M_FROZEN1</sprite>
+			<sprite id="925" name="4_M_FROZEN">4_M_FROZEN</sprite>
+			<sprite id="926" name="4_M_MASK1">4_M_MASK1</sprite>
+			<sprite id="927" name="4_M_MASK">4_M_MASK</sprite>
+			<sprite id="928" name="4_M_MIDDLE1">4_M_MIDDLE1</sprite>
+			<sprite id="929" name="4_M_MIDDLE">4_M_MIDDLE</sprite>
+			<sprite id="930" name="4_M_RACHMAN2">4_M_RACHMAN2</sprite>
+			<sprite id="931" name="4_M_RACHMAN1">4_M_RACHMAN1</sprite>
+			<sprite id="932" name="4_M_RACHOLD1">4_M_RACHOLD1</sprite>
+			<sprite id="933" name="4_M_RACHOLD">4_M_RACHOLD</sprite>
+			<sprite id="934" name="4_M_RASWORD">4_M_RASWORD</sprite>
+			<sprite id="935" name="4_M_TRAINEE">4_M_TRAINEE</sprite>
+			<sprite id="936" name="4_F_ARUNA_POP">4_F_ARUNA_POP</sprite>
+			<sprite id="937" name="4_M_ARUNA_NFM1">4_M_ARUNA_NFM1</sprite>
+			<sprite id="938" name="4_DST_CAMEL">4_DST_CAMEL</sprite>
+			<sprite id="939" name="4_DST_SOLDIER">4_DST_SOLDIER</sprite>
+			<sprite id="940" name="4_F_DESERT">4_F_DESERT</sprite>
+			<sprite id="941" name="4_F_DST_CHILD">4_F_DST_CHILD</sprite>
+			<sprite id="942" name="4_F_DST_GRAND">4_F_DST_GRAND</sprite>
+			<sprite id="943" name="4_M_DESERT">4_M_DESERT</sprite>
+			<sprite id="944" name="4_M_DST_CHILD">4_M_DST_CHILD</sprite>
+			<sprite id="945" name="4_M_DST_GRAND">4_M_DST_GRAND</sprite>
+			<sprite id="946" name="4_M_DST_MASTER">4_M_DST_MASTER</sprite>
+			<sprite id="947" name="4_M_DST_TOUGH">4_M_DST_TOUGH</sprite>
+		</npc>
+		<homunculus directory="homun\">
+			<sprite id="6001" name="LIF">LIF</sprite>
+			<sprite id="6002" name="AMISTR">AMISTR</sprite>
+			<sprite id="6003" name="FILIR">FILIR</sprite>
+			<sprite id="6004" name="VANILMIRTH">VANILMIRTH</sprite>
+			<sprite id="6005" name="LIF2">LIF2</sprite>
+			<sprite id="6006" name="AMISTR2">AMISTR2</sprite>
+			<sprite id="6007" name="FILIR2">FILIR2</sprite>
+			<sprite id="6008" name="VANILMIRTH2">VANILMIRTH2</sprite>
+			<sprite id="6009" name="LIF_H">LIF_H</sprite>
+			<sprite id="6010" name="AMISTR_H">AMISTR_H</sprite>
+			<sprite id="6011" name="FILIR_H">FILIR_H</sprite>
+			<sprite id="6012" name="VANILMIRTH_H">VANILMIRTH_H</sprite>
+			<sprite id="6013" name="LIF_H2">LIF_H2</sprite>
+			<sprite id="6014" name="AMISTR_H2">AMISTR_H2</sprite>
+			<sprite id="6015" name="FILIR_H2">FILIR_H2</sprite>
+			<sprite id="6016" name="VANILMIRTH_H2">VANILMIRTH_H2</sprite>
+		</homunculus>
+		<mobs directory="¸ó½ºÅÍ\">
+			<sprite id="1000" name="Scorpion">Scorpion</sprite>
+			<sprite id="1001" name="Scorpion">Scorpion</sprite>
+			<sprite id="1002" name="Poring">Poring</sprite>
+			<sprite id="1003" name="Thief_bug_egg">Thief_bug_egg</sprite>
+			<sprite id="1004" name="Hornet">Hornet</sprite>
+			<sprite id="1005" name="Farmiliar">Farmiliar</sprite>
+			<sprite id="1006" name="Thief_bug_larva">Thief_bug_larva</sprite>
+			<sprite id="1007" name="Fabre">Fabre</sprite>
+			<sprite id="1008" name="Pupa">Pupa</sprite>
+			<sprite id="1009" name="Condor">Condor</sprite>
+			<sprite id="1010" name="Wilow">Wilow</sprite>
+			<sprite id="1011" name="Chocho">Chocho</sprite>
+			<sprite id="1012" name="Roda_frog">Roda_frog</sprite>
+			<sprite id="1013" name="Wolf">Wolf</sprite>
+			<sprite id="1014" name="Spore">Spore</sprite>
+			<sprite id="1015" name="Zombie">Zombie</sprite>
+			<sprite id="1016" name="Skel_archer">Skel_archer</sprite>
+			<sprite id="1017" name="Thief_bug_female">Thief_bug_female</sprite>
+			<sprite id="1018" name="Creamy">Creamy</sprite>
+			<sprite id="1019" name="Pecopeco">Pecopeco</sprite>
+			<sprite id="1020" name="Mandragora">Mandragora</sprite>
+			<sprite id="1021" name="Thief_bug_male">Thief_bug_male</sprite>
+			<sprite id="1022" name="Were_wolf">Were_wolf</sprite>
+			<sprite id="1023" name="Ork_warrior">Ork_warrior</sprite>
+			<sprite id="1024" name="Worm_tail">Worm_tail</sprite>
+			<sprite id="1025" name="Snake">Snake</sprite>
+			<sprite id="1026" name="Munak">Munak</sprite>
+			<sprite id="1027" name="Raptice">Raptice</sprite>
+			<sprite id="1028" name="Skel_soldier">Skel_soldier</sprite>
+			<sprite id="1029" name="Isis">Isis</sprite>
+			<sprite id="1030" name="Anacondaq">Anacondaq</sprite>
+			<sprite id="1031" name="Poporing">Poporing</sprite>
+			<sprite id="1032" name="Vorit">Vorit</sprite>
+			<sprite id="1033" name="Elder_wilow">Elder_wilow</sprite>
+			<sprite id="1034" name="Thara_frog">Thara_frog</sprite>
+			<sprite id="1035" name="Hunter_fly">Hunter_fly</sprite>
+			<sprite id="1036" name="Ghoul">Ghoul</sprite>
+			<sprite id="1037" name="Side_winder">Side_winder</sprite>
+			<sprite id="1038" name="Osiris">Osiris</sprite>
+			<sprite id="1039" name="Baphomet">Baphomet</sprite>
+			<sprite id="1040" name="Golem">Golem</sprite>
+			<sprite id="1041" name="Mummy">Mummy</sprite>
+			<sprite id="1042" name="Steel_chocho">Steel_chocho</sprite>
+			<sprite id="1043" name="Seahores">Seahores</sprite>
+			<sprite id="1044" name="Obeaune">Obeaune</sprite>
+			<sprite id="1045" name="Marc">Marc</sprite>
+			<sprite id="1046" name="Doppelganger">Doppelganger</sprite>
+			<sprite id="1047" name="Peco_egg">Peco_egg</sprite>
+			<sprite id="1048" name="Thief_bug_egg">Thief_bug_egg</sprite>
+			<sprite id="1049" name="Picky">Picky</sprite>
+			<sprite id="1050" name="Picky_">Picky_</sprite>
+			<sprite id="1051" name="Thief_bug_larva">Thief_bug_larva</sprite>
+			<sprite id="1052" name="Rocker">Rocker</sprite>
+			<sprite id="1053" name="Thief_bug_female">Thief_bug_female</sprite>
+			<sprite id="1054" name="Thief_bug_male">Thief_bug_male</sprite>
+			<sprite id="1055" name="Muka">Muka</sprite>
+			<sprite id="1056" name="Smokie">Smokie</sprite>
+			<sprite id="1057" name="Yoyo">Yoyo</sprite>
+			<sprite id="1058" name="Metaller">Metaller</sprite>
+			<sprite id="1059" name="Mistress">Mistress</sprite>
+			<sprite id="1060" name="Bigfoot">Bigfoot</sprite>
+			<sprite id="1061" name="Nightmare">Nightmare</sprite>
+			<sprite id="1062" name="Poring_">Poring_</sprite>
+			<sprite id="1063" name="Lunatic">Lunatic</sprite>
+			<sprite id="1064" name="MEGALODON">MEGALODON</sprite>
+			<sprite id="1065" name="STROUF">STROUF</sprite>
+			<sprite id="1066" name="VADON">VADON</sprite>
+			<sprite id="1067" name="CORNUTUS">CORNUTUS</sprite>
+			<sprite id="1068" name="HYDRA">HYDRA</sprite>
+			<sprite id="1069" name="SWORD_FISH">SWORD_FISH</sprite>
+			<sprite id="1070" name="KUKRE">KUKRE</sprite>
+			<sprite id="1071" name="PIRATE_SKEL">PIRATE_SKEL</sprite>
+			<sprite id="1072" name="KAHO">KAHO</sprite>
+			<sprite id="1073" name="CRAB">CRAB</sprite>
+			<sprite id="1074" name="SHELLFISH">SHELLFISH</sprite>
+			<sprite id="1075" name="TURTLE">TURTLE</sprite>
+			<sprite id="1076" name="SKELETON">SKELETON</sprite>
+			<sprite id="1077" name="POISON_SPORE">POISON_SPORE</sprite>
+			<sprite id="1078" name="RED_PLANT">RED_PLANT</sprite>
+			<sprite id="1079" name="BLUE_PLANT">BLUE_PLANT</sprite>
+			<sprite id="1080" name="GREEN_PLANT">GREEN_PLANT</sprite>
+			<sprite id="1081" name="YELLOW_PLANT">YELLOW_PLANT</sprite>
+			<sprite id="1082" name="WHITE_PLANT">WHITE_PLANT</sprite>
+			<sprite id="1083" name="SHINING_PLANT">SHINING_PLANT</sprite>
+			<sprite id="1084" name="BLACK_MUSHROOM">BLACK_MUSHROOM</sprite>
+			<sprite id="1085" name="RED_MUSHROOM">RED_MUSHROOM</sprite>
+			<sprite id="1086" name="GOLDEN_BUG">GOLDEN_BUG</sprite>
+			<sprite id="1087" name="ORK_HERO">ORK_HERO</sprite>
+			<sprite id="1088" name="VOCAL">VOCAL</sprite>
+			<sprite id="1089" name="TOAD">TOAD</sprite>
+			<sprite id="1090" name="MASTERING">MASTERING</sprite>
+			<sprite id="1091" name="DRAGON_FLY">DRAGON_FLY</sprite>
+			<sprite id="1092" name="VAGABOND_WOLF">VAGABOND_WOLF</sprite>
+			<sprite id="1093" name="ECLIPSE">ECLIPSE</sprite>
+			<sprite id="1094" name="AMBERNITE">AMBERNITE</sprite>
+			<sprite id="1095" name="ANDRE">ANDRE</sprite>
+			<sprite id="1096" name="ANGELING">ANGELING</sprite>
+			<sprite id="1097" name="ANT_EGG">ANT_EGG</sprite>
+			<sprite id="1098" name="ANUBIS">ANUBIS</sprite>
+			<sprite id="1099" name="ARGIOPE">ARGIOPE</sprite>
+			<sprite id="1100" name="ARGOS">ARGOS</sprite>
+			<sprite id="1101" name="BAPHOMET_">BAPHOMET_</sprite>
+			<sprite id="1102" name="BATHORY">BATHORY</sprite>
+			<sprite id="1103" name="CARAMEL">CARAMEL</sprite>
+			<sprite id="1104" name="COCO">COCO</sprite>
+			<sprite id="1105" name="DENIRO">DENIRO</sprite>
+			<sprite id="1106" name="DESERT_WOLF">DESERT_WOLF</sprite>
+			<sprite id="1107" name="DESERT_WOLF_B">DESERT_WOLF_B</sprite>
+			<sprite id="1108" name="DEVIACE">DEVIACE</sprite>
+			<sprite id="1109" name="DEVIRUCHI">DEVIRUCHI</sprite>
+			<sprite id="1110" name="DOKEBI">DOKEBI</sprite>
+			<sprite id="1111" name="DRAINLIAR">DRAINLIAR</sprite>
+			<sprite id="1112" name="DRAKE">DRAKE</sprite>
+			<sprite id="1113" name="DROPS">DROPS</sprite>
+			<sprite id="1114" name="DUSTINESS">DUSTINESS</sprite>
+			<sprite id="1115" name="EDDGA">EDDGA</sprite>
+			<sprite id="1116" name="EGGYRA">EGGYRA</sprite>
+			<sprite id="1117" name="EVIL_DRUID">EVIL_DRUID</sprite>
+			<sprite id="1118" name="FLORA">FLORA</sprite>
+			<sprite id="1119" name="FRILLDORA">FRILLDORA</sprite>
+			<sprite id="1120" name="GHOSTRING">GHOSTRING</sprite>
+			<sprite id="1121" name="GIEARTH">GIEARTH</sprite>
+			<sprite id="1122" name="GOBLIN_1">GOBLIN_1</sprite>
+			<sprite id="1123" name="GOBLIN_2">GOBLIN_2</sprite>
+			<sprite id="1124" name="GOBLIN_3">GOBLIN_3</sprite>
+			<sprite id="1125" name="GOBLIN_4">GOBLIN_4</sprite>
+			<sprite id="1126" name="GOBLIN_5">GOBLIN_5</sprite>
+			<sprite id="1127" name="HODE">HODE</sprite>
+			<sprite id="1128" name="HORN">HORN</sprite>
+			<sprite id="1129" name="HORONG">HORONG</sprite>
+			<sprite id="1130" name="JAKK">JAKK</sprite>
+			<sprite id="1131" name="JOKER">JOKER</sprite>
+			<sprite id="1132" name="KHALITZBURG">KHALITZBURG</sprite>
+			<sprite id="1133" name="KOBOLD_1">KOBOLD_1</sprite>
+			<sprite id="1134" name="KOBOLD_2">KOBOLD_2</sprite>
+			<sprite id="1135" name="KOBOLD_3">KOBOLD_3</sprite>
+			<sprite id="1136" name="KOBOLD_4">KOBOLD_4</sprite>
+			<sprite id="1137" name="KOBOLD_5">KOBOLD_5</sprite>
+			<sprite id="1138" name="MAGNOLIA">MAGNOLIA</sprite>
+			<sprite id="1139" name="MANTIS">MANTIS</sprite>
+			<sprite id="1140" name="MARDUK">MARDUK</sprite>
+			<sprite id="1141" name="MARINA">MARINA</sprite>
+			<sprite id="1142" name="MARINE_SPHERE">MARINE_SPHERE</sprite>
+			<sprite id="1143" name="MARIONETTE">MARIONETTE</sprite>
+			<sprite id="1144" name="MARSE">MARSE</sprite>
+			<sprite id="1145" name="MARTIN">MARTIN</sprite>
+			<sprite id="1146" name="MATYR">MATYR</sprite>
+			<sprite id="1147" name="MAYA">MAYA</sprite>
+			<sprite id="1148" name="MEDUSA">MEDUSA</sprite>
+			<sprite id="1149" name="MINOROUS">MINOROUS</sprite>
+			<sprite id="1150" name="MOONLIGHT">MOONLIGHT</sprite>
+			<sprite id="1151" name="MYST">MYST</sprite>
+			<sprite id="1152" name="ORC_SKELETON">ORC_SKELETON</sprite>
+			<sprite id="1153" name="ORC_ZOMBIE">ORC_ZOMBIE</sprite>
+			<sprite id="1154" name="PASANA">PASANA</sprite>
+			<sprite id="1155" name="PETIT">PETIT</sprite>
+			<sprite id="1156" name="PETIT_">PETIT_</sprite>
+			<sprite id="1157" name="PHARAOH">PHARAOH</sprite>
+			<sprite id="1158" name="PHEN">PHEN</sprite>
+			<sprite id="1159" name="PHREEONI">PHREEONI</sprite>
+			<sprite id="1160" name="PIERE">PIERE</sprite>
+			<sprite id="1161" name="PLANKTON">PLANKTON</sprite>
+			<sprite id="1162" name="RAFFLESIA">RAFFLESIA</sprite>
+			<sprite id="1163" name="RAYDRIC">RAYDRIC</sprite>
+			<sprite id="1164" name="REQUIEM">REQUIEM</sprite>
+			<sprite id="1165" name="SAND_MAN">SAND_MAN</sprite>
+			<sprite id="1166" name="SAVAGE">SAVAGE</sprite>
+			<sprite id="1167" name="SAVAGE_BABE">SAVAGE_BABE</sprite>
+			<sprite id="1168" name="Pupa">Pupa</sprite>
+			<sprite id="1169" name="SKEL_WORKER">SKEL_WORKER</sprite>
+			<sprite id="1170" name="SOHEE">SOHEE</sprite>
+			<sprite id="1171" name="SOLDIER_ANDRE">SOLDIER_ANDRE</sprite>
+			<sprite id="1172" name="SOLDIER_DENIRO">SOLDIER_DENIRO</sprite>
+			<sprite id="1173" name="SOLDIER_PIERE">SOLDIER_PIERE</sprite>
+			<sprite id="1174" name="STAINER">STAINER</sprite>
+			<sprite id="1175" name="TAROU">TAROU</sprite>
+			<sprite id="1176" name="VITATA">VITATA</sprite>
+			<sprite id="1177" name="ZENORC">ZENORC</sprite>
+			<sprite id="1178" name="ZEROM">ZEROM</sprite>
+			<sprite id="1179" name="WHISPER">WHISPER</sprite>
+			<sprite id="1180" name="NINE_TAIL">NINE_TAIL</sprite>
+			<sprite id="1181" name="dragon_5.gr2">dragon_5.gr2</sprite>
+			<sprite id="1182" name="RED_MUSHROOM">RED_MUSHROOM</sprite>
+			<sprite id="1183" name="CHOCHO">CHOCHO</sprite>
+			<sprite id="1184" name="FABRE">FABRE</sprite>
+			<sprite id="1185" name="WHISPER">WHISPER</sprite>
+			<sprite id="1186" name="WHISPER_BOSS">WHISPER_BOSS</sprite>
+			<sprite id="1187" name="SWITCH">SWITCH</sprite>
+			<sprite id="1188" name="BON_GUN">BON_GUN</sprite>
+			<sprite id="1189" name="ORC_ARCHER">ORC_ARCHER</sprite>
+			<sprite id="1190" name="ORC_LORD">ORC_LORD</sprite>
+			<sprite id="1191" name="MIMIC">MIMIC</sprite>
+			<sprite id="1192" name="WRAITH">WRAITH</sprite>
+			<sprite id="1193" name="ALARM">ALARM</sprite>
+			<sprite id="1194" name="ARCLOUSE">ARCLOUSE</sprite>
+			<sprite id="1195" name="RIDEWORD">RIDEWORD</sprite>
+			<sprite id="1196" name="SKEL_PRISONER">SKEL_PRISONER</sprite>
+			<sprite id="1197" name="ZOMBIE_PRISONER">ZOMBIE_PRISONER</sprite>
+			<sprite id="1198" name="DARK_PRIEST">DARK_PRIEST</sprite>
+			<sprite id="1199" name="PUNK">PUNK</sprite>
+			<sprite id="1200" name="ZHERLTHSH">ZHERLTHSH</sprite>
+			<sprite id="1201" name="RYBIO">RYBIO</sprite>
+			<sprite id="1202" name="PHENDARK">PHENDARK</sprite>
+			<sprite id="1203" name="MYSTELTAINN">MYSTELTAINN</sprite>
+			<sprite id="1204" name="TIRFING">TIRFING</sprite>
+			<sprite id="1205" name="EXECUTIONER">EXECUTIONER</sprite>
+			<sprite id="1206" name="ANOLIAN">ANOLIAN</sprite>
+			<sprite id="1207" name="STING">STING</sprite>
+			<sprite id="1208" name="WANDER_MAN">WANDER_MAN</sprite>
+			<sprite id="1209" name="CRAMP">CRAMP</sprite>
+			<sprite id="1211" name="BRILIGHT">BRILIGHT</sprite>
+			<sprite id="1212" name="IRON_FIST">IRON_FIST</sprite>
+			<sprite id="1213" name="HIGH_ORC">HIGH_ORC</sprite>
+			<sprite id="1214" name="CHOCO">CHOCO</sprite>
+			<sprite id="1215" name="STEM_WORM">STEM_WORM</sprite>
+			<sprite id="1216" name="PENOMENA">PENOMENA</sprite>
+			<sprite id="1219" name="knight_of_abyss">knight_of_abyss</sprite>
+			<sprite id="1220" name="desert_wolf">desert_wolf</sprite>
+			<sprite id="1221" name="savage">savage</sprite>
+			<sprite id="1222" name="high_orc">high_orc</sprite>
+			<sprite id="1223" name="orc_warrior">orc_warrior</sprite>
+			<sprite id="1224" name="poison_spore">poison_spore</sprite>
+			<sprite id="1225" name="choco">choco</sprite>
+			<sprite id="1226" name="kobold_1">kobold_1</sprite>
+			<sprite id="1227" name="goblin_1">goblin_1</sprite>
+			<sprite id="1228" name="phen">phen</sprite>
+			<sprite id="1229" name="fabre">fabre</sprite>
+			<sprite id="1230" name="pupa">pupa</sprite>
+			<sprite id="1231" name="creamy">creamy</sprite>
+			<sprite id="1232" name="peco_egg">peco_egg</sprite>
+			<sprite id="1233" name="pecopeco">pecopeco</sprite>
+			<sprite id="1234" name="yoyo">yoyo</sprite>
+			<sprite id="1235" name="ork_warrior">ork_warrior</sprite>
+			<sprite id="1236" name="ant_egg">ant_egg</sprite>
+			<sprite id="1237" name="andre">andre</sprite>
+			<sprite id="1238" name="picky">picky</sprite>
+			<sprite id="1239" name="deniro">deniro</sprite>
+			<sprite id="1240" name="picky">picky</sprite>
+			<sprite id="1241" name="picky_">picky_</sprite>
+			<sprite id="1242" name="MARIN">MARIN</sprite>
+			<sprite id="1243" name="SASQUATCH">SASQUATCH</sprite>
+			<sprite id="1244" name="JAKK_XMAS">JAKK_XMAS</sprite>
+			<sprite id="1245" name="GOBLINE_XMAS">GOBLINE_XMAS</sprite>
+			<sprite id="1246" name="COOKIE_XMAS">COOKIE_XMAS</sprite>
+			<sprite id="1247" name="ANTONIO">ANTONIO</sprite>
+			<sprite id="1248" name="CRUISER">CRUISER</sprite>
+			<sprite id="1249" name="MYSTCASE">MYSTCASE</sprite>
+			<sprite id="1250" name="CHEPET">CHEPET</sprite>
+			<sprite id="1251" name="KNIGHT_OF_WINDSTORM">KNIGHT_OF_WINDSTORM</sprite>
+			<sprite id="1252" name="GARM">GARM</sprite>
+			<sprite id="1253" name="Gargoyle">Gargoyle</sprite>
+			<sprite id="1254" name="Raggler">Raggler</sprite>
+			<sprite id="1255" name="Neraid">Neraid</sprite>
+			<sprite id="1256" name="Pest">Pest</sprite>
+			<sprite id="1257" name="Injustice">Injustice</sprite>
+			<sprite id="1258" name="Goblin_Archer">Goblin_Archer</sprite>
+			<sprite id="1259" name="Gryphon">Gryphon</sprite>
+			<sprite id="1260" name="Dark_Frame">Dark_Frame</sprite>
+			<sprite id="1261" name="Wild_Rose">Wild_Rose</sprite>
+			<sprite id="1262" name="Mutant_Dragon">Mutant_Dragon</sprite>
+			<sprite id="1263" name="Wind_Ghost">Wind_Ghost</sprite>
+			<sprite id="1264" name="Merman">Merman</sprite>
+			<sprite id="1265" name="Cookie">Cookie</sprite>
+			<sprite id="1266" name="Aster">Aster</sprite>
+			<sprite id="1267" name="Carat">Carat</sprite>
+			<sprite id="1268" name="Bloody_Knight">Bloody_Knight</sprite>
+			<sprite id="1269" name="Clock">Clock</sprite>
+			<sprite id="1270" name="C_Tower_Manager">C_Tower_Manager</sprite>
+			<sprite id="1271" name="Alligator">Alligator</sprite>
+			<sprite id="1272" name="Dark_Lord">Dark_Lord</sprite>
+			<sprite id="1273" name="Orc_Lady">Orc_Lady</sprite>
+			<sprite id="1274" name="Megalith">Megalith</sprite>
+			<sprite id="1275" name="Alice">Alice</sprite>
+			<sprite id="1276" name="Raydric_Archer">Raydric_Archer</sprite>
+			<sprite id="1277" name="Greatest_General">Greatest_General</sprite>
+			<sprite id="1278" name="Stalactic_Golem">Stalactic_Golem</sprite>
+			<sprite id="1279" name="Tri_Joint">Tri_Joint</sprite>
+			<sprite id="1280" name="Steam_Goblin">Steam_Goblin</sprite>
+			<sprite id="1281" name="SageWorm">SageWorm</sprite>
+			<sprite id="1282" name="Kobold_Archer">Kobold_Archer</sprite>
+			<sprite id="1283" name="Chimera">Chimera</sprite>
+			<sprite id="1284" name="Hugeling90_6.gr2">Hugeling90_6.gr2</sprite>
+			<sprite id="1285" name="Aguardian90_8.gr2">Aguardian90_8.gr2</sprite>
+			<sprite id="1286" name="Kguardian90_7.gr2">Kguardian90_7.gr2</sprite>
+			<sprite id="1287" name="Sguardian90_9.gr2">Sguardian90_9.gr2</sprite>
+			<sprite id="1288" name="Empelium90_0.gr2">Empelium90_0.gr2</sprite>
+			<sprite id="1289" name="maya_puple">maya_puple</sprite>
+			<sprite id="1290" name="SKELETON_GENERAL">SKELETON_GENERAL</sprite>
+			<sprite id="1291" name="WRAITH_DEAD">WRAITH_DEAD</sprite>
+			<sprite id="1292" name="MINI_DEMON">MINI_DEMON</sprite>
+			<sprite id="1293" name="CREMY_FEAR">CREMY_FEAR</sprite>
+			<sprite id="1294" name="KILLER_MANTIS">KILLER_MANTIS</sprite>
+			<sprite id="1295" name="OWL_BARON">OWL_BARON</sprite>
+			<sprite id="1296" name="KOBOLT_LEADER">KOBOLT_LEADER</sprite>
+			<sprite id="1297" name="ANCIENT_MUMMY">ANCIENT_MUMMY</sprite>
+			<sprite id="1298" name="ZOMBIE_MASTER">ZOMBIE_MASTER</sprite>
+			<sprite id="1299" name="GOBLIN_LEADER">GOBLIN_LEADER</sprite>
+			<sprite id="1300" name="CATERPILLAR">CATERPILLAR</sprite>
+			<sprite id="1301" name="AM_MUT">AM_MUT</sprite>
+			<sprite id="1302" name="DARK_ILLUSION">DARK_ILLUSION</sprite>
+			<sprite id="1303" name="GIANT_HONET">GIANT_HONET</sprite>
+			<sprite id="1304" name="GIANT_SPIDER">GIANT_SPIDER</sprite>
+			<sprite id="1305" name="ANCIENT_WORM">ANCIENT_WORM</sprite>
+			<sprite id="1306" name="LEIB_OLMAI">LEIB_OLMAI</sprite>
+			<sprite id="1307" name="CAT_O_NINE_TAIL">CAT_O_NINE_TAIL</sprite>
+			<sprite id="1308" name="PANZER_GOBLIN">PANZER_GOBLIN</sprite>
+			<sprite id="1309" name="GAJOMART">GAJOMART</sprite>
+			<sprite id="1310" name="MAJORUROS">MAJORUROS</sprite>
+			<sprite id="1311" name="GULLINBURSTI">GULLINBURSTI</sprite>
+			<sprite id="1312" name="TURTLE_GENERAL">TURTLE_GENERAL</sprite>
+			<sprite id="1313" name="MOBSTER">MOBSTER</sprite>
+			<sprite id="1314" name="PERMETER">PERMETER</sprite>
+			<sprite id="1315" name="ASSULTER">ASSULTER</sprite>
+			<sprite id="1316" name="SOLIDER">SOLIDER</sprite>
+			<sprite id="1317" name="FUR_SEAL">FUR_SEAL</sprite>
+			<sprite id="1318" name="HEATER">HEATER</sprite>
+			<sprite id="1319" name="FREEZER">FREEZER</sprite>
+			<sprite id="1320" name="OWL_DUKE">OWL_DUKE</sprite>
+			<sprite id="1321" name="DRAGON_TAIL">DRAGON_TAIL</sprite>
+			<sprite id="1322" name="SPRING_RABBIT">SPRING_RABBIT</sprite>
+			<sprite id="1323" name="SEE_OTTER">SEE_OTTER</sprite>
+			<sprite id="1324" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1325" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1326" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1327" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1328" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1329" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1330" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1331" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1332" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1333" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1334" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1335" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1336" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1337" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1338" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1339" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1340" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1341" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1342" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1343" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1344" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1345" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1346" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1347" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1348" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1349" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1350" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1351" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1352" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1353" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1354" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1355" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1356" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1357" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1358" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1359" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1360" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1361" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1362" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1363" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1364" name="G_ASSULTER">G_ASSULTER</sprite>
+			<sprite id="1365" name="APOCALIPS">APOCALIPS</sprite>
+			<sprite id="1366" name="LAVA_GOLEM">LAVA_GOLEM</sprite>
+			<sprite id="1367" name="BLAZZER">BLAZZER</sprite>
+			<sprite id="1368" name="GEOGRAPHER">GEOGRAPHER</sprite>
+			<sprite id="1369" name="GRAND_PECO">GRAND_PECO</sprite>
+			<sprite id="1370" name="SUCCUBUS">SUCCUBUS</sprite>
+			<sprite id="1371" name="FAKE_ANGEL">FAKE_ANGEL</sprite>
+			<sprite id="1372" name="GOAT">GOAT</sprite>
+			<sprite id="1373" name="LORD_OF_DEATH">LORD_OF_DEATH</sprite>
+			<sprite id="1374" name="INCUBUS">INCUBUS</sprite>
+			<sprite id="1375" name="THE_PAPER">THE_PAPER</sprite>
+			<sprite id="1376" name="HARPY">HARPY</sprite>
+			<sprite id="1377" name="ELDER">ELDER</sprite>
+			<sprite id="1378" name="DEMON_PUNGUS">DEMON_PUNGUS</sprite>
+			<sprite id="1379" name="NIGHTMARE_TERROR">NIGHTMARE_TERROR</sprite>
+			<sprite id="1380" name="DRILLER">DRILLER</sprite>
+			<sprite id="1381" name="GRIZZLY">GRIZZLY</sprite>
+			<sprite id="1382" name="DIABOLIC">DIABOLIC</sprite>
+			<sprite id="1383" name="EXPLOSION">EXPLOSION</sprite>
+			<sprite id="1384" name="DELETER">DELETER</sprite>
+			<sprite id="1385" name="DELETER_">DELETER_</sprite>
+			<sprite id="1386" name="SLEEPER">SLEEPER</sprite>
+			<sprite id="1387" name="GIG">GIG</sprite>
+			<sprite id="1388" name="ARCHANGELING">ARCHANGELING</sprite>
+			<sprite id="1389" name="DRACULA">DRACULA</sprite>
+			<sprite id="1390" name="VIOLY">VIOLY</sprite>
+			<sprite id="1391" name="GALAPAGO">GALAPAGO</sprite>
+			<sprite id="1392" name="ROTAR_ZAIRO">ROTAR_ZAIRO</sprite>
+			<sprite id="1393" name="G_MUMMY">G_MUMMY</sprite>
+			<sprite id="1394" name="G_ZOMBIE">G_ZOMBIE</sprite>
+			<sprite id="1395" name="CRYSTAL_1">CRYSTAL_1</sprite>
+			<sprite id="1396" name="CRYSTAL_2">CRYSTAL_2</sprite>
+			<sprite id="1397" name="CRYSTAL_3">CRYSTAL_3</sprite>
+			<sprite id="1398" name="CRYSTAL_4">CRYSTAL_4</sprite>
+			<sprite id="1399" name="EVENT_BAPHO">EVENT_BAPHO</sprite>
+			<sprite id="1400" name="KARAKASA">KARAKASA</sprite>
+			<sprite id="1401" name="SHINOBI">SHINOBI</sprite>
+			<sprite id="1402" name="POISON_TOAD">POISON_TOAD</sprite>
+			<sprite id="1403" name="ANTIQUE_FIRELOCK">ANTIQUE_FIRELOCK</sprite>
+			<sprite id="1404" name="MIYABI_NINGYO">MIYABI_NINGYO</sprite>
+			<sprite id="1405" name="TENGU">TENGU</sprite>
+			<sprite id="1406" name="KAPHA">KAPHA</sprite>
+			<sprite id="1407" name="DOKEBI_">DOKEBI_</sprite>
+			<sprite id="1408" name="BLOOD_BUTTERFLY">BLOOD_BUTTERFLY</sprite>
+			<sprite id="1409" name="RICE_CAKE_BOY">RICE_CAKE_BOY</sprite>
+			<sprite id="1410" name="LIVE_PEACH_TREE">LIVE_PEACH_TREE</sprite>
+			<sprite id="1411" name="PEACH_TREE_BULLET">PEACH_TREE_BULLET</sprite>
+			<sprite id="1412" name="EVIL_CLOUD_HERMIT">EVIL_CLOUD_HERMIT</sprite>
+			<sprite id="1413" name="WILD_GINSENG">WILD_GINSENG</sprite>
+			<sprite id="1414" name="GINSENG_BULLET">GINSENG_BULLET</sprite>
+			<sprite id="1415" name="BABY_LEOPARD">BABY_LEOPARD</sprite>
+			<sprite id="1416" name="WICKED_NYMPH">WICKED_NYMPH</sprite>
+			<sprite id="1417" name="ZIPPER_BEAR">ZIPPER_BEAR</sprite>
+			<sprite id="1418" name="DARK_SNAKE_LORD">DARK_SNAKE_LORD</sprite>
+			<sprite id="1419" name="FARMILIAR">FARMILIAR</sprite>
+			<sprite id="1420" name="Skel_archer">Skel_archer</sprite>
+			<sprite id="1421" name="ISIS">ISIS</sprite>
+			<sprite id="1422" name="HUNTER_FLY">HUNTER_FLY</sprite>
+			<sprite id="1423" name="GHOUL">GHOUL</sprite>
+			<sprite id="1424" name="SIDE_WINDER">SIDE_WINDER</sprite>
+			<sprite id="1425" name="OBEAUNE">OBEAUNE</sprite>
+			<sprite id="1426" name="MARC">MARC</sprite>
+			<sprite id="1427" name="NIGHTMARE">NIGHTMARE</sprite>
+			<sprite id="1428" name="POISON_SPORE">POISON_SPORE</sprite>
+			<sprite id="1429" name="ARGIOPE">ARGIOPE</sprite>
+			<sprite id="1430" name="ARGOS">ARGOS</sprite>
+			<sprite id="1431" name="BAPHOMET_">BAPHOMET_</sprite>
+			<sprite id="1432" name="DESERT_WOLF">DESERT_WOLF</sprite>
+			<sprite id="1433" name="DEVIRUCHI">DEVIRUCHI</sprite>
+			<sprite id="1434" name="DRAINLIAR">DRAINLIAR</sprite>
+			<sprite id="1435" name="EVIL_DRUID">EVIL_DRUID</sprite>
+			<sprite id="1436" name="JAKK">JAKK</sprite>
+			<sprite id="1437" name="JOKER">JOKER</sprite>
+			<sprite id="1438" name="KHALITZBURG">KHALITZBURG</sprite>
+			<sprite id="1439" name="HIGH_ORC">HIGH_ORC</sprite>
+			<sprite id="1440" name="STEM_WORM">STEM_WORM</sprite>
+			<sprite id="1441" name="PENOMENA">PENOMENA</sprite>
+			<sprite id="1442" name="SASQUATCH">SASQUATCH</sprite>
+			<sprite id="1443" name="CRUISER">CRUISER</sprite>
+			<sprite id="1444" name="CHEPET">CHEPET</sprite>
+			<sprite id="1445" name="RAGGLER">RAGGLER</sprite>
+			<sprite id="1446" name="INJUSTICE">INJUSTICE</sprite>
+			<sprite id="1447" name="GRYPHON">GRYPHON</sprite>
+			<sprite id="1448" name="DARK_FRAME">DARK_FRAME</sprite>
+			<sprite id="1449" name="MUTANT_DRAGON">MUTANT_DRAGON</sprite>
+			<sprite id="1450" name="WIND_GHOST">WIND_GHOST</sprite>
+			<sprite id="1451" name="MERMAN">MERMAN</sprite>
+			<sprite id="1452" name="ORC_LADY">ORC_LADY</sprite>
+			<sprite id="1453" name="RAYDRIC_ARCHER">RAYDRIC_ARCHER</sprite>
+			<sprite id="1454" name="TRI_JOINT">TRI_JOINT</sprite>
+			<sprite id="1455" name="KOBOLD_ARCHER">KOBOLD_ARCHER</sprite>
+			<sprite id="1456" name="CHIMERA">CHIMERA</sprite>
+			<sprite id="1457" name="MANTIS">MANTIS</sprite>
+			<sprite id="1458" name="MARDUK">MARDUK</sprite>
+			<sprite id="1459" name="MARIONETTE">MARIONETTE</sprite>
+			<sprite id="1460" name="MATYR">MATYR</sprite>
+			<sprite id="1461" name="MINOROUS">MINOROUS</sprite>
+			<sprite id="1462" name="ORC_SKELETON">ORC_SKELETON</sprite>
+			<sprite id="1463" name="ORC_ZOMBIE">ORC_ZOMBIE</sprite>
+			<sprite id="1464" name="PASANA">PASANA</sprite>
+			<sprite id="1465" name="PETIT">PETIT</sprite>
+			<sprite id="1466" name="PETIT_">PETIT_</sprite>
+			<sprite id="1467" name="RAYDRIC">RAYDRIC</sprite>
+			<sprite id="1468" name="REQUIEM">REQUIEM</sprite>
+			<sprite id="1469" name="SKEL_WORKER">SKEL_WORKER</sprite>
+			<sprite id="1470" name="ZEROM">ZEROM</sprite>
+			<sprite id="1471" name="NINE_TAIL">NINE_TAIL</sprite>
+			<sprite id="1472" name="BON_GUN">BON_GUN</sprite>
+			<sprite id="1473" name="ORC_ARCHER">ORC_ARCHER</sprite>
+			<sprite id="1474" name="MIMIC">MIMIC</sprite>
+			<sprite id="1475" name="WRAITH">WRAITH</sprite>
+			<sprite id="1476" name="ALARM">ALARM</sprite>
+			<sprite id="1477" name="ARCLOUSE">ARCLOUSE</sprite>
+			<sprite id="1478" name="RIDEWORD">RIDEWORD</sprite>
+			<sprite id="1479" name="SKEL_PRISONER">SKEL_PRISONER</sprite>
+			<sprite id="1480" name="ZOMBIE_PRISONER">ZOMBIE_PRISONER</sprite>
+			<sprite id="1481" name="PUNK">PUNK</sprite>
+			<sprite id="1482" name="ZHERLTHSH">ZHERLTHSH</sprite>
+			<sprite id="1483" name="RYBIO">RYBIO</sprite>
+			<sprite id="1484" name="PHENDARK">PHENDARK</sprite>
+			<sprite id="1485" name="MYSTELTAINN">MYSTELTAINN</sprite>
+			<sprite id="1486" name="TIRFING">TIRFING</sprite>
+			<sprite id="1487" name="EXECUTIONER">EXECUTIONER</sprite>
+			<sprite id="1488" name="ANOLIAN">ANOLIAN</sprite>
+			<sprite id="1489" name="STING">STING</sprite>
+			<sprite id="1490" name="WANDER_MAN">WANDER_MAN</sprite>
+			<sprite id="1491" name="DOKEBI">DOKEBI</sprite>
+			<sprite id="1492" name="INCANTATION_SAMURAI">INCANTATION_SAMURAI</sprite>
+			<sprite id="1493" name="DRYAD">DRYAD</sprite>
+			<sprite id="1494" name="KIND_OF_BEETLE">KIND_OF_BEETLE</sprite>
+			<sprite id="1495" name="STONE_SHOOTER">STONE_SHOOTER</sprite>
+			<sprite id="1496" name="STONE_SHOOTER_BULLET">STONE_SHOOTER_BULLET</sprite>
+			<sprite id="1497" name="WOODEN_GOLEM">WOODEN_GOLEM</sprite>
+			<sprite id="1498" name="WOOTAN_SHOOTER">WOOTAN_SHOOTER</sprite>
+			<sprite id="1499" name="WOOTAN_FIGHTER">WOOTAN_FIGHTER</sprite>
+			<sprite id="1500" name="PARASITE">PARASITE</sprite>
+			<sprite id="1501" name="PARASITE_BULLET">PARASITE_BULLET</sprite>
+			<sprite id="1502" name="Poring">Poring</sprite>
+			<sprite id="1503" name="GIBBET">GIBBET</sprite>
+			<sprite id="1504" name="DULLAHAN">DULLAHAN</sprite>
+			<sprite id="1505" name="LOLI_RURI">LOLI_RURI</sprite>
+			<sprite id="1506" name="DISGUISE">DISGUISE</sprite>
+			<sprite id="1507" name="BLOODY_MURDERER">BLOODY_MURDERER</sprite>
+			<sprite id="1508" name="QUVE">QUVE</sprite>
+			<sprite id="1509" name="LUDE">LUDE</sprite>
+			<sprite id="1510" name="HYLOZOIST">HYLOZOIST</sprite>
+			<sprite id="1511" name="AMON_RA">AMON_RA</sprite>
+			<sprite id="1512" name="HYEGUN">HYEGUN</sprite>
+			<sprite id="1513" name="CIVIL_SERVANT">CIVIL_SERVANT</sprite>
+			<sprite id="1514" name="DANCING_DRAGON">DANCING_DRAGON</sprite>
+			<sprite id="1515" name="GARM_BABY">GARM_BABY</sprite>
+			<sprite id="1516" name="INCREASE_SOIL">INCREASE_SOIL</sprite>
+			<sprite id="1517" name="LI_ME_MANG_RYANG">LI_ME_MANG_RYANG</sprite>
+			<sprite id="1518" name="BACSOJIN">BACSOJIN</sprite>
+			<sprite id="1519" name="CHUNG_E">CHUNG_E</sprite>
+			<sprite id="1520" name="BOILED_RICE">BOILED_RICE</sprite>
+			<sprite id="1521" name="Alice">Alice</sprite>
+			<sprite id="1522" name="ANCIENT_MUMMY">ANCIENT_MUMMY</sprite>
+			<sprite id="1523" name="ANTIQUE_FIRELOCK">ANTIQUE_FIRELOCK</sprite>
+			<sprite id="1524" name="BABY_LEOPARD">BABY_LEOPARD</sprite>
+			<sprite id="1525" name="BATHORY">BATHORY</sprite>
+			<sprite id="1526" name="BLOOD_BUTTERFLY">BLOOD_BUTTERFLY</sprite>
+			<sprite id="1527" name="C_TOWER_MANAGER">C_TOWER_MANAGER</sprite>
+			<sprite id="1528" name="CLOCK">CLOCK</sprite>
+			<sprite id="1529" name="DARK_SNAKE_LORD">DARK_SNAKE_LORD</sprite>
+			<sprite id="1530" name="DRACULA">DRACULA</sprite>
+			<sprite id="1531" name="EVIL_CLOUD_HERMIT">EVIL_CLOUD_HERMIT</sprite>
+			<sprite id="1532" name="EXPLOSION">EXPLOSION</sprite>
+			<sprite id="1533" name="FUR_SEAL">FUR_SEAL</sprite>
+			<sprite id="1534" name="GOBLIN_1">GOBLIN_1</sprite>
+			<sprite id="1535" name="GOBLIN_2">GOBLIN_2</sprite>
+			<sprite id="1536" name="GOBLIN_3">GOBLIN_3</sprite>
+			<sprite id="1537" name="GOBLIN_4">GOBLIN_4</sprite>
+			<sprite id="1538" name="GOBLIN_5">GOBLIN_5</sprite>
+			<sprite id="1539" name="GOBLIN_LEADER">GOBLIN_LEADER</sprite>
+			<sprite id="1540" name="GOLEM">GOLEM</sprite>
+			<sprite id="1541" name="GREATEST_GENERAL">GREATEST_GENERAL</sprite>
+			<sprite id="1542" name="INCANTATION_SAMURAI">INCANTATION_SAMURAI</sprite>
+			<sprite id="1543" name="KAPHA">KAPHA</sprite>
+			<sprite id="1544" name="KARAKASA">KARAKASA</sprite>
+			<sprite id="1545" name="KOBOLD_1">KOBOLD_1</sprite>
+			<sprite id="1546" name="KOBOLD_2">KOBOLD_2</sprite>
+			<sprite id="1547" name="KOBOLD_3">KOBOLD_3</sprite>
+			<sprite id="1548" name="KOBOLD_LEADER">KOBOLD_LEADER</sprite>
+			<sprite id="1549" name="LAVA_GOLEM">LAVA_GOLEM</sprite>
+			<sprite id="1550" name="LIVE_PEACH_TREE">LIVE_PEACH_TREE</sprite>
+			<sprite id="1551" name="MARSE">MARSE</sprite>
+			<sprite id="1552" name="MIYABI_NINGYO">MIYABI_NINGYO</sprite>
+			<sprite id="1553" name="MYST">MYST</sprite>
+			<sprite id="1554" name="NIGHTMARE_TERROR">NIGHTMARE_TERROR</sprite>
+			<sprite id="1555" name="PARASITE">PARASITE</sprite>
+			<sprite id="1556" name="POISON_TOAD">POISON_TOAD</sprite>
+			<sprite id="1557" name="ROTAR_ZAIRO">ROTAR_ZAIRO</sprite>
+			<sprite id="1558" name="SAND_MAN">SAND_MAN</sprite>
+			<sprite id="1559" name="SCORPION">SCORPION</sprite>
+			<sprite id="1560" name="SHINOBI">SHINOBI</sprite>
+			<sprite id="1561" name="SMOKIE">SMOKIE</sprite>
+			<sprite id="1562" name="Skel_soldier">Skel_soldier</sprite>
+			<sprite id="1563" name="TENGU">TENGU</sprite>
+			<sprite id="1564" name="WICKED_NYMPH">WICKED_NYMPH</sprite>
+			<sprite id="1565" name="WILD_GINSENG">WILD_GINSENG</sprite>
+			<sprite id="1566" name="WRAITH_DEAD">WRAITH_DEAD</sprite>
+			<sprite id="1567" name="ANCIENT_WORM">ANCIENT_WORM</sprite>
+			<sprite id="1568" name="ANGELING">ANGELING</sprite>
+			<sprite id="1569" name="BLOODY_KNIGHT">BLOODY_KNIGHT</sprite>
+			<sprite id="1570" name="CRAMP">CRAMP</sprite>
+			<sprite id="1571" name="DEVIACE">DEVIACE</sprite>
+			<sprite id="1572" name="DROPS">DROPS</sprite>
+			<sprite id="1573" name="ELDER">ELDER</sprite>
+			<sprite id="1574" name="ELDER_WILOW">ELDER_WILOW</sprite>
+			<sprite id="1575" name="FLORA">FLORA</sprite>
+			<sprite id="1576" name="GHOSTRING">GHOSTRING</sprite>
+			<sprite id="1577" name="GOBLIN_ARCHER">GOBLIN_ARCHER</sprite>
+			<sprite id="1578" name="HORONG">HORONG</sprite>
+			<sprite id="1579" name="HYDRA">HYDRA</sprite>
+			<sprite id="1580" name="INCUBUS">INCUBUS</sprite>
+			<sprite id="1581" name="VOCAL">VOCAL</sprite>
+			<sprite id="1582" name="DEVILING">DEVILING</sprite>
+			<sprite id="1583" name="TAO_GUNKA">TAO_GUNKA</sprite>
+			<sprite id="1584" name="TAMRUAN">TAMRUAN</sprite>
+			<sprite id="1585" name="MIME_MONKEY">MIME_MONKEY</sprite>
+			<sprite id="1586" name="LEAF_CAT">LEAF_CAT</sprite>
+			<sprite id="1587" name="KRABEN">KRABEN</sprite>
+			<sprite id="1588" name="ORC_XMAS">ORC_XMAS</sprite>
+			<sprite id="1589" name="Mandragora">Mandragora</sprite>
+			<sprite id="1590" name="GEOGRAPHER">GEOGRAPHER</sprite>
+			<sprite id="1591" name="Lunatic">Lunatic</sprite>
+			<sprite id="1592" name="MOBSTER">MOBSTER</sprite>
+			<sprite id="1593" name="ANCIENT_MUMMY">ANCIENT_MUMMY</sprite>
+			<sprite id="1594" name="FREEZER">FREEZER</sprite>
+			<sprite id="1595" name="MARIN">MARIN</sprite>
+			<sprite id="1596" name="TAMRUAN">TAMRUAN</sprite>
+			<sprite id="1597" name="Gargoyle">Gargoyle</sprite>
+			<sprite id="1598" name="BLAZZER">BLAZZER</sprite>
+			<sprite id="1599" name="WHISPER_BOSS">WHISPER_BOSS</sprite>
+			<sprite id="1600" name="HEATER">HEATER</sprite>
+			<sprite id="1601" name="PERMETER">PERMETER</sprite>
+			<sprite id="1602" name="SOLIDER">SOLIDER</sprite>
+			<sprite id="1603" name="BIGFOOT">BIGFOOT</sprite>
+			<sprite id="1604" name="GIANT_HONET">GIANT_HONET</sprite>
+			<sprite id="1605" name="DARK_ILLUSION">DARK_ILLUSION</sprite>
+			<sprite id="1606" name="GARM_BABY">GARM_BABY</sprite>
+			<sprite id="1607" name="GOBLINE_XMAS">GOBLINE_XMAS</sprite>
+			<sprite id="1608" name="Thief_bug_male">Thief_bug_male</sprite>
+			<sprite id="1609" name="DANCING_DRAGON">DANCING_DRAGON</sprite>
+			<sprite id="1610" name="Munak">Munak</sprite>
+			<sprite id="1611" name="BON_GUN">BON_GUN</sprite>
+			<sprite id="1612" name="HYEGUN">HYEGUN</sprite>
+			<sprite id="1613" name="METALING">METALING</sprite>
+			<sprite id="1614" name="MINERAL">MINERAL</sprite>
+			<sprite id="1615" name="OBSIDIAN">OBSIDIAN</sprite>
+			<sprite id="1616" name="PITMAN">PITMAN</sprite>
+			<sprite id="1617" name="WASTE_STOVE">WASTE_STOVE</sprite>
+			<sprite id="1618" name="UNGOLIANT">UNGOLIANT</sprite>
+			<sprite id="1619" name="PORCELLIO">PORCELLIO</sprite>
+			<sprite id="1620" name="NOXIOUS">NOXIOUS</sprite>
+			<sprite id="1621" name="VENOMOUS">VENOMOUS</sprite>
+			<sprite id="1622" name="TEDDY_BEAR">TEDDY_BEAR</sprite>
+			<sprite id="1623" name="RSX_0806">RSX_0806</sprite>
+			<sprite id="1624" name="WASTE_STOVE">WASTE_STOVE</sprite>
+			<sprite id="1625" name="PORCELLIO">PORCELLIO</sprite>
+			<sprite id="1626" name="DARK_PRIEST">DARK_PRIEST</sprite>
+			<sprite id="1627" name="ANOPHELES">ANOPHELES</sprite>
+			<sprite id="1628" name="MOLE">MOLE</sprite>
+			<sprite id="1629" name="HILL_WIND">HILL_WIND</sprite>
+			<sprite id="1630" name="BACSOJIN">BACSOJIN</sprite>
+			<sprite id="1631" name="CHUNG_E">CHUNG_E</sprite>
+			<sprite id="1632" name="GREMLIN">GREMLIN</sprite>
+			<sprite id="1633" name="BEHOLDER">BEHOLDER</sprite>
+			<sprite id="1634" name="SEYREN">SEYREN</sprite>
+			<sprite id="1635" name="EREMES">EREMES</sprite>
+			<sprite id="1636" name="HARWORD">HARWORD</sprite>
+			<sprite id="1637" name="MAGALETA">MAGALETA</sprite>
+			<sprite id="1638" name="SHECIL">SHECIL</sprite>
+			<sprite id="1639" name="KATRINN">KATRINN</sprite>
+			<sprite id="1640" name="SEYREN">SEYREN</sprite>
+			<sprite id="1641" name="EREMES">EREMES</sprite>
+			<sprite id="1642" name="HARWORD">HARWORD</sprite>
+			<sprite id="1643" name="MAGALETA">MAGALETA</sprite>
+			<sprite id="1644" name="SHECIL">SHECIL</sprite>
+			<sprite id="1645" name="KATRINN">KATRINN</sprite>
+			<sprite id="1646" name="SEYREN">SEYREN</sprite>
+			<sprite id="1647" name="EREMES">EREMES</sprite>
+			<sprite id="1648" name="HARWORD">HARWORD</sprite>
+			<sprite id="1649" name="MAGALETA">MAGALETA</sprite>
+			<sprite id="1650" name="SHECIL">SHECIL</sprite>
+			<sprite id="1651" name="KATRINN">KATRINN</sprite>
+			<sprite id="1652" name="YGNIZEM">YGNIZEM</sprite>
+			<sprite id="1653" name="WHIKEBAIN">WHIKEBAIN</sprite>
+			<sprite id="1654" name="ARMAIA">ARMAIA</sprite>
+			<sprite id="1655" name="EREND">EREND</sprite>
+			<sprite id="1656" name="KAVAC">KAVAC</sprite>
+			<sprite id="1657" name="RAWREL">RAWREL</sprite>
+			<sprite id="1658" name="YGNIZEM">YGNIZEM</sprite>
+			<sprite id="1659" name="WHIKEBAIN">WHIKEBAIN</sprite>
+			<sprite id="1660" name="ARMAIA">ARMAIA</sprite>
+			<sprite id="1661" name="EREND">EREND</sprite>
+			<sprite id="1662" name="KAVAC">KAVAC</sprite>
+			<sprite id="1663" name="RAWREL">RAWREL</sprite>
+			<sprite id="1664" name="POTON_CANON">POTON_CANON</sprite>
+			<sprite id="1665" name="POTON_CANON_1">POTON_CANON_1</sprite>
+			<sprite id="1666" name="POTON_CANON_2">POTON_CANON_2</sprite>
+			<sprite id="1667" name="POTON_CANON_3">POTON_CANON_3</sprite>
+			<sprite id="1668" name="ARCHDAM">ARCHDAM</sprite>
+			<sprite id="1669" name="DIMIK">DIMIK</sprite>
+			<sprite id="1670" name="DIMIK_1">DIMIK_1</sprite>
+			<sprite id="1671" name="DIMIK_2">DIMIK_2</sprite>
+			<sprite id="1672" name="DIMIK_3">DIMIK_3</sprite>
+			<sprite id="1673" name="DIMIK_4">DIMIK_4</sprite>
+			<sprite id="1674" name="MONEMUS">MONEMUS</sprite>
+			<sprite id="1675" name="VENATU">VENATU</sprite>
+			<sprite id="1676" name="VENATU_1">VENATU_1</sprite>
+			<sprite id="1677" name="VENATU_2">VENATU_2</sprite>
+			<sprite id="1678" name="VENATU_3">VENATU_3</sprite>
+			<sprite id="1679" name="VENATU_4">VENATU_4</sprite>
+			<sprite id="1680" name="HILL_WIND_1">HILL_WIND_1</sprite>
+			<sprite id="1681" name="GEMINI">GEMINI</sprite>
+			<sprite id="1682" name="REMOVAL">REMOVAL</sprite>
+			<sprite id="1683" name="POTON_CANON">POTON_CANON</sprite>
+			<sprite id="1684" name="ARCHDAM">ARCHDAM</sprite>
+			<sprite id="1685" name="APOCALIPS_H">APOCALIPS_H</sprite>
+			<sprite id="1686" name="ORC_BABY">ORC_BABY</sprite>
+			<sprite id="1687" name="GREEN_IGUANA">GREEN_IGUANA</sprite>
+			<sprite id="1688" name="LADY_TANEE">LADY_TANEE</sprite>
+			<sprite id="1689" name="G_BACSOJIN">G_BACSOJIN</sprite>
+			<sprite id="1690" name="G_SPRING_RABBIT">G_SPRING_RABBIT</sprite>
+			<sprite id="1691" name="KRABEN">KRABEN</sprite>
+			<sprite id="1692" name="BREEZE">BREEZE</sprite>
+			<sprite id="1693" name="PLASMA_Y">PLASMA_Y</sprite>
+			<sprite id="1694" name="PLASMA_R">PLASMA_R</sprite>
+			<sprite id="1695" name="PLASMA_G">PLASMA_G</sprite>
+			<sprite id="1696" name="PLASMA_P">PLASMA_P</sprite>
+			<sprite id="1697" name="PLASMA_B">PLASMA_B</sprite>
+			<sprite id="1698" name="DEATHWORD">DEATHWORD</sprite>
+			<sprite id="1699" name="ANCIENT_MIMIC">ANCIENT_MIMIC</sprite>
+			<sprite id="1700" name="OBSERVATION">OBSERVATION</sprite>
+			<sprite id="1701" name="SHELTER">SHELTER</sprite>
+			<sprite id="1702" name="RETRIBUTION">RETRIBUTION</sprite>
+			<sprite id="1703" name="SOLACE">SOLACE</sprite>
+			<sprite id="1704" name="THA_ODIUM">THA_ODIUM</sprite>
+			<sprite id="1705" name="THA_DESPERO">THA_DESPERO</sprite>
+			<sprite id="1706" name="THA_MAERO">THA_MAERO</sprite>
+			<sprite id="1707" name="THA_DOLOR">THA_DOLOR</sprite>
+			<sprite id="1708" name="THANATOS">THANATOS</sprite>
+			<sprite id="1709" name="THA_ODIUM">THA_ODIUM</sprite>
+			<sprite id="1710" name="THA_DESPERO">THA_DESPERO</sprite>
+			<sprite id="1711" name="THA_MAERO">THA_MAERO</sprite>
+			<sprite id="1712" name="THA_DOLOR">THA_DOLOR</sprite>
+			<sprite id="1713" name="ACIDUS">ACIDUS</sprite>
+			<sprite id="1714" name="FERUS">FERUS</sprite>
+			<sprite id="1715" name="NOVUS">NOVUS</sprite>
+			<sprite id="1716" name="ACIDUS_">ACIDUS_</sprite>
+			<sprite id="1717" name="FERUS_">FERUS_</sprite>
+			<sprite id="1718" name="NOVUS_">NOVUS_</sprite>
+			<sprite id="1719" name="DETALE">DETALE</sprite>
+			<sprite id="1720" name="HYDRO">HYDRO</sprite>
+			<sprite id="1721" name="DRAGON_EGG">DRAGON_EGG</sprite>
+			<sprite id="1722" name="JAKK">JAKK</sprite>
+			<sprite id="1723" name="SHECIL">SHECIL</sprite>
+			<sprite id="1724" name="POTON_CANON">POTON_CANON</sprite>
+			<sprite id="1725" name="Poring">Poring</sprite>
+			<sprite id="1726" name="Lunatic">Lunatic</sprite>
+			<sprite id="1727" name="SAVAGE_BABE">SAVAGE_BABE</sprite>
+			<sprite id="1728" name="DESERT_WOLF_B">DESERT_WOLF_B</sprite>
+			<sprite id="1729" name="BAPHOMET_">BAPHOMET_</sprite>
+			<sprite id="1730" name="DEVIRUCHI">DEVIRUCHI</sprite>
+			<sprite id="1731" name="DOPPELGANGER">DOPPELGANGER</sprite>
+			<sprite id="1732" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1733" name="KIEL">KIEL</sprite>
+			<sprite id="1734" name="KIEL_">KIEL_</sprite>
+			<sprite id="1735" name="ALICEL">ALICEL</sprite>
+			<sprite id="1736" name="ALIOT">ALIOT</sprite>
+			<sprite id="1737" name="ALIZA">ALIZA</sprite>
+			<sprite id="1738" name="CONSTANT">CONSTANT</sprite>
+			<sprite id="1739" name="ALICEL">ALICEL</sprite>
+			<sprite id="1740" name="ALIOT">ALIOT</sprite>
+			<sprite id="1741" name="COOKIE_XMAS">COOKIE_XMAS</sprite>
+			<sprite id="1742" name="Carat">Carat</sprite>
+			<sprite id="1743" name="MYSTCASE">MYSTCASE</sprite>
+			<sprite id="1744" name="Wild_Rose">Wild_Rose</sprite>
+			<sprite id="1745" name="CONSTANT">CONSTANT</sprite>
+			<sprite id="1746" name="ALIZA">ALIZA</sprite>
+			<sprite id="1747" name="Snake">Snake</sprite>
+			<sprite id="1748" name="Anacondaq">Anacondaq</sprite>
+			<sprite id="1749" name="Medusa">Medusa</sprite>
+			<sprite id="1750" name="RED_PLANT">RED_PLANT</sprite>
+			<sprite id="1751" name="RANDGRIS">RANDGRIS</sprite>
+			<sprite id="1752" name="SKOGUL">SKOGUL</sprite>
+			<sprite id="1753" name="FRUS">FRUS</sprite>
+			<sprite id="1754" name="SKEGGIOLD">SKEGGIOLD</sprite>
+			<sprite id="1755" name="SKEGGIOLD_">SKEGGIOLD_</sprite>
+			<sprite id="1756" name="HYDRO">HYDRO</sprite>
+			<sprite id="1757" name="ACIDUS">ACIDUS</sprite>
+			<sprite id="1758" name="FERUS">FERUS</sprite>
+			<sprite id="1759" name="ACIDUS_">ACIDUS_</sprite>
+			<sprite id="1760" name="FERUS_">FERUS_</sprite>
+			<sprite id="1761" name="SKOGUL">SKOGUL</sprite>
+			<sprite id="1762" name="FRUS">FRUS</sprite>
+			<sprite id="1763" name="SKEGGIOLD">SKEGGIOLD</sprite>
+			<sprite id="1764" name="SKEGGIOLD_">SKEGGIOLD_</sprite>
+			<sprite id="1765" name="G_RANDGRIS">G_RANDGRIS</sprite>
+			<sprite id="1766" name="EM_ANGELING">EM_ANGELING</sprite>
+			<sprite id="1767" name="EM_DEVILING">EM_DEVILING</sprite>
+			<sprite id="1768" name="GLOOMUNDERNIGHT">GLOOMUNDERNIGHT</sprite>
+			<sprite id="1769" name="AGAV">AGAV</sprite>
+			<sprite id="1770" name="ECHIO">ECHIO</sprite>
+			<sprite id="1771" name="VANBERK">VANBERK</sprite>
+			<sprite id="1772" name="ISILLA">ISILLA</sprite>
+			<sprite id="1773" name="HODREMLIN">HODREMLIN</sprite>
+			<sprite id="1774" name="SEEKER">SEEKER</sprite>
+			<sprite id="1775" name="SNOWIER">SNOWIER</sprite>
+			<sprite id="1776" name="SIROMA">SIROMA</sprite>
+			<sprite id="1777" name="ICE_TITAN">ICE_TITAN</sprite>
+			<sprite id="1778" name="GAZETI">GAZETI</sprite>
+			<sprite id="1779" name="KTULLANUX">KTULLANUX</sprite>
+			<sprite id="1780" name="MUSCIPULAR">MUSCIPULAR</sprite>
+			<sprite id="1781" name="DROSERA">DROSERA</sprite>
+			<sprite id="1782" name="ROWEEN">ROWEEN</sprite>
+			<sprite id="1783" name="GALION">GALION</sprite>
+			<sprite id="1784" name="STAPO">STAPO</sprite>
+			<sprite id="1785" name="ATROS">ATROS</sprite>
+			<sprite id="1786" name="AGAV">AGAV</sprite>
+			<sprite id="1787" name="ECHIO">ECHIO</sprite>
+			<sprite id="1788" name="ICE_TITAN">ICE_TITAN</sprite>
+			<sprite id="1789" name="ICEICLE">ICEICLE</sprite>
+			<sprite id="1790" name="RAFFLESIA">RAFFLESIA</sprite>
+			<sprite id="1791" name="GALION">GALION</sprite>
+			<sprite id="1792" name="SOCCER_BALL">SOCCER_BALL</sprite>
+			<sprite id="1793" name="MEGALITH">MEGALITH</sprite>
+			<sprite id="1794" name="ROWEEN">ROWEEN</sprite>
+			<sprite id="1795" name="BLOODY_KNIGHT">BLOODY_KNIGHT</sprite>
+			<sprite id="1796" name="AUNOE">AUNOE</sprite>
+			<sprite id="1797" name="FANAT">FANAT</sprite>
+			<sprite id="1798" name="TREASUREBOX_2.gr2">TREASUREBOX_2.gr2</sprite>
+			<sprite id="1799" name="SEYREN">SEYREN</sprite>
+			<sprite id="1800" name="EREMES">EREMES</sprite>
+			<sprite id="1801" name="HARWORD">HARWORD</sprite>
+			<sprite id="1802" name="MAGALETA">MAGALETA</sprite>
+			<sprite id="1803" name="SHECIL">SHECIL</sprite>
+			<sprite id="1804" name="KATRINN">KATRINN</sprite>
+			<sprite id="1805" name="SEYREN">SEYREN</sprite>
+			<sprite id="1806" name="EREMES">EREMES</sprite>
+			<sprite id="1807" name="HARWORD">HARWORD</sprite>
+			<sprite id="1808" name="MAGALETA">MAGALETA</sprite>
+			<sprite id="1809" name="SHECIL">SHECIL</sprite>
+			<sprite id="1810" name="KATRINN">KATRINN</sprite>
+			<sprite id="1811" name="SMOKIE">SMOKIE</sprite>
+			<sprite id="1812" name="LUDE">LUDE</sprite>
+			<sprite id="1813" name="HYDRO">HYDRO</sprite>
+			<sprite id="1814" name="MOONLIGHT">MOONLIGHT</sprite>
+			<sprite id="1815" name="EVENT_RICECAKE">EVENT_RICECAKE</sprite>
+			<sprite id="1816" name="EVENT_GOURD">EVENT_GOURD</sprite>
+			<sprite id="1817" name="DETALE">DETALE</sprite>
+			<sprite id="1818" name="ALARM">ALARM</sprite>
+			<sprite id="1819" name="BATHORY">BATHORY</sprite>
+			<sprite id="1820" name="BIGFOOT">BIGFOOT</sprite>
+			<sprite id="1821" name="DESERT_WOLF">DESERT_WOLF</sprite>
+			<sprite id="1822" name="DEVIRUCHI">DEVIRUCHI</sprite>
+			<sprite id="1823" name="FREEZER">FREEZER</sprite>
+			<sprite id="1824" name="GARM_BABY">GARM_BABY</sprite>
+			<sprite id="1825" name="GOBLINE_XMAS">GOBLINE_XMAS</sprite>
+			<sprite id="1826" name="MYST">MYST</sprite>
+			<sprite id="1827" name="SASQUATCH">SASQUATCH</sprite>
+			<sprite id="1828" name="GULLINBURSTI">GULLINBURSTI</sprite>
+			<sprite id="1829" name="Kguardian90_7.gr2">Kguardian90_7.gr2</sprite>
+			<sprite id="1830" name="Aguardian90_8.gr2">Aguardian90_8.gr2</sprite>
+			<sprite id="1831" name="SALAMANDER">SALAMANDER</sprite>
+			<sprite id="1832" name="IFRIT">IFRIT</sprite>
+			<sprite id="1833" name="KASA">KASA</sprite>
+			<sprite id="1834" name="SALAMANDER">SALAMANDER</sprite>
+			<sprite id="1835" name="KASA">KASA</sprite>
+			<sprite id="1836" name="MAGMARING">MAGMARING</sprite>
+			<sprite id="1837" name="IMP">IMP</sprite>
+			<sprite id="1838" name="KNOCKER">KNOCKER</sprite>
+			<sprite id="1839" name="BYORGUE">BYORGUE</sprite>
+		</mobs>
+	</body>
+	<face directory="ÀÎ°£Á·\¸Ó¸®Åë\">
+		<male directory="³²\">
+			<sprite id="1" name="1">1_³²</sprite>
+			<sprite id="1" name="2">2_³²</sprite>
+			<sprite id="1" name="3">3_³²</sprite>
+			<sprite id="1" name="4">4_³²</sprite>
+			<sprite id="1" name="5">5_³²</sprite>
+			<sprite id="1" name="6">6_³²</sprite>
+			<sprite id="1" name="7">7_³²</sprite>
+			<sprite id="1" name="8">8_³²</sprite>
+			<sprite id="1" name="9">9_³²</sprite>
+			<sprite id="1" name="10">10_³²</sprite>
+			<sprite id="1" name="11">11_³²</sprite>
+			<sprite id="1" name="12">12_³²</sprite>
+			<sprite id="1" name="13">13_³²</sprite>
+			<sprite id="1" name="14">14_³²</sprite>
+			<sprite id="1" name="15">15_³²</sprite>
+			<sprite id="1" name="16">16_³²</sprite>
+			<sprite id="1" name="17">17_³²</sprite>
+			<sprite id="1" name="18">18_³²</sprite>
+			<sprite id="1" name="19">19_³²</sprite>
+			<sprite id="1" name="20">10_³²</sprite>
+			<sprite id="1" name="21">21_³²</sprite>
+			<sprite id="1" name="22">22_³²</sprite>
+			<sprite id="1" name="23">23_³²</sprite>
+		</male>
+		<female directory="¿©\">
+			<sprite id="1" name="1">1_¿©</sprite>
+			<sprite id="1" name="2">2_¿©</sprite>
+			<sprite id="1" name="3">3_¿©</sprite>
+			<sprite id="1" name="4">4_¿©</sprite>
+			<sprite id="1" name="5">5_¿©</sprite>
+			<sprite id="1" name="6">6_¿©</sprite>
+			<sprite id="1" name="7">7_¿©</sprite>
+			<sprite id="1" name="8">8_¿©</sprite>
+			<sprite id="1" name="9">9_¿©</sprite>
+			<sprite id="1" name="10">10_¿©</sprite>
+			<sprite id="1" name="11">11_¿©</sprite>
+			<sprite id="1" name="12">12_¿©</sprite>
+			<sprite id="1" name="13">13_¿©</sprite>
+			<sprite id="1" name="14">14_¿©</sprite>
+			<sprite id="1" name="15">15_¿©</sprite>
+			<sprite id="1" name="16">16_¿©</sprite>
+			<sprite id="1" name="17">17_¿©</sprite>
+			<sprite id="1" name="18">18_¿©</sprite>
+			<sprite id="1" name="19">19_¿©</sprite>
+			<sprite id="1" name="20">10_¿©</sprite>
+			<sprite id="1" name="21">21_¿©</sprite>
+			<sprite id="1" name="22">22_¿©</sprite>
+			<sprite id="1" name="23">23_¿©</sprite>
+		</female>
+	</face>
+	<headgear>
+		<sprite id="1" name="Goggles">_°í±Û</sprite>
+		<sprite id="2" name="Kitty Band">_°í¾çÀÌ¸Ó¸®¶ì</sprite>
+		<sprite id="3" name="Glasses">_±Û·¡½º</sprite>
+		<sprite id="4" name="Fancy Flower">_²É</sprite>
+		<sprite id="5" name="Flower Band">_²É¸Ó¸®¶ì</sprite>
+		<sprite id="6" name="Bandana">_µÎ°Ç</sprite>
+		<sprite id="7" name="Turban">_µÕ±Ù¸ðÀÚ</sprite>
+		<sprite id="8" name="Flu Mask">_¸¶½ºÅ©</sprite>
+		<sprite id="9" name="Hairband">_¸Ó¸®¶ì</sprite>
+		<sprite id="10" name="Diver's Goggles">_¹°¾È°æ</sprite>
+		<sprite id="11" name="Biretta">_ºñ·¹Å¸</sprite>
+		<sprite id="12" name="Sunglasses">_¼±±Û·¡½º</sprite>
+		<sprite id="13" name="Eyepatch">_¾È´ë</sprite>
+		<sprite id="14" name="Cap">_Ä¸</sprite>
+		<sprite id="15" name="Bunny Band">_Åä³¢¸Ó¸®¶ì</sprite>
+		<sprite id="16" name="Hat (Y'know, the pink one)">_ÇÞ</sprite>
+		<sprite id="17" name="Ribbon">_¸®º»</sprite>
+		<sprite id="18" name="_¼­Å¬¸´">_¼­Å¬¸´</sprite>
+		<sprite id="19" name="Tiara">_Æ¼¾Æ¶ó</sprite>
+		<sprite id="20" name="Santa Hat">_»êÅ¸¸ðÀÚ</sprite>
+		<sprite id="21" name="Bandit Beard">_ÅÎ¼ö¿°</sprite>
+		<sprite id="22" name="Moustache">_Äà¼ö¿°</sprite>
+		<sprite id="23" name="Single Glass">_¿Ü´«¾È°æ</sprite>
+		<sprite id="24" name="Beard">_¼ö¿°</sprite>
+		<sprite id="25" name="Grandpa Beard">_Èò¼ö¿°</sprite>
+		<sprite id="26" name="Purple Glasses">_°í±Þ¼±±Û·¡½º</sprite>
+		<sprite id="27" name="Geek Glasses">_½ºÇÉ±Û·¡½º</sprite>
+		<sprite id="28" name="Queen Ribbon">_¿Õ¸®º»</sprite>
+		<sprite id="29" name="Sweet Gent">_½ºÀ§Æ®Á¨Æ²</sprite>
+		<sprite id="30" name="Golden Gear">_°ñµçÇìµå±â¾î</sprite>
+		<sprite id="31" name="Romantic Gent">_¿Ãµå½ºÅÍ·Î¸Ç½º</sprite>
+		<sprite id="32" name="Western Grace">_¿þ½ºÅÏ±×·¹ÀÌ½º</sprite>
+		<sprite id="33" name="Coronet">_ÄÚ·Î³Ý</sprite>
+		<sprite id="34" name="Cutie Band">_¸Ó¸®²ö</sprite>
+		<sprite id="35" name="Monk Cap">_¼ºÁ÷ÀÚÀÇ¸ðÀÚ</sprite>
+		<sprite id="36" name="Wizard Hat">_À§ÀúµåÇÞ</sprite>
+		<sprite id="37" name="Sunflower">_Àå½Ä¿ëÇØ¹Ù¶ó±â</sprite>
+		<sprite id="38" name="Angel Band">_Ãµ»çÀÇ¸Ó¸®¶ì</sprite>
+		<sprite id="39" name="Evil Band">_¾Ç¸¶ÀÇ¸Ó¸®¶ì</sprite>
+		<sprite id="40" name="Helm">_Çï¸§</sprite>
+		<sprite id="41" name="Majestic Goat">_¸¶Á¦½ºÆ½°í¿ìÆ®</sprite>
+		<sprite id="42" name="Snow Horn">_»õÇÏ¾á»Ô</sprite>
+		<sprite id="43" name="Spiky Band">_»þÇÁÇìµå±â¾î</sprite>
+		<sprite id="44" name="Wedding Veil">_¸é»çÆ÷</sprite>
+		<sprite id="45" name="Crown">_Å©¶ó¿î</sprite>
+		<sprite id="46" name="Propeller">_ÇÁ·ÎÆç¶ó</sprite>
+		<sprite id="47" name="Miniglasses (I think?)">_¹Ì´Ï±Û·¡½º</sprite>
+		<sprite id="48" name="Army Cap (Needs to be made a normal drop NOW.)">_ÇÁ·ÐÅ×¶ó±º¸ð</sprite>
+		<sprite id="49" name="Pierrot Nose">_±¤´ëÄÚ</sprite>
+		<sprite id="50" name="Zorro Mask (I think?)">_ÀÇÀû¾È´ë</sprite>
+		<sprite id="51" name="Munak Hat">_¹«³«¸ðÀÚ</sprite>
+		<sprite id="52" name="Gangster Mask">_½ÃÀ§¿ë¸¶½ºÅ©</sprite>
+		<sprite id="53" name="Iron Cain">_¾ÆÀÌ¾ðÄÉÀÎ</sprite>
+		<sprite id="54" name="Cigar">_´ã¹è</sprite>
+		<sprite id="55" name="Pipe">_ÆÄÀÌÇÁ´ã¹è</sprite>
+		<sprite id="56" name="Romantic Flower">_²ÉÀÙ</sprite>
+		<sprite id="57" name="Romantic Leaf">_Ç®ÀÙ</sprite>
+		<sprite id="58" name="Jack A Dandy">_¸Ó¸®¾È°æ</sprite>
+		<sprite id="59" name="Stop Post">_Á¤ÁöÇ¥ÁöÆÇ</sprite>
+		<sprite id="60" name="Doctor Band">_ÀÇ»ç¸Ó¸®¶ì</sprite>
+		<sprite id="61" name="Ghost Bandana">_¸ÁÀÚÀÇ¸Ó¸®¶ì</sprite>
+		<sprite id="62" name="Red Bandana">_¹Ý´Ù³ª</sprite>
+		<sprite id="63" name="Eagle Eyes">_µµ³¢´«</sprite>
+		<sprite id="64" name="Nurse Cap">_°£È£¸ð</sprite>
+		<sprite id="65" name="Mr. Smile (SATAN!!)">_½º¸¶ÀÏ</sprite>
+		<sprite id="66" name="Bomb Wick">_½ÉÁö</sprite>
+		<sprite id="67" name="Sakkat">_»ñ°«</sprite>
+		<sprite id="68" name="Opera Masque">_¿ÀÆä¶ó°¡¸é</sprite>
+		<sprite id="69" name="Heaven Ring">_¿µÈ¥°í¸®</sprite>
+		<sprite id="70" name="Earmuffs">_±Í¸¶°³</sprite>
+		<sprite id="71" name="Antlers">_»ç½¿»Ô</sprite>
+		<sprite id="72" name="Apple O' Archer">_¸í»ç¼öÀÇ»ç°ú</sprite>
+		<sprite id="73" name="Elven Ears">_¿äÁ¤ÀÇ±Í</sprite>
+		<sprite id="74" name="Pirate Bandana">_ÇØÀûµÎ°Ç</sprite>
+		<sprite id="75" name="Mr. Scream">_½ºÅ©·¡Ä¡¸¶½ºÅ©</sprite>
+		<sprite id="76" name="Poopoo Hat">_°Å½Ã±â</sprite>
+		<sprite id="77" name="Funeral Hat">_Àå·Ê°Ç</sprite>
+		<sprite id="78" name="Masquerade">_³ªºñ°¡¸é</sprite>
+		<sprite id="79" name="Welding Mask">_¿ëÁ¢¸¶½ºÅ©</sprite>
+		<sprite id="80" name="Pretend Murdered">_¿¬±Ø¼Òµµ±¸</sprite>
+		<sprite id="81" name="Stellar">_½ºÅ¸´õ½ºÆ®</sprite>
+		<sprite id="82" name="Blinker">_´«°¡¸®°³</sprite>
+		<sprite id="83" name="Binoculars">_¸Á¿ø°æ</sprite>
+		<sprite id="84" name="Goblin Mask">_°íºí¸°Á·°¡¸é</sprite>
+		<sprite id="85" name="Green Feelers">_ÃÊ·Ï´õµëÀÌ</sprite>
+		<sprite id="86" name="Orc Helm">_¿ÀÅ©Á·Çï¸§</sprite>
+		<sprite id="87" name="Headset">_ÇìµåÆù</sprite>
+		<sprite id="88" name="Gemmed Crown">_Áê¾óÅ©¶ó¿î</sprite>
+		<sprite id="89" name="Joker Jester">_±¤´ë¸ðÀÚ</sprite>
+		<sprite id="90" name="Oxygen Mask">_»ê¼Ò¸¶½ºÅ©</sprite>
+		<sprite id="91" name="Gas Mask">_°¡½º¸¶½ºÅ©</sprite>
+		<sprite id="92" name="Machoman Glasses (again?)">_ÇÏÆ®ÆÄ¿îµ¥ÀÌ¼Ç</sprite>
+		<sprite id="93" name="_·Îµå¼­Å¬¸´">_·Îµå¼­Å¬¸´</sprite>
+		<sprite id="94" name="Puppy Love">_Ç²»ç¶û</sprite>
+		<sprite id="95" name="Safety Helmet">_¾ÈÀü¸ð</sprite>
+		<sprite id="96" name="Indian Fillet">_¿øÁÖ¹Î¸Ó¸®¶ì</sprite>
+		<sprite id="97" name="Antennae">_¾ÈÅ×³ª</sprite>
+		<sprite id="98" name="Ph.D Hat">_ÇÐ»ç¸ð</sprite>
+		<sprite id="99" name="Lord Kaho's Horns">_·ÎµåÄ«È£ÀÇ»Ô</sprite>
+		<sprite id="100" name="Fin Helm">_ÇÉÇï¸§</sprite>
+		<sprite id="101" name="Eggshell Hat">_Àå½Ä¿ë¾Ë²®Áú</sprite>
+		<sprite id="102" name="Boys Cap">_ÇÐ»ý¸ð</sprite>
+		<sprite id="103" name="Bone Helm">_º»Çï¸§</sprite>
+		<sprite id="104" name="Feather Bonnet">_±êÅÐ¸ðÀÚ</sprite>
+		<sprite id="105" name="Corsair">_Ä¿¼¼¾î</sprite>
+		<sprite id="106" name="Kafra Band">_Ä«ÇÁ¶óÀÇ¸Ó¸®¶ì</sprite>
+		<sprite id="107" name="Heart of Merchant">_µ·ÀÒÀºÀÚÀÇ¸¶À½</sprite>
+		<sprite id="108" name="Handkerchief">_º¸µû¸®¸ð</sprite>
+		<sprite id="109" name="Cake Hat">_ÄÉÀÌÅ©¸ðÀÚ</sprite>
+		<sprite id="110" name="Angel Helm">_Ãµ»çÀÇÅõ±¸</sprite>
+		<sprite id="111" name="Chef Hat">_¿ä¸®»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="112" name="Hat of Magic Instructor">_¸¶¹ý»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="113" name="Candle">_ÃÐºÒ</sprite>
+		<sprite id="114" name="Spore Hat">_½ºÆ÷¾Æ¸ðÀÚ</sprite>
+		<sprite id="115" name="Panda Hat">_ÆÒ´õ°õ¸ðÀÚ</sprite>
+		<sprite id="116" name="Miner Hat">_±¤»êÇï¸ä</sprite>
+		<sprite id="117" name="Picnic Hat">_³ªµéÀÌ¸ðÀÚ</sprite>
+		<sprite id="118" name="Smokie Hat">_³Ê±¸¸®¸ðÀÚ</sprite>
+		<sprite id="119" name="Lightbulb Hairband">_Àü±¸¸Ó¸®¶ì</sprite>
+		<sprite id="120" name="Poring Hat">_Æ÷¸µ¸ðÀÚ</sprite>
+		<sprite id="121" name="Cross Hairband">_½ÊÀÚ¸Ó¸®¶ì</sprite>
+		<sprite id="122" name="_¿­¸Å²®Áú">_¿­¸Å²®Áú</sprite>
+		<sprite id="123" name="Deviruchi Hat">_»õ³¢¾Ç¸¶¸ðÀÚ</sprite>
+		<sprite id="124" name="Spotted Eggshell">_¾Ë·Ï´Þ·Ï¾Ë²®Áú</sprite>
+		<sprite id="125" name="Innocence of Maiden (Make up your mind, Gravity!)">_¹ß±×·¹</sprite>
+		<sprite id="126" name="Heart Hairpin">_ÇÏÆ®¸Ó¸®ÇÉ</sprite>
+		<sprite id="127" name="Dumpling Decoration">_¸Ó¸®Æ÷ÀÚ±â</sprite>
+		<sprite id="128" name="Phantom of Opera">_¿ÀÆä¶óÀ¯·É°¡¸é</sprite>
+		<sprite id="129" name="Innocence of Maiden (again?)">_¾Ç¸¶ÀÇ³¯°³</sprite>
+		<sprite id="130" name="Magic Hat">_¸¶¼ú»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="131" name="Fashion Sunglasses">_ÆÐ¼Ç¼±±Û·¡½º</sprite>
+		<sprite id="132" name="Crescent Moon Hairpin">_ÃÊ½Â´Þ¸Ó¸®ÇÉ</sprite>
+		<sprite id="133" name="Striped Bandana">_ÁÙ¹«´Ì¸Ó¸®¶ì</sprite>
+		<sprite id="134" name="_½ÅºñÇÑ¿­¸Å²®Áú">_½ÅºñÇÑ¿­¸Å²®Áú</sprite>
+		<sprite id="135" name="Innocence of Maiden">_°í¾çÀÌ¹æ¿ï</sprite>
+		<sprite id="136" name="Blue Bandana">_Ã»»ö¸Ó¸®¶ì</sprite>
+		<sprite id="137" name="Sphinx Hat">_½ºÇÎÅ©½º¸ðÀÚ</sprite>
+		<sprite id="138" name="Solar God Helm">_ÅÂ¾ç½ÅÀÇ¸ðÀÚ</sprite>
+		<sprite id="139" name="Bon Gun Hat">_º»°Ç¸ðÀÚ</sprite>
+		<sprite id="140" name="_»ç¶ûÀÇ¿­¸Å">_»ç¶ûÀÇ¿­¸Å</sprite>
+		<sprite id="141" name="Black Cat Ears">_°ËÀº°í¾çÀÌ±Í</sprite>
+		<sprite id="142" name="Drooping Cat">_´Ã¾îÁø°í¾çÀÌ</sprite>
+		<sprite id="143" name="Teddybear Hat">_°õµ¹ÀÌ¸ðÀÚ</sprite>
+		<sprite id="144" name="Party Hat">_²¿±ò¸ðÀÚ</sprite>
+		<sprite id="145" name="Flower Hairpin">_²É¸Ó¸®ÇÉ</sprite>
+		<sprite id="146" name="Straw Hat">_¹ÐÂ¤¸ðÀÚ</sprite>
+		<sprite id="147" name="Giant Band Aid">_¹ÝÃ¢°í</sprite>
+		<sprite id="148" name="Smokie Leaf">_³ª¹µÀÙÅõ±¸</sprite>
+		<sprite id="149" name="Blue Fish">_»ý¼±¸ðÀÚ</sprite>
+		<sprite id="150" name="_¼­Å¥¹ö½º»Ô">_¼­Å¥¹ö½º»Ô</sprite>
+		<sprite id="151" name="Sombrero">_¼Øºê·¹·Î</sprite>
+		<sprite id="152" name="Evil Wing Ears">_¾Ç¸¶³¯°³±Í</sprite>
+		<sprite id="153" name="Fox Mask">_¿©¿ì°¡¸é</sprite>
+		<sprite id="154" name="_¿­Ç÷¸Ó¸®¶ì">_¿­Ç÷¸Ó¸®¶ì</sprite>
+		<sprite id="155" name="Indian Headband">_ÀÎµð¾È¸Ó¸®¶ì</sprite>
+		<sprite id="156" name="Incubus Horn">_ÀÎÅ¥¹ö½º»Ô</sprite>
+		<sprite id="157" name="Model Training Hat">_ÀÚ¼¼±³Á¤¸ðÀÚ</sprite>
+		<sprite id="158" name="Angel Wing Ears">_Ãµ»ç³¯°³±Í</sprite>
+		<sprite id="159" name="Cowboy Hat">_Ä«¿ìº¸ÀÌ¸ðÀÚ</sprite>
+		<sprite id="160" name="Beanie">_ÅÐ¸ðÀÚ</sprite>
+		<sprite id="161" name="Tulip Hairpin">_Æ«¸³¸Ó¸®ÇÉ</sprite>
+		<sprite id="162" name="Sea Otter Hat">_ÇØ´Þ¸ðÀÚ</sprite>
+		<sprite id="163" name="_XÀÚ¸Ó¸®ÇÉ">_XÀÚ¸Ó¸®ÇÉ</sprite>
+		<sprite id="164" name="Crown of Ancient Queen">_¿©¿ÕÀÇÅõ±¸</sprite>
+		<sprite id="165" name="Crown of Mistress">_¹Ì½ºÆ®·¹½º¿Õ°ü</sprite>
+		<sprite id="166" name="Decorative Mushroom">_¹ö¼¸¸Ó¸®¶ì</sprite>
+		<sprite id="167" name="Red Ribbon">_»¡°£Å×ÀÏ¸®º»</sprite>
+		<sprite id="168" name="Lazy Smokie">_±ÍÂúÀº³Ê±¸¸®</sprite>
+		<sprite id="169" name="Small Ribbons">_¾çÂÊ±Í¹Ø¸®º»</sprite>
+		<sprite id="170" name="Alarm Mask">_¾Ë¶÷°¡¸é</sprite>
+		<sprite id="171" name="Poker Face">_°íºí¸°°¡¸é1È£</sprite>
+		<sprite id="172" name="Surprised Mask">_°íºí¸°°¡¸é2È£</sprite>
+		<sprite id="173" name="Annoyed Mask">_°íºí¸°°¡¸é3È£</sprite>
+		<sprite id="174" name="Goblin Leader Mask">_°íºí¸°°¡¸é4È£</sprite>
+		<sprite id="175" name="Golden Bells">_´ëÇü±Ý¹æ¿ï</sprite>
+		<sprite id="176" name="Coif (Nun Hat)">_¼ö³à¸ðÀÚ</sprite>
+		<sprite id="177" name="Coif (Nun Hat)">_¼ö³à¸ðÀÚ</sprite>
+		<sprite id="178" name="Orc Hero Helm">_¿ÀÅ©È÷¾î·ÎÅõ±¸</sprite>
+		<sprite id="179" name="Orc Hero Helm">_¿ÀÅ©È÷¾î·ÎÅõ±¸</sprite>
+		<sprite id="180" name="Assassin Mask">_¾î»õ½Å¸¶½ºÅ©</sprite>
+		<sprite id="181" name="Tiger Mask">_Å¸ÀÌ°Å¸¶½ºÅ©</sprite>
+		<sprite id="182" name="Neko Mimi (mo?forget it)">_°í¾çÀÌ¸ðÀÚ</sprite>
+		<sprite id="183" name="Sales Sign">_¼¼ÀÏÇ¥ÁöÆÇ</sprite>
+		<sprite id="184" name="Takius's Blinker">_Å¸Å°¿ì½º´«°¡¸®°³</sprite>
+		<sprite id="185" name="_¹èÆ²¿Â¶óÀÎ">_¹èÆ²¿Â¶óÀÎ</sprite>
+		<sprite id="186" name="Sunflower Hairpin">_ÇØ¹Ù¶ó±âÇÉ</sprite>
+		<sprite id="187" name="Dark Blinder">_°ËÀº´«°¡¸®°³</sprite>
+		<sprite id="188" name="Crunch Toast">_Åä½ºÆ®</sprite>
+		<sprite id="189" name="Renown Detective's Cap (Sherlocke maybe?)">_Å½Á¤¸ðÀÚ</sprite>
+		<sprite id="190" name="Red Bonnet">_Â÷¾ç¸ðÀÚ</sprite>
+		<sprite id="191" name="Baby Pacifier">_Á¥²ÀÁö</sprite>
+		<sprite id="192" name="Galapago Hat">_¿À¸®¸ðÀÚ</sprite>
+		<sprite id="193" name="Super Novice Hat">_½´³ë¸ðÀÚ</sprite>
+		<sprite id="194" name="Angry Snarl">_ºÐ³ëÀÔ</sprite>
+		<sprite id="195" name="Bucket Hat">_º¡°ÅÁö¸ðÀÚ</sprite>
+		<sprite id="196" name="Winter Hat">_¹æÇÑ¸ðÀÚ</sprite>
+		<sprite id="197" name="Banana Hat">_¹Ù³ª³ª¸ðÀÚ</sprite>
+		<sprite id="198" name="Mystic Rose">_¹Ì½ºÆ½·ÎÁî</sprite>
+		<sprite id="199" name="_°­¾ÆÁö±Í">_°­¾ÆÁö±Í</sprite>
+		<sprite id="200" name="Zherlthsh Mask (Zeolotus Mask)">_Áö¸£Å¸½º°¡¸é</sprite>
+		<sprite id="201" name="Bird Nest">_»õµÕÁö</sprite>
+		<sprite id="202" name="Lion Mask">_¶óÀÌ¿Â¸¶½ºÅ©</sprite>
+		<sprite id="203" name="Close Helmet">_Å¬·Î½ºÇï¸ä</sprite>
+		<sprite id="204" name="Angeling Hat">_¿£Á©¸µ¸ðÀÚ</sprite>
+		<sprite id="205" name="Sheep Hat">_¾ç¸ðÀÚ</sprite>
+		<sprite id="206" name="Pumpkin Head">_È£¹Ú¸ðÀÚ</sprite>
+		<sprite id="207" name="Cyclops Eye">_»çÀÌÅ¬·Ó½º¾ÆÀÌ</sprite>
+		<sprite id="208" name="Alice Doll Hat">_¿¤¸®½º¸ðÀÚ</sprite>
+		<sprite id="209" name="Magic Eyes (Wizardy looking)">_¸ÅÁ÷¾ÆÀÌÁî</sprite>
+		<sprite id="210" name="Lotus">_ºÎ¿ë</sprite>
+		<sprite id="211" name="Kawaii Ribbon">_¿¹»Û¸®º»</sprite>
+		<sprite id="212" name="Marionette Doll Hat">_¸¶¸®¿À³Ý¸ðÀÚ</sprite>
+		<sprite id="213" name="Crescent Helm">_ÃÊ½Â´ÞÅõ±¸</sprite>
+		<sprite id="214" name="Kabuki Mask">_°¡ºÎÅ°°¡¸é</sprite>
+		<sprite id="215" name="Elephant Hat">_ÄÚ³¢¸®¸ðÀÚ</sprite>
+		<sprite id="216" name="Baseball Hat">_¾ß±¸¸ðÀÚ</sprite>
+		<sprite id="217" name="National Holiday Hat">_±¹°æÀÏ¸ðÀÚ</sprite>
+		<sprite id="218" name="Silver Tiara">_½Ç¹öÆ¼¾Æ¶ó</sprite>
+		<sprite id="219" name="Brazil Event Hat">_±¤´ë¸ðÀÚ_</sprite>
+		<sprite id="220" name="Note Headphones">_À½Ç¥ÇìµåÆù</sprite>
+		<sprite id="221" name="Phoenix Crown">_ºÀ°ü</sprite>
+		<sprite id="222" name="Angeling Pin">_¿£Á©¸µÇÉ</sprite>
+		<sprite id="223" name="Bride Mask">_°¢½ÃÅ»</sprite>
+		<sprite id="224" name="Feather Beret">_±êÅÐº£·¹¸ð</sprite>
+		<sprite id="225" name="Valkyrie Helm">_¹ßÅ°¸®Åõ±¸</sprite>
+		<sprite id="226" name="Beret">_º£·¹¸ð</sprite>
+		<sprite id="227" name="Judge Hat">_»ç¶Ç¸ðÀÚ</sprite>
+		<sprite id="228" name="A-yam">_¾Æ¾ä</sprite>
+		<sprite id="229" name="Anonymity Request">_ÀÍ¸í¿äÃ»</sprite>
+		<sprite id="230" name="Smiling Mask">_ÇÏÈ¸Å»</sprite>
+		<sprite id="231" name="Lion Masquerade">_»çÀÚÅ»</sprite>
+		<sprite id="232" name="Golden Tiara">_°ñµåÆ¼¾Æ¶ó</sprite>
+		<sprite id="233" name="Helm of Darkness">_¾ÏÈæÀÇÅõ±¸</sprite>
+		<sprite id="234" name="_°­¾ÆÁö¸ðÀÚ">_°­¾ÆÁö¸ðÀÚ</sprite>
+		<sprite id="235" name="Nest Hat">_»õµÕÁö¸ðÀÚ</sprite>
+		<sprite id="236" name="Captain's Hat">_¼±ÀåÀÇ¸ðÀÚ</sprite>
+		<sprite id="237" name="Laurel Crown">_¿ù°è¼ö°ü</sprite>
+		<sprite id="238" name="Geographer Decoration">_Àå½Ä¿ëÁö¿À±×·¡ÆÛ</sprite>
+		<sprite id="239" name="Twin Ribbon">_Æ®À©¸®º»</sprite>
+		<sprite id="240" name="Wandering Minstrel Hat">_À½À¯½ÃÀÎ¸ðÀÚ</sprite>
+		<sprite id="241" name="Autumn Leaves">_³«¿±</sprite>
+		<sprite id="242" name="Black Ribbon">_¸®º»_°ËÁ¤</sprite>
+		<sprite id="243" name="Yellow Ribbon">_¸®º»_³ë¶û</sprite>
+		<sprite id="244" name="Green Ribbon">_¸®º»_ÃÊ·Ï</sprite>
+		<sprite id="245" name="Pink Ribbon">_¸®º»_ºÐÈ«</sprite>
+		<sprite id="246" name="_¸®º»_»¡°­">_¸®º»_»¡°­</sprite>
+		<sprite id="247" name="Orange Ribbon">_¸®º»_ÁÖÈ«</sprite>
+		<sprite id="248" name="White Ribbon">_¸®º»_ÇÏ¾ç</sprite>
+		<sprite id="249" name="Drooping Bunny">_´Ã¾îÁøÅä³¢</sprite>
+		<sprite id="250" name="Magni's Cap">_¸Þ±äÄ¸</sprite>
+		<sprite id="251" name="_ÇÁ¸®Ä«¼­Å¬¸´">_ÇÁ¸®Ä«¼­Å¬¸´</sprite>
+		<sprite id="252" name="Coppola (Pink Hat)">_ÄÚÆú¶ó</sprite>
+		<sprite id="253" name="Smiling Tongue Mask">_¸Þ·Õ°¡¸é</sprite>
+		<sprite id="254" name="Ulle's Cap">_¿ïÄ¸</sprite>
+		<sprite id="255" name="Angel's Kiss">_Ãµ»çÀÇÀÔ¸ÂÃã</sprite>
+		<sprite id="256" name="Blue Headband Looking Thing">_¸ð¸£ÇÇ¼Å½ºµÎ°Ç</sprite>
+		<sprite id="257" name="Morrigane's Helm">_¸ð¸®¾Æ³×Çï¸§</sprite>
+		<sprite id="258" name="Goibne's Helmet">_°Ôºê³×ÀÌÅõ±¸</sprite>
+		<sprite id="259" name="White Romantic/Centimental Flower">_ÇÏ¾á²ÉÀÙ</sprite>
+		<sprite id="260" name="Golden Halo">_±Ý»ö°í¸®</sprite>
+		<sprite id="261" name="Another Laurel without flowers?">_¿ù°è°ü</sprite>
+		<sprite id="262" name="Rideword Hat">_¶óÀÌµå¿öµå</sprite>
+		<sprite id="263" name="Brown Baseball Cap">_³ë¶õ¾ß±¸¸ðÀÚ</sprite>
+		<sprite id="264" name="_ºñ»óÇÏ´ÂÃµ»ç">_ºñ»óÇÏ´ÂÃµ»ç</sprite>
+		<sprite id="265" name="_µå·¹½ºÇÞ">_µå·¹½ºÇÞ</sprite>
+		<sprite id="266" name="_»õÆ²¶óÀÌÆ®Çì¾î¹êµå">_»õÆ²¶óÀÌÆ®Çì¾î¹êµå</sprite>
+		<sprite id="267" name="_°ËÀºÅä³¢¸Ó¸®¶ì">_°ËÀºÅä³¢¸Ó¸®¶ì</sprite>
+		<sprite id="268" name="_¿ù¾ßÈ­¸ðÀÚ">_¿ù¾ßÈ­¸ðÀÚ</sprite>
+		<sprite id="269" name="_¸¶ÄªÇÞ">_¸¶ÄªÇÞ</sprite>
+		<sprite id="270" name="_ÇÁ·ÎÆç¶ó_">_ÇÁ·ÎÆç¶ó_</sprite>
+		<sprite id="271" name="_»¡°­»õ³¢¾Ç¸¶¸ðÀÚ">_»¡°­»õ³¢¾Ç¸¶¸ðÀÚ</sprite>
+		<sprite id="272" name="_Èò»ö»õ³¢¾Ç¸¶¸ðÀÚ">_Èò»ö»õ³¢¾Ç¸¶¸ðÀÚ</sprite>
+		<sprite id="273" name="_È¸»ö»õ³¢¾Ç¸¶¸ðÀÚ">_È¸»ö»õ³¢¾Ç¸¶¸ðÀÚ</sprite>
+		<sprite id="274" name="_Èò»ö´Ã¾îÁø°í¾çÀÌ">_Èò»ö´Ã¾îÁø°í¾çÀÌ</sprite>
+		<sprite id="275" name="_È¸»ö´Ã¾îÁø°í¾çÀÌ">_È¸»ö´Ã¾îÁø°í¾çÀÌ</sprite>
+		<sprite id="276" name="_ºÐÈ«´Ã¾îÁø°í¾çÀÌ">_ºÐÈ«´Ã¾îÁø°í¾çÀÌ</sprite>
+		<sprite id="277" name="_ÆÄ¶û´Ã¾îÁø°í¾çÀÌ">_ÆÄ¶û´Ã¾îÁø°í¾çÀÌ</sprite>
+		<sprite id="278" name="_³ë¶û´Ã¾îÁø°í¾çÀÌ">_³ë¶û´Ã¾îÁø°í¾çÀÌ</sprite>
+		<sprite id="279" name="_È¸»öÅÐ¸ðÀÚ">_È¸»öÅÐ¸ðÀÚ</sprite>
+		<sprite id="280" name="_ÆÄ¶ûÅÐ¸ðÀÚ">_ÆÄ¶ûÅÐ¸ðÀÚ</sprite>
+		<sprite id="281" name="_ºÐÈ«ÅÐ¸ðÀÚ">_ºÐÈ«ÅÐ¸ðÀÚ</sprite>
+		<sprite id="282" name="_»¡°­¸¶¹ý»çÀÇ¸ðÀÚ">_»¡°­¸¶¹ý»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="283" name="_Èò»ö¸¶¹ý»çÀÇ¸ðÀÚ">_Èò»ö¸¶¹ý»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="284" name="_È¸»ö¸¶¹ý»çÀÇ¸ðÀÚ">_È¸»ö¸¶¹ý»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="285" name="_ÆÄ¶û¸¶¹ý»çÀÇ¸ðÀÚ">_ÆÄ¶û¸¶¹ý»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="286" name="_³ë¶û¸¶¹ý»çÀÇ¸ðÀÚ">_³ë¶û¸¶¹ý»çÀÇ¸ðÀÚ</sprite>
+		<sprite id="287" name="White Romantic/Centimental Flower">_ÇÏ¾á²ÉÀÙ</sprite>
+		<sprite id="288" name="Blinker">_´«°¡¸®°³</sprite>
+		<sprite id="289" name="Sunglasses">_¼±±Û·¡½º</sprite>
+		<sprite id="290" name="Angel Band">_Ãµ»çÀÇ¸Ó¸®¶ì</sprite>
+		<sprite id="291" name="Evil Band">_¾Ç¸¶ÀÇ¸Ó¸®¶ì</sprite>
+		<sprite id="292" name="Elven Ears">_¿äÁ¤ÀÇ±Í</sprite>
+		<sprite id="293" name="Elven Ears">_¿äÁ¤ÀÇ±Í</sprite>
+		<sprite id="294" name="Elven Ears">_¿äÁ¤ÀÇ±Í</sprite>
+		<sprite id="295" name="Elven Ears">_¿äÁ¤ÀÇ±Í</sprite>
+		<sprite id="296" name="_´Ã¾îÁø±¸¹ÌÈ£">_´Ã¾îÁø±¸¹ÌÈ£</sprite>
+		<sprite id="297" name="_¸®ÇÁÀÎÇü¸ðÀÚ">_¸®ÇÁÀÎÇü¸ðÀÚ</sprite>
+		<sprite id="298" name="_µ¥ºô¸µ¸ðÀÚ">_µ¥ºô¸µ¸ðÀÚ</sprite>
+		<sprite id="299" name="_Æ÷¸µ°ã¸ðÀÚ">_Æ÷¸µ°ã¸ðÀÚ</sprite>
+		<sprite id="300" name="_¹ßÅ°¸®±êÅÐ¸ðÀÚ">_¹ßÅ°¸®±êÅÐ¸ðÀÚ</sprite>
+		<sprite id="301" name="_¼Ò¿ï¸®½ºÀ®">_¼Ò¿ï¸®½ºÀ®</sprite>
+		<sprite id="302" name="_¾ÆÇÁ·Î°¡¹ß">_¾ÆÇÁ·Î°¡¹ß</sprite>
+		<sprite id="303" name="*_°í±Û">*_°í±Û</sprite>
+	</headgear>
+</sprites>

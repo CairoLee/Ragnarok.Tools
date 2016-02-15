@@ -1,0 +1,38 @@
+<config>
+    <ro directory="d:\games\arcturus\" />
+    <files>
+        <models>
+            <model>data/arcturusmodels.txt</model>
+        </models>
+        <textures>
+            <texture>data/arctextures.txt</texture>
+        </textures>
+    </files>
+    <graphics>
+        <resx>1024</resx>
+        <resy>768</resy>
+        <fullscreen>false</fullscreen>
+        <bpp>32</bpp>
+        <font>tahoma</font>
+        <skin>data/skins/ro.xml</skin>
+        <notilecolor>FFFF80</notilecolor>
+        <bgcolor>8000FF</bgcolor>
+    </graphics>
+    <undo size="50" />
+    <language>english</language>
+    <splash>data/hamtaro.tga</splash>
+    <water>
+        <directory>data\texture\wate\</directory>
+        <extension>.bmp</extension>
+        <count>7</count>
+    </water>
+    <gattiles>
+		<tile>0</tile>
+        <tile>1</tile>
+        <tile>2</tile>
+        <tile>3</tile>
+        <tile>4</tile>
+        <tile>5</tile>
+        <tile>6</tile>
+	</gattiles>
+</config>

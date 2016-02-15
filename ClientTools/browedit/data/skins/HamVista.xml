@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<skin name="HamVista">
+	<color>FFFFFFFF</color>
+	<colorblurred>FFFFFFAA</colorblurred>
+	<texture>data/skins/HamVista.tga</texture>
+	<font>data/fonts/tahoma.tga</font>
+	<menubar>
+		<color>FFFFFFFF</color>
+		<fontcolor>000000FF</fontcolor>
+		<highlight>3333E5FF</highlight>
+		<menu>
+			<color>FFFFFF</color>
+			<fontcolor>000000</fontcolor>
+			<highlight>3333E5</highlight>
+			<targetopacity>0.75</targetopacity>
+			<startopacity>0</startopacity>
+		</menu>			
+	</menubar>
+	<window>
+		<title>
+			<fontcolor>000000</fontcolor>
+			<xoff>35</xoff>
+			<yoff>8</yoff>
+		</title>
+		<fontcolor>000000</fontcolor>
+		<top height="28">0</top>
+		<left width="140">0</left>
+		<right width="76">369</right>
+		<bottom height="9">250</bottom>
+		<offsets>
+			<top>28</top>
+			<bottom>8</bottom>
+			<left>8</left>
+			<right>8</right>
+		</offsets>
+	</window>
+	<button>
+		<fontcolor>000000</fontcolor>
+		<top height="5">342</top>
+		<left width="5">19</left>
+		<right width="5">97</right>
+		<bottom height="5">361</bottom>
+	</button>
+	<miniwindow>
+		<fontcolor>000000</fontcolor>
+		<top height="5">342</top>
+		<left width="5">19</left>
+		<right width="5">97</right>
+		<bottom height="5">361</bottom>
+		<offsets>
+			<top>16</top>
+			<bottom>8</bottom>
+			<left>8</left>
+			<right>8</right>
+		</offsets>
+	</miniwindow>
+	<input>
+		<fontcolor>000000</fontcolor>
+		<top height="3">281</top>
+		<left width="3">47</left>
+		<right width="3">56</right>
+		<bottom height="4">290</bottom>
+	</input>
+	<list>
+		<fontcolor>000000</fontcolor>
+		<top height="3">281</top>
+		<left width="3">47</left>
+		<right width="3">56</right>
+		<bottom height="4">290</bottom>
+		<selectcolor>6666FF</selectcolor>
+		<selectfontcolor>FFFFFF</selectfontcolor>
+		<scroll>
+			<width>16</width>
+			<left>0</left>
+			<centerheight>15</centerheight>
+			<background>
+				<left>0</left>
+				<top>294</top>
+				<height>1</height>
+			</background>
+			<buttonup>
+				<left>0</left>
+				<top>281</top>
+				<height>16</height>
+			</buttonup>
+			<buttondown>
+				<left>0</left>
+				<top>337</top>
+				<height>16</height>
+			</buttondown>
+			<top height="4">300</top>
+			<bottom height="4">332</bottom>
+		</scroll>
+	</list>
+	<frame>
+		<fontcolor>000000</fontcolor>
+		<top height="3">281</top>
+		<left width="3">47</left>
+		<right width="3">56</right>
+		<bottom height="4">290</bottom>
+	</frame>
+	<tabstrip>
+		<fontcolor>000000</fontcolor>
+		<fontoffx>3</fontoffx>
+		<fontoffy>-1</fontoffy>
+		<tabselected>
+			<top>296</top>
+			<height>21</height>
+			<left width="2">19</left>
+			<right width="2">71</right>
+			<overlapleft>1</overlapleft>
+			<overlapright>0</overlapright>
+		</tabselected>
+		<tabunselected>
+			<top>298</top>
+			<height>19</height>
+			<left width="2">77</left>
+			<right width="2">138</right>
+			<overlapleft>1</overlapleft>
+			<overlapright>0</overlapright>
+		</tabunselected>
+		<top height="1">317</top>
+		<left width="3">19</left>
+		<right width="2">149</right>
+		<bottom height="2">339</bottom>
+	</tabstrip>
+	<closebutton>
+		<top height="10">260</top>
+		<left width="22">104</left>
+		<right width="22">126</right>
+		<bottom height="9">269</bottom>
+		<width>44</width>
+		<height>18</height>
+		<offsetx>-2</offsetx>
+		<offsety>-28</offsety>
+	</closebutton>
+	<collapsebutton>
+		<top height="10">260</top>
+		<left width="13">75</left>
+		<right width="13">88</right>
+		<bottom height="9">269</bottom>
+		<width>26</width>
+		<height>18</height>
+		<offsetx>42</offsetx>
+		<offsety>-28</offsety>
+	</collapsebutton>
+	<checkbox>
+		<width>13</width>
+		<height>13</height>
+		<unchecked>
+			<left>18</left>
+			<top>281</top>
+		</unchecked>
+		<checked>
+			<left>32</left>
+			<top>281</top>
+		</checked>
+	</checkbox>
+	<progress type="normal">
+		<back>
+			<height>16</height>
+			<top>20</top>
+			<left width="4">450</left>
+			<right width="4">465</right>
+		</back>
+		<bar>
+			<height>16</height>
+			<top>0</top>
+			<left width="4">450</left>
+			<right width="4">465</right>
+		</bar>
+	</progress>
+</skin>

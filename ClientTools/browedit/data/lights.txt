@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lights>
+    <light>
+        <name>default</name>
+        <color r="0" g="0" b="0" />
+        <range>200</range>
+        <brightness>127</brightness>
+        <maxlight>256</maxlight>
+        <givesshadow>0</givesshadow>
+        <lightfalloff>1</lightfalloff>
+        <height>10</height>
+    </light>
+    <light>
+        <name>ambient light</name>
+        <color r="0" g="0" b="0" />
+        <range>200000</range>
+        <brightness>127</brightness>
+        <maxlight>127</maxlight>
+        <givesshadow>1</givesshadow>
+        <lightfalloff>0.00001</lightfalloff>
+        <height>50</height>
+    </light>
+    <colors>
+        <light>
+            <name>red</name>
+            <color r="0.5" g="0" b="0" />
+            <range>200</range>
+            <brightness>127</brightness>
+            <maxlight>256</maxlight>
+            <givesshadow>1</givesshadow>
+            <lightfalloff>1</lightfalloff>
+            <height>10</height>
+        </light>
+        <light>
+            <name>green</name>
+            <color r="0" g="0.5" b="0" />
+            <range>200</range>
+            <brightness>127</brightness>
+            <maxlight>256</maxlight>
+            <givesshadow>1</givesshadow>
+            <lightfalloff>1</lightfalloff>
+            <height>10</height>
+        </light>
+        <light>
+            <name>blue</name>
+            <color r="0" g="0" b="0.5" />
+            <range>200</range>
+            <brightness>127</brightness>
+            <maxlight>256</maxlight>
+            <givesshadow>1</givesshadow>
+            <lightfalloff>1</lightfalloff>
+            <height>10</height>
+        </light>
+        <light>
+            <color r="0.5" g="0" b="0.5" />
+            <name>purple</name>
+            <range>100</range>
+            <brightness>127</brightness>
+            <maxlight>256</maxlight>
+            <givesshadow>1</givesshadow>
+            <lightfalloff>1</lightfalloff>
+            <height>10</height>
+        </light>
+    </colors>
+</lights>

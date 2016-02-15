@@ -1,0 +1,274 @@
+<html>
+<head>
+	<title>Browedit Help</title>
+	<script type="text/javascript" src="dtree.js"></script>
+	<link rel="StyleSheet" href="dtree.css" type="text/css" />
+	<style>
+		#page,td
+		{
+			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			color: black;
+		}
+		.key
+		{
+			width: 64px;
+			height: 48px;
+			font-size: 18px;
+			font-family: Tahoma;
+			font-weight: bold;
+			background-image: url('../img/key.png');
+			text-align: center;
+			padding-top: 16px;
+			float: left;
+			line-height:0.75;
+		}
+		.keymed
+		{
+			width: 107px;
+			height: 48px;
+			font-size: 18px;
+			font-family: Tahoma;
+			font-weight: bold;
+			background-image: url('../img/keymed.png');
+			text-align: center;
+			padding-top: 16px;
+			float: left;
+			line-height:0.75;
+		}
+		.keyshift
+		{
+			width: 159px;
+			height: 48px;
+			font-size: 18px;
+			font-family: Tahoma;
+			font-weight: bold;
+			background-image: url('../img/keyshift.png');
+			text-align: center;
+			padding-top: 16px;
+			float: left;
+			line-height:0.75;
+		}
+		.keyenter
+		{
+			width: 158px;
+			height: 48px;
+			font-size: 18px;
+			font-family: Tahoma;
+			font-weight: bold;
+			background-image: url('../img/keyenter.png');
+			text-align: center;
+			padding-top: 16px;
+			float: left;
+			line-height:0.75;
+		}
+		.keyback
+		{
+			width: 147px;
+			height: 48px;
+			font-size: 18px;
+			font-family: Tahoma;
+			font-weight: bold;
+			background-image: url('../img/keyback.png');
+			text-align: center;
+			padding-top: 16px;
+			padding-left: 12px;
+			float: left;
+			line-height:0.75;
+		}
+		.keyspace
+		{
+			width: 260px;
+			height: 48px;
+			font-size: 18px;
+			font-family: Tahoma;
+			font-weight: bold;
+			background-image: url('../img/keyspace.png');
+			text-align: center;
+			padding-top: 16px;
+			float: left;
+			line-height:0.75;
+		}		
+		.mouseleft
+		{
+			width: 64px;
+			height: 64px;
+			background-image: url('../img/mouseleft.png');
+			float: left;
+			line-height:0.75;
+		}
+		.mouseright
+		{
+			width: 64px;
+			height: 64px;
+			background-image: url('../img/mouseright.png');
+			float: left;
+			line-height:0.75;
+		}
+		.mouseleftright
+		{
+			width: 64px;
+			height: 64px;
+			background-image: url('../img/mouseleftright.png');
+			float: left;
+			line-height:0.75;
+		}
+		.mousescroll
+		{
+			width: 64px;
+			height: 64px;
+			background-image: url('../img/mousescroll.png');
+			float: left;
+			line-height:0.75;
+		}
+		.mouseleftdrag
+		{
+			width: 64px;
+			height: 64px;
+			background-image: url('../img/mouseleftdrag.png');
+			float: left;
+			line-height:0.75;
+		}
+		.mouserightdrag
+		{
+			width: 64px;
+			height: 64px;
+			background-image: url('../img/mouserightdrag.png');
+			float: left;
+			line-height:0.75;
+		}
+		.plus
+		{
+			width: 64px;
+			height: 64px;
+			background-image: url('../img/plus.png');
+			float: left;
+		}
+
+	</style>
+</head>
+<body onLoad="loader()">
+<div>
+<div class="dtree" style="float: left; width: 200px; border: 1px inset grey; padding: 10px;">
+	<script type="text/javascript">
+		<!--
+
+		function getHTTPObject() {
+		var xmlhttp;
+		/*@cc_on
+		 @if (@_jscript_version >= 5)
+		  try {
+			  xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+			  } catch (e) {
+			  try {
+				  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+				  } catch (E) {
+				  xmlhttp = false;
+				  }
+			  } 
+		 @else
+		  xmlhttp = false;
+		 @end @*/
+		if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
+		 try {
+		   xmlhttp = new XMLHttpRequest();
+		   } catch (e) {
+		   xmlhttp = false;
+		   }
+		  }
+		  return xmlhttp;
+		}
+
+
+
+		d = new dTree('d');
+
+		d.add(0,-1,'Help Navigation');
+		d.add(1,0,'About Browedit','#about');
+		d.add(2,0,'Modes','#modes');
+		d.add(3,0,'Menu Items','#menu');
+		d.add(4,0,'Windows','#windows');
+		d.add(5,0,'Hotkeys','#hotkeys');
+		d.add(6,0,'Guides','#guides');
+		d.add(7,0,'Configuration','#config');
+		d.add(8,0,'Tips and Tricks','#tricks');
+
+		d.add(9,2,"Texture Edit Mode","#textureedit");
+		d.add(10,2,"Detail Height Edit Mode","#detailheightedit");
+		d.add(11,2,"Global Height Edit Mode","#globalheightedit");
+		d.add(12,2,"Wall Edit Mode","#walledit");
+		d.add(13,2,"Object Edit Mode","#objectedit");
+		d.add(14,2,"GAT Edit Mode","#gatedit");
+		d.add(15,2,"Water Edit Mode","#wateredit");
+		d.add(16,2,"Effect Edit Mode","#effectedit");
+		d.add(17,2,"Sound Edit Mode","#soundedit");
+		d.add(18,2,"Light Edit Mode","#lightedit");
+		d.add(19,2,"Group Edit Mode","#groupdedit");
+
+		d.add(20,3,"File","#file");
+		d.add(21,3,"Generate","#generate");
+		d.add(22,3,"View","#view");
+		d.add(23,3,"Edit Mode","#editmode");
+		d.add(24,3,"Edit", "#edit");
+		d.add(25,3,"Effects", "#effects");
+		d.add(26,3,"Windows", "#windows");
+
+		d.add(27,4,"Object Window","#objectwindow");
+		d.add(28,4,"Light Window","#lightwindow");
+		d.add(29,4,"Models Window","#modelswindow");
+		d.add(30,4,"Texture Window","#texturewindow");
+		d.add(31,4,"RSM Editor","#rsmeditor");
+		d.add(32,4,"Preferences Window","#preferences");
+		d.add(33,4,"Ambient Light Window", "#ambientlight");
+		d.add(34,4,"HotLocation Bar","#hotlocationbar");
+		d.add(35,4,"Water Window","#waterwindow");
+		
+		d.add(36,6,"Guide 1","#guide1");
+
+
+		document.write(d);
+		d.openAll();
+
+
+		function loader() {
+			setInterval("checkfunction()", 200);
+		}
+		var lastsubpage;
+		function checkfunction()
+		{
+			if(location.href.indexOf("#") == -1)
+				return;
+			subpage = location.href.substr(location.href.indexOf("#")+1);
+			if(subpage == lastsubpage)
+				return;
+			lastsubpage = subpage;
+
+			var httpobj = getHTTPObject();
+			document.title = "Browedit help: Loading...";
+			httpobj.onreadystatechange = function useHttpResponse()
+			{
+				if (httpobj.readyState == 4) 
+				{
+					document.title = "Browedit help: " + subpage;
+					var txt = httpobj.responseText;
+					document.getElementById("page").innerHTML = txt;
+				}
+			}
+			httpobj.open("GET", subpage + ".htm", true);
+			httpobj.send(null);
+
+		
+		}
+
+		//-->
+	</script>
+
+</div>
+<div id="page" style="border: 1px inset grey; padding: 10px; margin-left: 230px; width: 100%; margin-right: 30px"></div>
+
+</div>
+
+
+
+</body>
+</html>

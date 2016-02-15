@@ -1,0 +1,14 @@
+Random2 Objects/거북_덩쿨1.|data\model\거북이섬\거북_덩쿨1.rsm
+Random2 Objects/글래스트_기둥6.|data\model\글래스트\글래스트_기둥6.rsm
+Random2 Objects/글래스트_던전기둥1.|data\model\글래스트\글래스트_던전기둥1.rsm
+Random2 Objects/보물11.|data\model\어비스\보물11.rsm
+Random2 Objects/종유석08.|data\model\어비스\종유석08.rsm
+Random2 Objects/고문실_해골3.|data\model\지하감옥\고문실_해골3.rsm
+custom/huisje|data\model\huisje.rsm
+custom/panel|data\model\panel.rsm
+custom/face|data\model\face.rsm
+custom/building|data\model\building.rsm
+custom/ifrit|data\model\ifrit.rsm
+custom/Warlord|data\model\Warlord.rsm
+custom/candle|data\model\Candle.rsm
+custom/penguin|data\model\penguin.rsm

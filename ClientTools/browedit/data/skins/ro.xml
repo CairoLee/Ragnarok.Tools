@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<skin name="RO">
+     <menubar> 
+          <color>FFFFFFFF</color> 
+          <fontcolor>000000FF</fontcolor> 
+          <highlight>3333E5FF</highlight> 
+          <menu> 
+               <color>FFFFFF</color> 
+               <fontcolor>000000</fontcolor> 
+               <highlight>3333E5</highlight> 
+               <targetopacity>0.75</targetopacity> 
+               <startopacity>0</startopacity> 
+          </menu>                
+     </menubar> 
+	<color>FFFFFFFF</color>
+	<colorblurred>FFFFFFAA</colorblurred>
+	<texture>data/skins/ro.tga</texture>
+	<font>data/fonts/tahoma.tga</font>
+	<window>
+		<title>
+			<fontcolor>000000</fontcolor>
+			<xoff>15</xoff>
+			<yoff>4</yoff>
+		</title>
+		<fontcolor>000000</fontcolor>
+		<top height="19">0</top>
+		<left width="14">0</left>
+		<right width="3">15</right>
+		<bottom height="30">21</bottom>
+		<offsets>
+			<top>20</top>
+			<bottom>5</bottom>
+			<left>2</left>
+			<right>2</right>
+		</offsets>
+	</window>
+	<button>
+		<fontcolor>000000</fontcolor>
+		<top height="9">60</top>
+		<left width="7">0</left>
+		<right width="7">14</right>
+		<bottom height="9">71</bottom>
+	</button>
+	<miniwindow>
+		<fontcolor>000000</fontcolor>
+		<top height="9">60</top>
+		<left width="7">0</left>
+		<right width="7">14</right>
+		<bottom height="9">71</bottom>
+		<offsets>
+			<top>7</top>
+			<bottom>5</bottom>
+			<left>2</left>
+			<right>2</right>
+		</offsets>
+	</miniwindow>
+	<input>
+		<fontcolor>000000</fontcolor>
+		<top height="2">90</top>
+		<left width="2">0</left>
+		<right width="2">3</right>
+		<bottom height="2">93</bottom>
+		<defaultheight>20</defaultheight>
+	</input>
+	<list>
+		<fontcolor>000000</fontcolor>
+		<top height="2">90</top>
+		<left width="2">0</left>
+		<right width="2">3</right>
+		<bottom height="2">93</bottom>
+		<selectcolor>6666FF</selectcolor>
+		<selectfontcolor>FFFFFF</selectfontcolor>
+		<scroll>
+			<width>13</width>
+			<left>23</left>
+			<centerheight>0</centerheight>
+			<background>
+				<left>23</left>
+				<top>21</top>
+				<height>1</height>
+			</background>
+			<buttonup>
+				<left>23</left>
+				<top>10</top>
+				<height>10</height>
+			</buttonup>
+			<buttondown>
+				<left>23</left>
+				<top>41</top>
+				<height>10</height>
+			</buttondown>
+			<top height="4">27</top>
+			<bottom height="4">35</bottom>
+		</scroll>
+	</list>
+	<frame>
+		<fontcolor>000000</fontcolor>
+		<top height="2">90</top>
+		<left width="2">0</left>
+		<right width="2">3</right>
+		<bottom height="2">93</bottom>
+	</frame>
+	<checkbox>
+		<width>10</width>
+		<height>10</height>
+		<unchecked>
+			<left>40</left>
+			<top>30</top>
+		</unchecked>
+		<checked>
+			<left>51</left>
+			<top>30</top>
+		</checked>
+	</checkbox>
+	<tabstrip>
+		<fontcolor>000000</fontcolor>
+		<fontoffx>3</fontoffx>
+		<fontoffy>-1</fontoffy>
+		<tabselected>
+			<top>0</top>
+			<height>16</height>
+			<left width="7">40</left>
+			<right width="7">51</right>
+			<overlapleft>5</overlapleft>
+			<overlapright>5</overlapright>
+		</tabselected>
+		<tabunselected>
+			<top>2</top>
+			<height>13</height>
+			<left width="2">72</left>
+			<right width="6">80</right>
+			<overlapleft>0</overlapleft>
+			<overlapright>4</overlapright>
+		</tabunselected>
+
+		<top height="2">90</top>
+		<left width="2">0</left>
+		<right width="2">3</right>
+		<bottom height="2">93</bottom>
+	</tabstrip>
+	
+	<closebutton>
+		<top height="9">0</top>
+		<left width="9">30</left>
+		<right width="0">39</right>
+		<bottom height="0">9</bottom>
+		<width>9</width>
+		<height>9</height>
+		<offsetx>0</offsetx>
+		<offsety>-16</offsety>
+	</closebutton>
+	<collapsebutton>
+		<top height="9">0</top>
+		<left width="9">20</left>
+		<right width="0">29</right>
+		<bottom height="0">9</bottom>
+		<width>9</width>
+		<height>9</height>
+		<offsetx>15</offsetx>
+		<offsety>-16</offsety>
+	</collapsebutton>
+
+<!--
+	<progress type="normal">
+		<back>
+			<height>9</height>
+			<top>60</top>
+			<left width="4">25</left>
+			<right width="4">45</right>
+		</back>
+		<bar>
+			<height>9</height>
+			<top>70</top>
+			<left width="4">25</left>
+			<right width="4">45</right>
+		</bar>
+	</progress>
+	-->
+	<progress type="conditional">
+		<back>
+			<height>9</height>
+			<top>60</top>
+			<left width="4">25</left>
+			<right width="4">45</right>
+		</back>
+		<bar cond="50">
+			<height>9</height>
+			<top>80</top>
+			<left width="4">25</left>
+			<right width="4">45</right>
+		</bar>
+		<bar cond="100">
+			<height>9</height>
+			<top>70</top>
+			<left width="4">25</left>
+			<right width="4">45</right>
+		</bar>
+	</progress>
+</skin>

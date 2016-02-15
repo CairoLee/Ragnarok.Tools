@@ -1,0 +1,3 @@
+custom/caution|caution.bmp
+custom/mytest|test.bmp
+custom/subdir/mytest2|subdir/test.bmp

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<skin name="Win2k">
+     <menubar> 
+          <color>FFFFFFFF</color> 
+          <fontcolor>000000FF</fontcolor> 
+          <highlight>3333E5FF</highlight> 
+          <menu> 
+               <color>FFFFFF</color> 
+               <fontcolor>000000</fontcolor> 
+               <highlight>3333E5</highlight> 
+               <targetopacity>0.75</targetopacity> 
+               <startopacity>0</startopacity> 
+          </menu>                
+     </menubar> 
+	<texture>data/skins/win2k.tga</texture>
+	<font>data/fonts/tahoma.tga</font>
+	<window>
+		<title>
+			<fontcolor>FFFFFF</fontcolor>
+			<xoff>10</xoff>
+			<yoff>8</yoff>
+		</title>
+		<fontcolor>000000</fontcolor>
+		<top height="25">0</top>
+		<left width="10">0</left>
+		<right width="10">502</right>
+		<bottom height="4">100</bottom>
+	</window>
+	<button>
+		<fontcolor>000000</fontcolor>
+		<top height="4">110</top>
+		<left width="10">0</left>
+		<right width="10">90</right>
+		<bottom height="4">129</bottom>
+	</button>
+	<input>
+		<fontcolor>000000</fontcolor>
+		<top height="5">140</top>
+		<left width="10">0</left>
+		<right width="10">90</right>
+		<bottom height="5">155</bottom>
+	</input>
+	<list>
+		<fontcolor>000000</fontcolor>
+		<top height="5">140</top>
+		<left width="10">0</left>
+		<right width="10">90</right>
+		<bottom height="5">155</bottom>
+		<scroll>
+			<width>18</width>
+			<left>0</left>
+			<background>
+				<left>0</left>
+				<top>206</top>
+				<height>1</height>
+			</background>
+			<buttonup>
+				<left>0</left>
+				<top>188</top>
+				<height>16</height>
+			</buttonup>
+			<buttondown>
+				<left>0</left>
+				<top>234</top>
+				<height>16</height>
+			</buttondown>
+			<top height="5">209</top>
+			<bottom height="5">228</bottom>
+		</scroll>
+	</list>
+	<frame>
+		<fontcolor>000000</fontcolor>
+		<top height="5">260</top>
+		<left width="5">0</left>
+		<right width="5">95</right>
+		<bottom height="5">305</bottom>
+	</frame>
+	<checkbox>
+		<fontcolor>000000</fontcolor>
+		<top height="5">170</top>
+		<left width="5">0</left>
+		<right width="5">8</right>
+		<bottom height="5">178</bottom>
+	</checkbox>
+	<tabstrip>
+		<fontcolor>000000</fontcolor>
+		<tabselected>
+			<top>330</top>
+			<height>21</height>
+			<left width="3">0</left>
+			<right width="3">86</right>
+			<overlapleft>2</overlapleft>
+			<overlapright>2</overlapright>
+		</tabselected>
+		<tabunselected>
+			<top>332</top>
+			<height>19</height>
+			<left width="3">100</left>
+			<right width="3">190</right>
+			<overlapleft>0</overlapleft>
+			<overlapright>0</overlapright>
+		</tabunselected>
+
+		<top height="1">351</top>
+		<left width="3">0</left>
+		<right width="3">211</right>
+		<bottom height="3">372</bottom>
+	</tabstrip>
+	
+	<closebutton>
+		<top height="4">110</top>
+		<left width="10">0</left>
+		<right width="10">90</right>
+		<bottom height="4">129</bottom>
+		<width>16</width>
+		<height>14</height>
+		<offsetx>4</offsetx>
+		<offsety>6</offsety>
+	</closebutton>
+	<collapsebutton>
+		<top height="4">110</top>
+		<left width="10">0</left>
+		<right width="10">90</right>
+		<bottom height="4">129</bottom>
+		<width>16</width>
+		<height>14</height>
+		<offsetx>20</offsetx>
+		<offsety>6</offsety>
+	</collapsebutton>
+
+
+</skin>

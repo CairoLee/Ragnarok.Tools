@@ -1,0 +1,54 @@
+<config>
+    <ro directory="/home/borf/backup/work/C++/ares/">
+        <grf>/home/borf/backup/work/C++/ares/sdata.grf</grf>
+    </ro>
+    <files>
+        <models>
+            <model>data/romodels.txt</model>
+            <model>data/alphamodels.txt</model>
+            <model>data/randommodels.txt</model>
+        </models>
+        <textures>
+            <texture>data/rotextures.txt</texture>
+            <texture>data/texturescustom.txt</texture>
+        </textures>
+        <sounds>
+            <sound>data/rosounds.txt</sound>
+        </sounds>
+    </files>
+    <graphics>
+        <resx>1024</resx>
+        <resy>768</resy>
+        <fullscreen>false</fullscreen>
+        <bpp>32</bpp>
+        <font>tahoma</font>
+        <skin>data/skins/ro.xml</skin>
+        <notilecolor>FFFF80</notilecolor>
+        <bgcolor>8000FF</bgcolor>
+        <gattransparency>0.3</gattransparency>
+    </graphics>
+    <undo size="50" />
+    <language>english</language>
+    <firstmap>prontera</firstmap>
+    <splash>data/hamtaro.tga</splash>
+    <water>
+        <directory>data\texture\ฟ๖ลอ\</directory>
+        <extension>.jpg</extension>
+        <count>8</count>
+    </water>
+    <gattiles>
+        <tile>0</tile>
+        <tile>1</tile>
+        <tile>2</tile>
+        <tile>3</tile>
+        <tile>4</tile>
+        <tile>5</tile>
+        <tile>6</tile>
+    </gattiles>
+    <wm>
+        <hotbar>
+            <x>744</x>
+            <y>0</y>
+        </hotbar>
+    </wm>
+</config>

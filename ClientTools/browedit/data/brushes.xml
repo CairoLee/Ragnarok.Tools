@@ -1,0 +1,12 @@
+﻿<brushes>
+    <brush name="square" height="1" width="1">@</brush>
+    <brush name="brick 1x2" height="1" width="2">@@</brush>
+    <brush name="brick 1x3" height="1" width="3">@@@</brush>
+    <brush name="brick 1x4" height="1" width="4">@@@@</brush>
+    <brush name="brick 2x1" height="2" width="1">@@</brush>
+    <brush name="brick 3x1" height="3" width="1">@@@</brush>
+    <brush name="brick 4x1" height="4" width="1">@@@@</brush>
+    <brush name="cross" height="3" width="3">.@.@@@.@.</brush>
+    <brush name="L" width="4" height="2">@@@@@...</brush>
+    <brush name="Square" width="4" height="4">@@@@@@@@@@@@@@@@</brush>
+</brushes>

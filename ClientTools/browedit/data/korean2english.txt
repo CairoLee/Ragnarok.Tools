@@ -1,0 +1,100 @@
+거북
+Turtle
+이섬
+Island
+기둥
+Pillar
+민가
+Private House
+길드전
+Before Guild
+건물
+Building
+나무
+Tree
+잡초
+Flower
+갈대
+Reed
+내부
+Inside
+대만
+Taiwan
+니플헤임
+Niflheim
+모로코
+Morroc
+무명섬
+Nameless Island
+사막도시
+Desert City
+용암동굴
+Fade Out Cave
+외부
+External
+소품
+Pastel
+추가
+Addition
+일본
+Japan
+자와이
+With Person
+지하감옥
+Dungeon
+지하묘지
+Catacomb
+집시
+House Hour
+중국
+China
+크리스마스
+Christmas
+마을
+Village
+화산
+Volcano
+페이욘
+Payon
+프론테라
+Prontera
+해변
+Beach
+흑마법사방
+Black Wizard Room
+꽃
+Flower
+끈적이
+String
+잎
+Leaf
+구
+Nine
+돌
+Pebble
+동
+East
+등
+Back
+등대
+Lighthouse
+수정
+Amendment
+풀
+Grass
+필드
+Field
+바닥
+Bottom
+유저인터페이스
+Your Interface
+게페
+Geffen
+기타
+Other
+게펜
+Geffen
+알베르타
+Treasure Ship
+워터
+Water

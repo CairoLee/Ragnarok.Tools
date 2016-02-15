@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+	<net>
+		<HOSTNOTFOUND>Could not look up host '%s', are you connected to the internet?</HOSTNOTFOUND>
+		<NOSOCKET>Cannot create socket, please reboot</NOSOCKET>
+		<VERSIONERROR>You do not have the latest version of Browedit</VERSIONERROR>
+	</net>
+	<file>
+		<LOADING>Loading file %s</LOADING>
+		<DONELOADING>Done Loading file %s</DONELOADING>
+		<COULDNOTOPEN>Could not open %s</COULDNOTOPEN>
+	</file>
+	<UNKNOWNCONFIG>Unknown config option: %s = %s</UNKNOWNCONFIG>
+	<DONEINIT>Done Initializing</DONEINIT>
+	<CALCMODEL>Calculating model %i out of %i (%.2%%)</CALCMODEL>
+	<PERCENTAGE>%f %%</PERCENTAGE>
+	<PLUGIN>
+		<LOAD>Loading plugin: '%s'</LOAD>
+		<INVALID>%s is not a valid plugin</INVALID>
+		<VERSIONERROR>%s is a plugin compiled for a version %i of browedit. Please recompile the plugin with the latest plugin SDK</VERSIONERROR>
+		<NOINSTANCE>%s does not contain any commands</NOINSTANCE>
+	</PLUGIN>
+	<QUIT>Are you sure you want to quit?</QUIT>
+	<menu>
+		<file>
+			<TITLE>File</TITLE>
+			<NEW>New</NEW>
+			<OPEN>Open</OPEN>
+			<OPENGRF>Open from GRF</OPENGRF>
+			<CLOSE>Close</CLOSE>
+			<SAVE>Save</SAVE>
+			<QUICKSAVE>Quicksave</QUICKSAVE>
+			<SAVEAS>Save As</SAVEAS>
+			<IMPORTARCTURUS>Import Arcturus maps</IMPORTARCTURUS>
+			<EXPORTMAPFILES>Export Map Files</EXPORTMAPFILES>
+			<REBUILDTEXTUREFILE>Rebuild texture file</REBUILDTEXTUREFILE>
+			<REBUILDMODELFILE>Rebuild model file</REBUILDMODELFILE>
+			<REBUILDSOUNDSFILE>Rebuild sounds file</REBUILDSOUNDSFILE>
+			<MAPDATABASE>Online Map Database</MAPDATABASE>
+			<SAVEONLINE>Save online</SAVEONLINE>
+			<EXIT>Exit</EXIT>
+		</file>
+		<generate>
+			<TITLE>Generate</TITLE>
+			<RANDOM1>Hills</RANDOM1>
+			<RANDOM2>Cave Dungeon</RANDOM2>
+			<RANDOM4>Mountains</RANDOM4>
+			<RANDOM5>Room maze</RANDOM5>
+			<MAZESTUFF>Maze Stuff</MAZESTUFF>
+			<QUADTREE>Quadtree</QUADTREE>
+			<CALCULATELIGHTMAPS>Calculate Lightmaps</CALCULATELIGHTMAPS>
+			<CALCULATELIGHTMAPSLOCAL>Calculate Selected lightmaps</CALCULATELIGHTMAPSLOCAL>
+			<CALCULATELIGHTMAPSLIGHT>Calculate Lightmaps for selected lights</CALCULATELIGHTMAPSLIGHT>
+			<CALCULATELIGHTMAPSNOSHADOW>Calculate Lightmaps without shadows</CALCULATELIGHTMAPSNOSHADOW>
+			<CLEARMAP>Clear Map</CLEARMAP>
+			<DUN99>Generate 99 random dungeon floors</DUN99>
+		</generate>
+		<view>
+			<TITLE>View</TITLE>
+			<GRID>Grid</GRID>
+			<OBJECTS>Objects</OBJECTS>
+			<TRANSPARENTOBJECTS>Transparent Objects</TRANSPARENTOBJECTS>
+			<BOUNDINGBOXES>Boundingboxes</BOUNDINGBOXES>
+			<LIGHTMAPS>Lightmaps</LIGHTMAPS>
+			<GLOBALLIGHTING>Global Lighting</GLOBALLIGHTING>
+			<TILECOLORS>Tilecolors</TILECOLORS>
+			<SHOWWATER>Water</SHOWWATER>
+			<TOPCAMERA>Topcamera</TOPCAMERA>
+			<SIDECAMERA>Indoor Camera</SIDECAMERA>
+			<INVISIBLETILES>Invisible Tiles</INVISIBLETILES>
+			<SHOWGLOBALLIGHTING>Global Lighting</SHOWGLOBALLIGHTING>
+			<WATERANIMATION>Water Animation</WATERANIMATION>
+			<GATTILES>Gat Tiles</GATTILES>
+			<SHOWDOT>Show Dot</SHOWDOT>
+			<SHOWSPRITES>Show Sprites</SHOWSPRITES>
+		</view>
+		<editmode>
+			<TITLE>Edit Mode</TITLE>
+			<TEXTUREEDIT>Texture Edit</TEXTUREEDIT>
+			<GLOBALHEIGHTEDIT>Global Height Edit</GLOBALHEIGHTEDIT>
+			<DETAILTERRAINEDIT>Detail Terrain Edit...</DETAILTERRAINEDIT>
+			<WALLEDIT>Wall Edit</WALLEDIT>
+			<OBJECTEDIT>Object Edit</OBJECTEDIT>
+			<GATEDIT>GAT Edit</GATEDIT>
+			<WATEREDIT>Water Edit</WATEREDIT>
+			<EFFECTSEDIT>Effects Edit</EFFECTSEDIT>
+			<SOUNDSEDIT>Sounds Edit</SOUNDSEDIT>
+			<LIGHTSEDIT>Lights Edit</LIGHTSEDIT>
+			<OBJECTGROUPEDIT>Object Group Edit</OBJECTGROUPEDIT>
+			<SPRITEEDIT>Sprite Edit</SPRITEEDIT>
+			<TEXTUREPAINTEDIT>Texture Paint Edit</TEXTUREPAINTEDIT>
+		</editmode>
+		<edit>
+			<TITLE>Edit</TITLE>
+			<SPEED>Raise/Lowerspeed</SPEED>
+			<SLOPING>Sloping</SLOPING>
+			<SNAPOBJECTS>Snap Objects to floor</SNAPOBJECTS>
+			<FILLAREA>Fill area with selected texture</FILLAREA>
+			<GATHEIGHT>Set GAT height</GATHEIGHT>
+			<RESETCOLORS>Reset colors</RESETCOLORS>
+			<ADDWALLS>Add Walls</ADDWALLS>
+			<GATCOLLISION>Set GAT Collision</GATCOLLISION>
+			<CLEANLIGHTMAPS>Clean Lightmaps</CLEANLIGHTMAPS>
+			<REMOVETEXTURES>Remove unused textures</REMOVETEXTURES>
+			<CLEARLIGHTMAPSONEDIT>Clear lightmaps when you edit textures</CLEARLIGHTMAPSONEDIT>
+			<SELECTALL>Select All Tiles</SELECTALL>
+		</edit>
+		<effects>
+			<TITLE>Effects</TITLE>
+		</effects>
+		<windows>
+			<TITLE>Windows</TITLE>
+			<GLOBALLIGHTING>Global Lighting</GLOBALLIGHTING>
+			<MODELWINDOW>Models</MODELWINDOW>
+			<TEXTURES>Textures</TEXTURES>
+			<PROPERTIES>Properties</PROPERTIES>
+			<WATER>Water</WATER>
+			<PREFERENCES>Preferences</PREFERENCES>
+			<RSMEDITOR>RSM Editor</RSMEDITOR>
+			<FAVLIGHTS>Favorite lights</FAVLIGHTS>
+			<OVERVIEW>Map Overview</OVERVIEW>
+			<MAPINFO>Map Info</MAPINFO>
+		</windows>
+		<tools>
+			<TITLE>Tools</TITLE>
+			<CLEARMAP>Clear Map</CLEARMAP>
+			<CONVERT>Convert 3ds to RSM</CONVERT>
+			<generators>
+				<TITLE>Generators</TITLE>
+				<MAZEGENERATOR>Maze</MAZEGENERATOR>
+				<CULVERTGENERATOR>Culvert</CULVERTGENERATOR>
+			</generators>
+			<gat>
+				<TITLE>GAT</TITLE>
+				<GATHEIGHT>Set height to geometry height</GATHEIGHT>
+			</gat>
+			<lightmap>
+				<TITLE>Lightmap</TITLE>
+				<IMPORT>Import</IMPORT>
+				<EXPORT>Export</EXPORT>
+			</lightmap>
+		</tools>
+	</menu>
+	<fs>
+		<GRFOPENERROR>FS: Error opening grf %s</GRFOPENERROR>
+		<GRFOPENDONE>FS: Done reading grf  %s</GRFOPENDONE>
+		<FILEERROR>FS: Could not open file %s</FILEERROR>
+	</fs>
+	<font>
+		<LOADING>Font: Loading font %s</LOADING>
+		<DONELOADING>Font: Done Loading %s</DONELOADING>
+	</font>
+
+	<graphics>
+		<INIT>Initializing Graphics</INIT>
+		<INITFAIL>Video Initialization failed: %s</INITFAIL>
+		<QUERYFAIL>Video Query Failed: %s</QUERYFAIL>
+		<VIDEOMODEFAIL>Video Mode Set Failed: %s</VIDEOMODEFAIL>
+		<OPENGLFAIL>OpenGL init failed</OPENGLFAIL>
+		<OPENINGTEXTURES>Opening general textures</OPENINGTEXTURES>
+		<INITIALIZINGWM>Initializing WM</INITIALIZINGWM>
+		<TEXTUREFAIL>Unable to load texture %s</TEXTUREFAIL>
+		<texturecache>
+			<UNLOADFAIL>Texturecache: Trying to unload texture %s, but this texture hasn't been loaded through the texturecache!</UNLOADFAIL>
+			<UNLOADALOT>Texturecache: Texture %s is being unloaded too often!</UNLOADALOT>
+			<STILLLOADED>Texturecache: Texture %s is still %i times loaded</STILLLOADED>
+		</texturecache>
+	</graphics>
+	<world>
+		<LOAD>World: Loading %s</LOAD>
+		<LOADFAIL>World: Could not open %s</LOADFAIL>
+		<LOADDONE>World: Done loading %s</LOADDONE>
+		<MODELFAIL>World: Could not open model %s</MODELFAIL>
+		<UNKNOWNOBJECT>World: Unknown object type %i</UNKNOWNOBJECT>
+		<QUADTREECALC>Quadtree: looking at model %i out of %i (%.2f%%)</QUADTREECALC>
+		<TOOMANYLIGHTMAPS>Too Many lightmaps!</TOOMANYLIGHTMAPS>
+		<MODELCOUNT>World: %i models written</MODELCOUNT>
+		<TILESUSED>World: %i tiles are used</TILESUSED>
+		<TILESLEFT>World: %i tiles left</TILESLEFT>
+		<INVALIDLIGHTMAPFORMAT>Invalid lightmap format: (%dx%d size %d)! Setting it to (%dx%d size %d).</INVALIDLIGHTMAPFORMAT>
+	</world>
+	<wm>
+		<OK>Ok</OK>
+		<CANCEL>Cancel</CANCEL>
+		<globallighting>
+			<TITLE>Global Lighting</TITLE>
+			<DIFFUSETITLE>Diffuse Light</DIFFUSETITLE>
+			<DIFFUSECOLOR>Color:</DIFFUSECOLOR>
+			<LONGITUDE>Longitude angle:</LONGITUDE>
+			<LATITUDE>Latitude angle:</LATITUDE>
+			
+			<AMBIENTTITLE>Ambient Light</AMBIENTTITLE>
+			<AMBIENTCOLOR>Color:</AMBIENTCOLOR>
+			<AMBINTENSITY>Intensity:</AMBINTENSITY>
+		</globallighting>
+		<confirm>
+			<TITLE>Please Confirm...</TITLE>
+		</confirm>
+		<effect>
+			<TITLE>Effect</TITLE>
+			<POS>Position:</POS>
+			<SCALE>Scale:</SCALE>
+			<ROT>Rotation:</ROT>
+			<LOOPTIME>Loop Time:</LOOPTIME>
+		</effect>
+		<input>
+			<TITLE>Please Input...</TITLE>
+		</input>
+		<light>
+			<TITLE>Light...</TITLE>
+			<NAME>Name:</NAME>
+			<POSITION>Position:</POSITION>
+			<COLOR>Color:</COLOR>
+			<INTENSITY>Intensity:</INTENSITY>
+			<RANGE>Range:</RANGE>
+			<MAXLIGHTINCREMENT>Max. Light Increment</MAXLIGHTINCREMENT>
+			<LIGHTFALLOFF>Light Falloff (0-1)</LIGHTFALLOFF>
+			<CASTSSHADOW>Casts Shadows</CASTSSHADOW>
+		</light>
+		<favlight>
+			<TITLE>Favorite Lights</TITLE>
+			<NAME>Name:</NAME>
+			<HEIGHT>Height:</HEIGHT>
+			<COLOR>Color:</COLOR>
+			<INTENSITY>Intensity:</INTENSITY>
+			<RANGE>Range:</RANGE>
+			<MAXLIGHTINCREMENT>Max. Light Increment</MAXLIGHTINCREMENT>
+			<LIGHTFALLOFF>Light Falloff (0-1)</LIGHTFALLOFF>
+			<CASTSSHADOW>Casts Shadows</CASTSSHADOW>
+		</favlight>
+		<message>
+			<TITLE>Message...</TITLE>
+		</message>
+		<model>
+			<TITLE>Model Select...</TITLE>
+			<DELETECONFIRM>Are you sure you want to remove this model from the list?</DELETECONFIRM>
+			<NODENAME>Please enter the name of the new node</NODENAME>
+		</model>
+		<object>
+			<TITLE>Object...</TITLE>
+			<OBJECT>Object:</OBJECT>
+			<POSITION>Position:</POSITION>
+			<SCALE>Scale:</SCALE>
+			<ROTATION>Rotation:</ROTATION>
+			<LIGHTOPACITY>Opacity (0 - 1):</LIGHTOPACITY>
+		</object>
+		<texture>
+			<TITLE>Texture Select...</TITLE>
+		</texture>
+		<water>
+			<TITLE>Water...</TITLE>
+			<AMPLITUDE>Amplitude:</AMPLITUDE>
+			<HEIGHT>Height:</HEIGHT>
+			<PHASE>Phase:</PHASE>
+			<SURFACECYCLE>SurfaceCycle:</SURFACECYCLE>
+			<TEXTURECYCLE>TextureCycle:</TEXTURECYCLE>
+			<TYPE>Type:</TYPE>
+			<ANIMSPEED>Speed:</ANIMSPEED>
+		</water>
+		<preferences>
+			<TITLE>Preferences...</TITLE>
+		</preferences>
+		<areacopy>
+			<TITLE>Area Copy Preferences...</TITLE>
+			<MODELS>Models:</MODELS>
+			<TEXTURES>Textures:</TEXTURES>
+			<HEIGHT>Height:</HEIGHT>
+			<GAT>Gat:</GAT>
+			<WALLS>Walls:</WALLS>
+			<LIGHTS>Lights:</LIGHTS>
+			<EFFECTS>Effects:</EFFECTS>
+			<SOUNDS>Sounds:</SOUNDS>
+		</areacopy>
+		<sprite>
+			<TITLE>Sprite...</TITLE>
+		</sprite>
+		<overview>
+			<TITLE>Map Overview...</TITLE>
+		</overview>
+		<file>
+			<TITLE>File...</TITLE>
+			<SELECTMAP>Select Map</SELECTMAP>
+		</file>
+		<progress>
+			<TITLE>Progress:</TITLE>
+		</progress>
+		<sound>
+			<TITLE>Sounds...</TITLE>
+			<NAME>Name:</NAME>
+			<FILE>File:</FILE>
+			<POSITION>Position:</POSITION>
+			<SCALE>Scale:</SCALE>
+			<ROTATION>Rotation:</ROTATION>
+			<REPEATDELAY>Repeat delay:</REPEATDELAY>
+		</sound>
+		<soundselect>
+			<TITLE>Sound Select...</TITLE>
+		</soundselect>
+		<maps>
+			<TITLE>Online Map Database...</TITLE>
+		</maps>
+		<mapdetail>
+			<TITLE>Online Map Database Detail...</TITLE>
+		</mapdetail>
+		<clearmap>
+			<TITLE>Clear Map</TITLE>
+			<TEXTURES>Textures</TEXTURES>
+			<HEIGHT>Height</HEIGHT>
+			<WALLS>Walls</WALLS>
+			<GAT>Gat</GAT>
+			<LIGHTMAPS>Lightmaps</LIGHTMAPS>
+			<OBJECTS>Objects</OBJECTS>
+			<LIGHTS>Lights</LIGHTS>
+			<SOUNDS>Sounds</SOUNDS>
+			<EFFECTS>Effects</EFFECTS>
+			<SPRITES>Sprites</SPRITES>
+		</clearmap>
+	</wm>
+</language>

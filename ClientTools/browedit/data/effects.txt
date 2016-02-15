@@ -1,0 +1,690 @@
+0|Attack Display
+1|Attack Display
+2|Attack Display
+3|Attack Display
+4|Attack Display
+5|Attack Display
+6|Being Warped
+7|Being Healed
+8|Yellow Ripple Effect
+9|Different Type of Heal
+10|Mammomite
+11|Endure
+12|Yellow Cast Aura
+13|Blue Box
+14|Blue heal? Blue pot?
+15|Soul Strike
+16|Hide Animation
+17|Magnum Break
+18|Steal
+19|Invalid
+20|Envenom/Poison
+21|Detoxify
+22|Sight
+23|Stone Curse
+24|Fire Ball
+25|Fire Wall
+26|Only a Sound
+27|Frost Driver Road
+28|Frost Driver Hitting
+29|Lightning Bolt
+30|Thunder Storm
+31|Bubbles Launchers
+32|Explosion
+33|Ruwach
+34|Warp Out Aura (Blue)
+35|Casting Warp Portal (Blue)
+36|Warp Portal (Blue)
+37|Agility Up
+38|Agility Down
+39|Something Being Made
+40|Cross Thing (Paladin Skill?)
+41|Angelus Bell
+42|Blessing Angels
+43|Dex + Agi Up
+44|Little Fog Smoke.
+45|Faint Little Ball Things.
+46|Sand Wind
+47|Torch
+48|Small Piece of Glass
+49|Firebolt/Wall Hits
+50|Spinning Fire Thing
+51|Icebolt Hit
+52|Something LIKE Jupitel Thunder Hit
+53|Puff of Purpulish Smoke?
+54|Various Cast Animations
+55|Various Cast Animations
+56|Various Cast Animations
+57|Various Cast Animations
+58|Various Cast Animations
+59|Various Cast Animations
+60|Cast target circle
+61|Warp portal (for maps)
+62|Sight Trasher
+63|Moonlight Sphere
+64|Something Like Puruple/Yellow Light Bullet
+65|Something Like Absorb of Power
+66|Cure
+67|Provoke
+68|MVP
+69|Skid trap
+70|Brandish Spear
+71|Spiral White balls
+72|Bigger Spiral White balls
+73|Blue/White Small Aura
+74|Icewall sicle
+75|Gloria
+76|Magnificant
+77|Resurrection
+78|Status recovery
+79|Earth spike
+80|Spear boomerang
+81|Skill hit
+82|Detect hidden
+83|Sanctuary
+84|Impositio Manus
+85|Lex Aeterna
+86|Aspersio
+87|Lex Divina
+88|Suffragium
+89|Storm Gust
+90|Lord Of Vermilion
+91|B.S Sacramenti
+92|Meteor Storm
+93|Jupitel Thunder Ball
+94|Jupitel Thunder Raffic Hit
+95|Quagmire
+96|Cool Fire Ball
+97|Firepillar/Trap hit
+98|Adrenaline Rush
+99|Flasher Trap
+100|Yellow ball fountain
+101|Something Like Weapon Forge
+102|Hammerfall
+103|Weapon Perfection
+104|Maximize Power
+105|Nothing
+106|Blast Mine Trap
+107|Another Fire Ball explosion (The Ball of Effect #96)
+108|Freezing Trap
+109|Something like Quagmire (Used in Babilan Dungeon Maps)
+110|Trap Used by Giearth
+111|Spring Trap
+112|Kirye Eleyson
+113|Magnum Exorcism
+114|Small Basilica
+115|Blitz Beat
+116|Fling Watersphere
+117|Waterball
+118|Fling Firesphere
+119|Detect
+120|Semi-Invisiblity
+121|Over Thrust
+122|Something Like Multiple Hit
+123|Grimtooth Road
+124|Venom Dust
+125|Enchant Poison
+126|Poison React
+127|Small Posion React
+128|Over Thrust (The same of 121 but with more sound)
+129|Venom Plasher Explosion
+130|Concentration
+131|Auto-Counter Hit
+132|Grimtooth Hit
+133|O_O Its Look Like Freezeing Emperium inside Blue Circle
+134|The same Emperium without the Blue Circle
+135|The same Emperium with Explosion
+136|Poison
+137|Really Really Small Basilica
+138|Fire pillar
+139|Sandman Trap
+140|unknown
+141|unknown
+142|unknown
+143|unknown
+144|unknown
+145|unknown
+146|unknown
+147|unknown
+148|unknown
+149|unknown
+150|unknown
+151|unknown
+152|unknown
+153|unknown
+154|Refine Success
+155|Refine Fail
+156|Nothing
+157|Nothing
+158|Job Level Up
+159|PvP circle
+160|PvP Party Circle
+161|Nothing
+162|Snow
+163|Sakura Leaves
+164|Nothing
+165|Comodo Fireworks Ball (Different Colors)
+166|Energy Coat (Sprite Effect)
+167|Nothing
+168|Nothing
+169|Energy Coat (After Cast Effect)
+170|Cart Revolution
+171|Nothing
+172|Black Column
+173|Red Column
+174|Blue Column
+175|Yellow Column
+176|Purple Column
+177|Red Column
+178|White Column
+179|Fuxia Column
+180|Need More Skill Test
+181|Need More Skill Test
+182|Need More Skill Test
+183|Self Destruction (@nuke Effect) 
+184|Nothing
+185|Nothing
+186|Yellow Sphere 1
+187|Yellow Sphere 2
+188|Yellow Sphere 3
+189|Yellow Sphere 4
+190|Yellow Sphere 5
+191|Target
+192|purple cloud hit
+193|Attack with Silence Effect
+194|Attack with Stun Effect
+195|Stone Curse and Attack with Stone Curse Effect
+196|Attack with Curse Effect
+197|Attack with Sleep Effect
+198|Nothing
+199|Small Bubble Explosion
+200|Nothing
+201|Nothing
+202|Lv 99 Aura Bubble
+203|Mental Strenght Lightning (Without Sound)
+204|Healing Items Effect
+205|Healing Items Effect
+206|Healing Items Effect
+207|Healing Items Effect
+208|Healing Items Effect
+209|Healing Items Effect
+210|Healing Items Effect
+211|Healing Items Effect
+212|Damage Effect (Number from 0 to 9999)
+213|Attack with Strip Shield Effect
+214|Unamed Skill (Skill used by Gargoyle)
+215|Hide/Unhide
+216|Heal (HP) Absorb
+217|Mana (SP) Abosrb
+218|Concentration Potion
+219|Awakening Potion
+220|Berserk Potion
+221|UFO Beam for fake the Cows :O
+222|Defender
+223|Effect Happen Before Land Protector Area
+224|White Wisp Revolving Around You
+225|Effect Happen Before Volcano Area
+226|Grand Cross Effect
+227|Snatch Sound
+228|Nothing
+229|Nothing
+230|Nothing
+231|Yuno Effect (2 Sec before happen)
+232|Nothing
+233|Fog
+234|Spell Breaker
+235|Spell Braaker 2
+236|Effect Happen Before Deluge Area
+237|Effect Happen Before Wind Gage Area
+238|Effect Happen Before Land Protector Area
+239|2nd Volcano Area
+240|2nd Deluge Area
+241|2nd Wind Gage Area
+242|2nd Land Protector Area
+243|Nothing
+244|Magic Rod
+245|Holy Cross
+246|Shield Charge
+247|Yuno Large Effect (2 Sec before happen)
+248|Providence
+249|Shield Boomerang
+250|Concentration 2
+251|Devotion
+252|Reflect Shield
+253|Something Like SP Regenenration
+254|Mental Strenght Lightning
+255|Fire Effect
+256|Ice Effect
+257|Lightning Effect
+258|Earth Effect
+259|Green Abduction Beam
+260|Orange Abduction Beam
+261|Big Yellow Ground Area 
+262|Yellow Things That Shoot Out
+263|Yellow Ground Area.
+264|Nothing
+265|Throw Sphere
+266|White Things That Shoot Out
+267|Cannon Shot Sound
+268|Money Bag
+269|Strip Weapon
+270|Strip Shield
+271|Strip Armor
+272|Strip Headgear
+273|Outter Spinning White Balls.
+274|Flying Money
+275|Need More Test Skill (Probably BackStab)
+276|Need More Test Skill (Probably the 2nd Part of Snatch Effect)
+277|Something White
+278|Need More Skill Test
+279|Need More Skill Test
+280|Need More Skill Test
+281|Need More Skill Test
+282|Need More Skill Test
+283|Need More Skill Test
+284|Need More Skill Test
+285|Need More Skill Test
+286|Need More Skill Test
+287|Need More Skill Test
+288|Need More Skill Test
+289|Need More Skill Test
+290|Need More Skill Test
+291|Need More Skill Test
+292|Need More Skill Test
+293|Need More Skill Test
+294|Need More Skill Test
+295|Frost Joke
+296|Scream
+297|UNKNOWN
+298|Fire Bottle Throwing
+299|UNKNOWN
+300|Chemical Protection
+301|FireWorks Sound (3 Sec Before Happen, this effect have a sorta of LOOP... it continue until player warp)
+302|Bomb
+303|Probably an Old Effect of Monk Skill
+304|Warp Effect
+305|Pharmacy Success
+306|Pharmacy Failed
+307|Sunlight Through The Roof
+308|Throw Stone
+309|First Aid
+310|Another Yellow Bubbles
+311|Loud Exclamation
+312|Heal Effect
+313|Heal Effect
+314|Warp Effect (Probably Used by Baby Class because is small)
+315|Safety Wall
+316|Warp Portal (Pre-Beam)
+317|Warp Portal (Beam)
+318|Something Like Big Square Beam
+319|Another Small Basilica
+320|Offensive Heal
+321|Warp NPC ?_?
+322|Big Sunlight Through The Roof
+323|Small Sunlight Through The Roof
+324|Medium Sunlight Through The Roof
+325|Another Heal Effect
+326|Chase Walk Left Foot
+327|Chse Walk Right Foot
+328|Ashura Strike Word
+329|Triple Strike
+330|Combo Finish
+331|Natural HP Regeneration
+332|Natural SP Regeneration
+333|Autumn Leaves
+334|Blind
+335|Poison
+336|Kirye Eleison/Parring/Defender Shield
+337|Class Change
+338|Super Novice/Taekwon Level Up Angel
+339|Spiral Pierce
+340|Nothing
+341|Wedding Warp Portal
+342|Wedding Skill
+343|Another Merry Skill
+344|Login
+345|Nothing
+346|Like Moonlight But Blue
+347|Wedding Cerimony
+348|Like 1000 Blade trepassing
+349|Waterfall (Horizonatal)
+350|Waterfall (Vertical)
+351|Small Waterfall (Horizonatal)
+352|Small Waterfall (Vertical)
+353|Dark Waterfall (Horizonatal)
+354|Dark Waterfall (Vertical)
+355|Dark Small Waterfall (Horizonatal)
+356|Dark Small Waterfall (Vertical)
+357|UNKNOWN
+358|Niflheim Ghost
+359|Niflheim Bat Slow
+360|Niflheim Bat Fast
+361|Soul Breaker
+362|Another Level 99 Bubbles
+363|Valentine Day Heart (With Wings)
+364|Valentine Day Heart
+365|Pressure
+368|Berserk
+369|Spear Quiken
+370|Gospel Small Cross
+371|Level Up
+372|Death
+373|House Smoke
+374|Basilica
+375|Assumptio Sprite Effect
+376|Palm Strike
+377|Shoot Out Yellow Beam
+378|Soul Drain
+379|Soul Drain (2nd Part)
+380|Magic Crasher
+381|Like 1000 Blade trepassing
+382|Nothing
+383|Healt Conversion
+384|Soul Change
+385|Soul Change (2nd Part)
+386|True Sight
+387|Falcon Asccolut
+388|Only a Sound
+389|Wind Walk
+390|Melt Down
+391|Cart Boost
+392|Reject Sword
+393|Vulcan Arrow
+394|The Real Moonlight
+395|Soul Change (The same of 384)
+396|Marionette Control
+397|Nothing
+398|Nothing
+399|Head Crush
+400|Joint Beat
+401|Napalm Vulcan Sound
+402|Dangerous Soul Collect
+403|Mind Breaker
+404|Spider Web
+405|Wall Of Fog
+406|Soul Burn
+407|Need More Test Skill
+408|Orange Bubble Grows Around
+409|Meteor Assoult
+410|Rainbow
+411|High Jump
+412|Like Throw Spirit Sphere
+413|Axe Kick
+414|Round Kick
+415|Counter Kick
+416|Whirlwind Kick (Probably)
+417|Flash
+418|Warmth Lightning
+419|Kaite (Sprite Effect)
+420|Eswoo (Sprite Effect)
+421|Istant Eswoo (Sprite Effect)
+422|Eswoo Back (Sprite Effect)
+423|Eswoo Istant Back (Sprite Effect)
+424|Spirit Link (Sprite Effect)
+425|Nothing
+426|Running Hit Effect
+427|Nothing
+428|Nothing
+429|Taekwon Normal Kick
+430|The Same of 429
+431|The Same of 429 and 430
+432|Star Gladiator Map Recognize
+433|Something like 432
+434|Like 429, 430 and 431
+435|Whirlwind Kick
+436|Like Kirye Shield but totally White (Old Sprite for Warmth Barrier)
+437|White Flash Light (Like a Comet)
+438|Kaite Barrier
+439|Flying Side Kick
+440|Probably Taekwon Angel (Its Like Assumptio.. but LIKE, not the same)
+441|Comfort Skills Cast
+442|Running Foots
+443|Nothing
+444|Running Stop
+445|High Jump (Jump Only)
+446|High Jump (Return Down Only)
+447|Running Left Foot
+448|Running Right Foot
+449|KA-Spell (1st Part)
+450|Darkcross (@doom Command)
+451|Dark Strike
+452|Something Like Jupitel Thunder
+453|Paralized
+454|Like Blind
+455|Another Warmth Lightning
+456|Power Up
+457|Flying Side Kick (2nd Part)
+458|Another Running Hit Effect
+459|Warm Wind (Earth Element)
+460|Warm Wind (Wind Element)
+461|Warm Wind (General Element)
+462|Kaupe Dodge Effect
+463|The Same of 462
+464|Warm Wind (Holy Element)
+465|Warm Wind (Posion Element)
+466|Another Round Kick
+467|Warm Wind Lv 1
+468|Warm Wind Lv 2
+469|Warm Wind Lv 3
+470|Warm Wind Lv 4
+471|Warm Wind Lv 5
+472|Warm Wind Lv 6
+473|Warm Wind Lv 7
+474|Nothing
+475|Demon of The Sun Moon And Stars
+476|Demon of The Sun Moon And Stars
+477|Demon of The Sun Moon And Stars
+478|Demon of The Sun Moon And Stars
+479|Demon of The Sun Moon And Stars
+480|Demon of The Sun Moon And Stars
+481|Demon of The Sun Moon And Stars
+482|Demon of The Sun Moon And Stars
+483|Demon of The Sun Moon And Stars
+484|Demon of The Sun Moon And Stars
+485|Lightning like Mental Strenght but White
+486|Like Mental Strenght but White
+487|Demon of The Sun Moon And Stars Ground Effect
+488|Comfort Skills
+489|Nothing
+490|Nothing
+491|Element Potions
+492|Cooking Foods
+493|Enchant Deadly Poison
+494|Throwing Tomahawk
+495|Full Strip Sound
+496|Preserve
+497|Twilight Alchemy 1
+498|Twilight Alchemy 2
+499|Twilight Alchemy 3
+500|Need More Test Skill
+501|WTF?
+502|Need More Test Skill
+503|Soul Link Word
+504|Nothing
+505|Need More Test Skill
+506|Nothing
+507|Authoritative Badge
+508|Fire Cracker
+509|Valentine Day Hearth (Wings)
+510|WOOH! Another Ashura Strike Word (Its the opposite of the original 328!!)
+511|Nothing
+512|Chain Crush COmbo
+513|O_O Like Area Cast Target
+514|O_O I Really don't know this
+515|Einbroch Fog
+516|Airship Cloud
+517|Nothing
+518|Cart Termination
+519|Speed Down Potion
+520|Shield Bumerang
+521|O_O I Really don't know this
+522|Gravitation Field
+523|Tarot of Fate
+524|Tarot of Fate
+525|Tarot of Fate
+526|Tarot of Fate
+527|Tarot of Fate
+528|Tarot of Fate
+529|Tarot of Fate
+530|Tarot of Fate
+531|Tarot of Fate
+532|Tarot of Fate
+533|Tarot of Fate
+534|Tarot of Fate
+535|Tarot of Fate
+536|Tarot of Fate
+537|O_O I Really don't know this
+538|O_O I Really don't know this
+539|Throw Random Bottle
+540|Instant Small->Normal
+541|Nothing
+542|KA-Spell (1st Part)
+543|Kahii
+544|Warmth Red Sprite
+545|Sound and... PUFF Crash Client :P
+546|Another HP/SP Regeneration
+547|Estin
+548|Istant Red Sprite
+549|Istant Blue Sprite
+550|Another Effect like Running Hit
+551|O_O Effect Like Estun but with Circle
+552|Nothing
+553|Esma
+554|Nothing
+555|Estun
+556|Nothing
+557|Juperos Light Wall Slow (Horizonatal)
+558|Juperos Light Wall Slow (Vertical)
+559|Juperos Light Wall Fast (Horizonatal)
+560|Juperos Light Wall Fast (Vertical)
+561|Juperos Warp
+562|Juperos Warp
+563|Earthquake Effect (Juperos Elevator)
+564|Wedding Cast
+565|Slash 1
+566|Slash 2
+567|Slash 3
+568|Another Job Level Up
+569|Homunculus Skill
+570|Homunculus Skill
+571|Homunculus Skill
+572|Warmth Soul
+573|Twilight Alchemy 1
+574|Twilight Alchemy 2
+575|Twilight Alchemy 3
+576|Box Effect
+577|Box Effect
+578|Box Effect
+579|Box Effect
+580|Box Effect
+581|Box Effect
+582|Another Super Novice/Taekwon Angel
+583|Warmth Hit
+584|Full Buster
+585|A Gunslinger Skill
+586|Somatology Lab Mobs Aura
+587|WTF?
+588|WTF?
+589|Eswoo
+590|Running Stop
+591|Nothing
+592|Nothing
+593|Food Items Effect
+594|Food Items Effect
+595|Food Items Effect
+596|Food Items Effect
+597|Food Items Effect
+598|Food Items Effect
+599|O_O I Really don't know this
+600|Something Happen Near Shadow Sprite
+601|Sight Blaster
+602|Something About 2nd Class New Skills
+603|Something About 2nd Class New Skills
+604|Close Confine
+605|Nothing
+606|Nothing
+607|Nothing
+608|Cooking Success
+609|Cooking Failed
+610|Success
+611|Failed
+612|O_O I Really don't know this
+613|Something Happen Near Shadow Sprite
+614|Something Happen Near Shadow Sprite
+615|Something Happen Near Shadow Sprite
+616|Something Happen Near Shadow Sprite
+617|Player Become Black
+618|Crimson Fire Bolossom
+619|Lightning Spear Of Ice
+620|Water Escape Tecnique
+621|Wind Blade
+622|Lightning Crash
+623|A Gunslinger Skill
+624|North Wind
+625|Illusionary Shadow
+626|Red Pulse Flash
+627|A Gunslinger Skill
+628|A Gunslinger Skill
+629|Nothing
+630|Shadow Slash
+631|A Gunslinger Skill
+632|Mist Slash
+633|Final Strike
+634|Crimson Fire Formation
+635|Dragon Fire Formation
+636|Falling Ice Pillar
+637|Desperado
+638|Ground Drift Granade
+639|Ground Drift Granade
+640|Ground Drift Granade
+641|Ground Drift Granade
+642|Ground Drift Granade
+643|A Gunslinger Skill
+644|A Gunslinger Skill
+645|A Gunslinger Skill
+646|A Gunslinger Skill
+647|A Gunslinger Skill
+648|A Gunslinger Skill
+649|A Gunslinger Skill
+650|Ice Cave Level 4 Circle
+651|Ice Cave Level 4 Big Circle
+652|New Number Red with Punch Sound
+653|New Number Purple
+654|Player become Green Slooooowli
+655|Green Flash
+656|NEED UPDATE SAKEEXE
+666|Earthquake
+667|(Nothing)
+668|Dragonfear
+669|Wide Bleeding
+670|Dragon fear (Visual Effect)
+671|The Japan Earth Symbol (Like 'Seven Wind LV 1' but is in the Ground)
+672|The Japan Wind Symbol (Like 'Seven Wind LV 2' but is in the Ground)
+673|(Nothing)
+674|Like Curse Effect
+675|Like Parrying/Kyrie Eleison barrier but Yellow with small Cross in every barrier piece
+676|Slow Casting
+677|Critical Wounds/Bleeding Attack
+678|White 99 Aura Bubbles
+679|Green Aura (Middle)
+680|Green Aura (Bottom)
+681|Dimensional Gorge Map Effect
+682|I Love You Banner
+683|Happy White Day Banner
+684|Happy Valentine Day Banner
+685|Happy Birthday Banner
+686|Merry Christmas Banner
+687|Cast Circle-Like effect 1
+688|Cast Circle-Like effect 2
+689|Endless Tower Map Effect
+690|Burning Flame (Red)
+691|Burning Flame (Green)
+692|Unknown Aura Bubbles (Small ghosts)
+693|Translucent yellow circle
+694|Translucent green circle
+695|Rotating green light
+696|The same of 690 and 691 but Blue/Purple.
+697|(Nothing)
+698|(Nothing)
+699|Fall of powder from the sky and raise of some leaf.
+700|No More Effects From 2008/03/26 Sakexe.
