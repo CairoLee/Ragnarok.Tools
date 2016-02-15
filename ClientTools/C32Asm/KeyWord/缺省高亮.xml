@@ -1,0 +1,491 @@
+<SETTINGS>
+<OPTIONS>
+	<WordDelimeters>" \t\n,./?LTGT;:\"'{[}]~`%^AMP*()-+=!"</WordDelimeters>
+	<SpecialDelimiters>";.{}\n"</SpecialDelimiters>
+	<IntelliSenseChars>".>:"</IntelliSenseChars>
+</OPTIONS>
+<COLOR_DATA>
+	<KEYWORDS>
+		<Color>0xca7c1e</Color>   
+		<CaseSensitive>False</CaseSensitive>
+		<Keyword>FRSTOR</Keyword>
+		<Keyword>LOOPDNE</Keyword>	
+		<Keyword>LOOPD</Keyword>
+		<Keyword>PREFIX</Keyword>			
+		<Keyword>REPNE</Keyword>
+		<Keyword>AAA</Keyword>
+		<Keyword>AAD</Keyword>
+		<Keyword>AAM</Keyword>
+		<Keyword>AAS</Keyword>    
+		<Keyword>ADC</Keyword>    
+		<Keyword>ADD</Keyword>    
+		<Keyword>AND</Keyword>    
+		<Keyword>ARPL</Keyword>   
+		<Keyword>BOUND</Keyword>  
+		<Keyword>CBW</Keyword>    
+		<Keyword>CLC</Keyword>    
+		<Keyword>CLD</Keyword>    
+		<Keyword>CLI</Keyword>    
+		<Keyword>CLTS</Keyword>   
+		<Keyword>CMC</Keyword>    
+		<Keyword>CMP</Keyword>    
+		<Keyword>CMPSB</Keyword>  
+		<Keyword>CMPSW</Keyword>  
+		<Keyword>CWD</Keyword>    
+		<Keyword>DAA</Keyword>    
+		<Keyword>DAS</Keyword>    
+		<Keyword>DEC</Keyword>    
+		<Keyword>DIV</Keyword>    
+		<Keyword>ENTER</Keyword>  
+		<Keyword>ESC</Keyword>    
+		<Keyword>HLT</Keyword>    
+		<Keyword>IDIV</Keyword>   
+		<Keyword>IMUL</Keyword>   
+		<Keyword>IN</Keyword>     
+		<Keyword>INC</Keyword>    
+		<Keyword>INSB</Keyword>   
+		<Keyword>INSW</Keyword>   
+		<Keyword>INT</Keyword>    
+		<Keyword>INTO</Keyword>   
+		<Keyword>IRET</Keyword>      
+		<Keyword>LAHF</Keyword>   
+		<Keyword>LAR</Keyword>    
+		<Keyword>LDS</Keyword>    
+		<Keyword>LEA</Keyword>    
+		<Keyword>LEAVE</Keyword>  
+		<Keyword>LES</Keyword>    
+		<Keyword>LGDT</Keyword>   
+		<Keyword>LIDT</Keyword>   
+		<Keyword>LLDT</Keyword>   
+		<Keyword>LMSW</Keyword>   
+		<Keyword>LOCK</Keyword>   
+		<Keyword>LODSB</Keyword>  
+		<Keyword>LODSW</Keyword>  
+		<Keyword>LOOP</Keyword>   
+		<Keyword>LOOPNZ</Keyword> 
+		<Keyword>LOOPZ</Keyword>  
+		<Keyword>LSL</Keyword>    
+		<Keyword>LTR</Keyword>    
+		<Keyword>MOV</Keyword>    
+		<Keyword>MOVSB</Keyword>  
+		<Keyword>MOVSW</Keyword>  
+		<Keyword>MUL</Keyword>    
+		<Keyword>NEG</Keyword>    
+		<Keyword>NOP</Keyword>    
+		<Keyword>NOT</Keyword>    
+		<Keyword>OR</Keyword>     
+		<Keyword>OUT</Keyword>    
+		<Keyword>OUTSB</Keyword>  
+		<Keyword>OUTSW</Keyword>  
+		<Keyword>POP</Keyword>    
+		<Keyword>POPA</Keyword>   
+		<Keyword>POPF</Keyword>  
+		<Keyword>PUSH</Keyword>   
+		<Keyword>PUSHA</Keyword>  
+		<Keyword>PUSHF</Keyword>  
+		<Keyword>RCL</Keyword>    
+		<Keyword>RCR</Keyword>    
+		<Keyword>REP</Keyword>    
+		<Keyword>REPNZ</Keyword>  
+		<Keyword>REPZ</Keyword>   
+		<Keyword>RET</Keyword>    
+		<Keyword>RETN</Keyword>   
+		<Keyword>REFT</Keyword>   
+		<Keyword>ROL</Keyword>
+		<Keyword>ROR</Keyword>
+		<Keyword>SAHF</Keyword>   
+		<Keyword>SAR</Keyword>    
+		<Keyword>SAL</Keyword>    
+		<Keyword>SBB</Keyword>    
+		<Keyword>SCASB</Keyword>  
+		<Keyword>SCASW</Keyword>  
+		<Keyword>SGDT</Keyword>   
+		<Keyword>SHL</Keyword>    
+		<Keyword>SHR</Keyword>    
+		<Keyword>SLDT</Keyword>   
+		<Keyword>SMSW</Keyword>   
+		<Keyword>STC</Keyword>    
+		<Keyword>STD</Keyword>    
+		<Keyword>STI</Keyword>    
+		<Keyword>STOSB</Keyword>  
+		<Keyword>STOSW</Keyword>  
+		<Keyword>STR</Keyword>    
+		<Keyword>SUB</Keyword>    
+		<Keyword>TEST</Keyword>   
+		<Keyword>WAIT</Keyword>   
+		<Keyword>VERR</Keyword>   
+		<Keyword>VERW</Keyword>   
+		<Keyword>XCHG</Keyword>   
+		<Keyword>XLAT</Keyword>   
+		<Keyword>XOR</Keyword>    
+		<Keyword>BSF</Keyword>    
+		<Keyword>BSR</Keyword>    
+		<Keyword>BT</Keyword>     
+		<Keyword>BTC</Keyword>    
+		<Keyword>BTR</Keyword>    
+		<Keyword>BTS</Keyword>    
+		<Keyword>CDQ</Keyword>    
+		<Keyword>CWDE</Keyword>   
+		<Keyword>IRETD</Keyword>  
+		<Keyword>LFS</Keyword>    
+		<Keyword>LGS</Keyword>    
+		<Keyword>LSS</Keyword>    
+		<Keyword>MOVSX</Keyword>  
+		<Keyword>MOVZX</Keyword>  
+		<Keyword>POPAD</Keyword>  
+		<Keyword>POPFD</Keyword>  
+		<Keyword>PUSHAD</Keyword> 
+		<Keyword>PUSHFD</Keyword> 
+		<Keyword>SETA</Keyword>   
+		<Keyword>SETB</Keyword>   
+		<Keyword>SETBE</Keyword>  
+		<Keyword>SETE</Keyword>   
+		<Keyword>SETG</Keyword>   
+		<Keyword>SETL</Keyword>   
+		<Keyword>SETLE</Keyword>  
+		<Keyword>SETNB</Keyword>  
+		<Keyword>SETNE</Keyword>  
+		<Keyword>SETNL</Keyword>  
+		<Keyword>SETNO</Keyword>  
+		<Keyword>SETNP</Keyword>  
+		<Keyword>SETNS</Keyword>  
+		<Keyword>SETO</Keyword>   
+		<Keyword>SETP</Keyword>   
+		<Keyword>SETS</Keyword>   
+		<Keyword>SHLD</Keyword>   
+		<Keyword>SHRD</Keyword>   
+		<Keyword>CMPSD</Keyword>  
+		<Keyword>STOSD</Keyword>  
+		<Keyword>LODSD</Keyword>  
+		<Keyword>MOVSD</Keyword>  
+		<Keyword>SCASD</Keyword>  
+		<Keyword>INSD</Keyword>   
+		<Keyword>OUTSD</Keyword>  
+		<Keyword>JECXZ</Keyword>  
+		<Keyword>BSWAP</Keyword>  
+		<Keyword>CMPXCHG</Keyword>
+		<Keyword>INVD</Keyword>   
+		<Keyword>INVLPG</Keyword> 
+		<Keyword>WBINVD</Keyword> 
+		<Keyword>XADD</Keyword>   
+		<Keyword>FABS</Keyword>   
+		<Keyword>FADD</Keyword>   
+		<Keyword>FADDP</Keyword>  
+		<Keyword>FBLD</Keyword>   
+		<Keyword>FBSTP</Keyword>  
+		<Keyword>FCHS</Keyword>   
+		<Keyword>FCLEX</Keyword>  
+		<Keyword>FCOM</Keyword>   
+		<Keyword>FCOMP</Keyword>  
+		<Keyword>FCOMPP</Keyword> 
+		<Keyword>FDECSTP</Keyword>
+		<Keyword>FDISI</Keyword>  
+		<Keyword>FDIV</Keyword>   
+		<Keyword>FDIVP</Keyword>  
+		<Keyword>FDIVR</Keyword>  
+		<Keyword>FDIVRP</Keyword> 
+		<Keyword>FENI</Keyword>   
+		<Keyword>FFREE</Keyword>  
+		<Keyword>FIADD</Keyword>  
+		<Keyword>FIACOM</Keyword> 
+		<Keyword>FIACOMP</Keyword>
+		<Keyword>FIDIV</Keyword>  
+		<Keyword>FIDIVR</Keyword> 
+		<Keyword>FILD</Keyword>   
+		<Keyword>FIMUL</Keyword>  
+		<Keyword>FINCSTP</Keyword>
+		<Keyword>FINIT</Keyword>  
+		<Keyword>FIST</Keyword>   
+		<Keyword>FISTP</Keyword>  
+		<Keyword>FISUB</Keyword>  
+		<Keyword>FISUBR</Keyword> 
+		<Keyword>FLD</Keyword>    
+		<Keyword>FLDCWR</Keyword> 
+		<Keyword>FLDENV</Keyword> 
+		<Keyword>FLDLG2</Keyword> 
+		<Keyword>FLDLN2</Keyword> 
+		<Keyword>FLDL2E</Keyword> 
+		<Keyword>FLDL2T</Keyword> 
+		<Keyword>FLDPI</Keyword>  
+		<Keyword>FLDZ</Keyword>   
+		<Keyword>FLD1</Keyword>   
+		<Keyword>FLDCW</Keyword>  
+		<Keyword>FMUL</Keyword>   
+		<Keyword>FMULP</Keyword>  
+		<Keyword>FNOP</Keyword>   
+		<Keyword>FNSTS</Keyword>  
+		<Keyword>FPATAN</Keyword> 
+		<Keyword>FPREM</Keyword>  
+		<Keyword>FPTAN</Keyword>  
+		<Keyword>FRNDINT</Keyword>
+		<Keyword>FSAVENT</Keyword>
+		<Keyword>FSCALE</Keyword> 
+		<Keyword>FSETPM</Keyword> 
+		<Keyword>FSQRT</Keyword>  
+		<Keyword>FST</Keyword>    
+		<Keyword>FSTCW</Keyword>  
+		<Keyword>FSTENV</Keyword> 
+		<Keyword>FSTP</Keyword>   
+		<Keyword>FSTSW</Keyword>  
+		<Keyword>FSUB</Keyword>   
+		<Keyword>FSUBP</Keyword>  
+		<Keyword>FSUBR</Keyword>  
+		<Keyword>FSUBRP</Keyword> 
+		<Keyword>FTST</Keyword>   
+		<Keyword>FWAIT</Keyword>  
+		<Keyword>FXAM</Keyword>   
+		<Keyword>FXCH</Keyword>   
+		<Keyword>FXTRACT</Keyword>
+		<Keyword>FYL2X</Keyword>  
+		<Keyword>FYL2XPI</Keyword>
+		<Keyword>F2XM1</Keyword>  
+		<Keyword>FCOS</Keyword>   
+		<Keyword>FSIN</Keyword>   
+		<Keyword>FPREM1</Keyword> 
+		<Keyword>FSINCOS</Keyword>
+		<Keyword>FUCOM</Keyword>  
+		<Keyword>FUCOMP</Keyword> 
+		<Keyword>FUCOMPP</Keyword>
+		<Keyword>CALL</Keyword>                                                                                                             
+		<Keyword>JA</Keyword>   
+		<Keyword>JAE</Keyword> 
+		<Keyword>JB</Keyword>  
+		<Keyword>JBE</Keyword> 
+		<Keyword>JCXZ</Keyword>
+		<Keyword>JC</Keyword>  
+		<Keyword>JNC</Keyword> 
+		<Keyword>JE</Keyword>  
+		<Keyword>JNGE</Keyword>
+		<Keyword>JNG</Keyword> 
+		<Keyword>JNL</Keyword> 
+		<Keyword>JG</Keyword>  
+		<Keyword>JGE</Keyword> 
+		<Keyword>JL</Keyword>  
+		<Keyword>JLE</Keyword> 
+		<Keyword>JMP</Keyword> 
+		<Keyword>JNB</Keyword> 
+		<Keyword>JNBE</Keyword>
+		<Keyword>JNE</Keyword> 
+		<Keyword>JNLE</Keyword>
+		<Keyword>JNO</Keyword> 
+		<Keyword>JNP</Keyword> 
+		<Keyword>JNZ</Keyword> 
+		<Keyword>JPO</Keyword> 
+		<Keyword>JZ</Keyword>  
+		<Keyword>JO</Keyword>  
+		<Keyword>JP</Keyword>  
+		<Keyword>JS</Keyword>  
+		<Keyword>JNS</Keyword>                                     
+	</KEYWORDS>
+	<WORDS> 
+		<WORD><Val>EAX</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>AH</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>AL</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>EBX</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>BX</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>BH</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>BL</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>ECX</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>CX</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>CH</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>CL</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>EDX</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>DX</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>DH</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>DL</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>ESI</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>SI</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>EDI</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>DI</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>ESP</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>SP</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>EBP</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>BP</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>EFLAGS</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>FLAGS</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>CS</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>DS</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>ES</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>SS</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>FS</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>GS</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>ST</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>CR</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>DR</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>TR</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD> 
+		<WORD><Val>GDTR</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>LDTR</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>IDTR</Val><Color>0x8e8eff</Color><CaseSensitive>False</CaseSensitive></WORD>
+		                                                                                                                 
+		<WORD><Val>WORD</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>BYTE</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>DWORD</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>QWORD</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>FWORD</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>TBYTE</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>PTR</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>                                                                                                                                                                                             
+		<WORD><Val>SHORT</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>
+		<WORD><Val>NEAR</Val><Color>0x6f6f</Color><CaseSensitive>False</CaseSensitive></WORD>                                                                               
+	</WORDS>                        
+	<BLOCKS>                                                                          
+		<BLOCK>                                  
+			<Start>;</Start>                
+			<Color>0x4000</Color>       
+			<WholeText>false</WholeText>     
+		</BLOCK>
+		<BLOCK>                                  
+			<Start>\-></Start>                
+			<Color>0x80</Color>       
+			<WholeText>false</WholeText>     
+		</BLOCK>                                
+	</BLOCKS>                                        
+</COLOR_DATA>                                            
+</SETTINGS>                                              
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
