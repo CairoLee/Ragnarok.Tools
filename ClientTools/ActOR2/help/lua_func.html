@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>lua function(lua追加関数)</title>
+</head>
+<body>
+<p>
+Cautions: ID begins from 0.<br>
+注意: IDは、0から始まります
+</p>
+<p>
+Index
+<ol>
+<li>Getting Functions(取得用関数)
+  <ol>
+  <li><a href="#GetNumAct">GetNumAct</a>
+  <li><a href="#GetNumFrame">GetNumFrame</a>
+  <li><a href="#GetNumPat">GetNumPat</a>
+  <li><a href="#GetSprNo">GetSprNo</a>
+  <li><a href="#GetSpType">GetSpType</a>
+  <li><a href="#GetXYOffs">GetXYOffs</a>
+  <li><a href="#IsMirror">IsMirror</a>
+  <li><a href="#GetA">GetA</a>
+  <li><a href="#GetR">GetR</a>
+  <li><a href="#GetG">GetG</a>
+  <li><a href="#GetB">GetB</a>
+  <li><a href="#GetXMag">GetXMag</a>
+  <li><a href="#GetYMag">GetYMag</a>
+  <li><a href="#GetRot">GetRot</a>
+  <li><a href="#GetSprWH">GetSprWH</a>
+  <li><a href="#GetExtXYOffs">GetExtXYOffs</a>
+  <li><a href="#GetSoundNo">GetSoundNo</a>
+  <li><a href="#GetInterval">GetInterval</a>
+  <li><a href="#GetNumImage">GetNumImage</a>
+  <li><a href="#GetNumPalImage">GetNumPalImage</a>
+  <li><a href="#GetNumFlatImage">GetNumFlatImage</a>
+  <li><a href="#GetImageWH">GetImageWH</a>
+  </li>
+  </ol>
+<li>Setting Functions(設定用関数)
+  <ol>
+  <li><a href="#SetSprNoType">SetSprNoType</a>
+  <li><a href="#SetXYOffs">SetXYOffs</a>
+  <li><a href="#SetMirror">SetMirror</a>
+  <li><a href="#SetA">SetA</a>
+  <li><a href="#SetR">SetR</a>
+  <li><a href="#SetG">SetG</a>
+  <li><a href="#SetB">SetB</a>
+  <li><a href="#SetXMag">SetXMag</a>
+  <li><a href="#SetYMag">SetYMag</a>
+  <li><a href="#SetRot">SetRot</a>
+  <li><a href="#SetExtXYOffs">SetExtEXOffs</a>
+  <li><a href="#SetSoundNo">SetSoundNo</a>
+  <li><a href="#SetInterval">SetInterval</a>
+  </li>
+  </ol>
+<li>Differential setting Functions(差分設定用関数)
+  <ol>
+  <li><a href="#MoveSprite">MoveSprite</a>
+  <li><a href="#ChangeMagnify">ChangeMagnify</a>
+  <li><a href="#ChangeRotation">ChangeRotation</a>
+  <li><a href="#MoveExtSprite">MoveExtSprite</a>
+  </li>
+  </ol>
+<li>Add, Delete Functions(追加・削除用関数)
+  <ol>
+  <li><a href="#AddPat">AddPat</a>
+  <li><a href="#DelPat">DelPat</a>
+  <li><a href="#SwapPat">SwapPat</a>
+  <li><a href="#CopyToNextFrame">CopyToNextFrame</a>
+  <li><a href="#DelFrame">DelFrame</a>
+  <li><a href="#SwapFrame">SwapFrame</a>
+  <li><a href="#CopyAct">CopyAct</a>
+  <li><a href="#CopyInsertFrame">CopyInsertFrame</a>
+  </li>
+  </ol>
+<li>Palette Functions(パレット用関数)
+  <ol>
+  <li><a href="#GetPalCol">GetPalCol</a>
+  <li><a href="#SetPalCol">SetPalCol</a>
+  <li><a href="#RGB2HSV">RGB2HSV</a>
+  <li><a href="#HSV2RGB">HSV2RGB</a>
+  </li>
+  </ol>
+<li>Miscellaneous(その他)
+  <ol>
+  <li><a href="#Print">Print</a>
+  </li>
+  </ol>
+</li>
+</ol>
+</p>
+<p>
+Description
+<ol>
+<li>Getting Functions(取得用関数)
+  <ol>
+  <li><a name="GetNumAct">GetNumAct</a><br>
+    Usage(使い方): GetNumAct()<br>
+    Desc.: Returns the number of actions.<br>
+    説明: アクションの総数が返ってきます。
+  </li>
+  <li><a name="GetNumFrame">GetNumFrame</a><br>
+    Usage(使い方): GetNumFrame(ActID)<br>
+    Desc.: Returns the number of frames of action "ActID".<br>
+    説明: アクション"ActID"の総フレーム数が返ってきます。
+  </li>
+  <li><a name="GetNumPat">GetNumPat</a><br>
+    Usage(使い方): GetNumPat(ActID, FrameID)<br>
+    Desc.: Returns the number of patterns of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"の、総パターン数が返ってきます。
+  </li>
+  <li><a name="GetSprNo">GetSprNo</a><br>
+    Usage(使い方): GetSprNo(ActID, FrameID, PatternID)<br>
+    Desc.: Returns "SprNo" of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"SprNo"が返ってきます。
+  </li>
+  <li><a name="GetSpType">GetSpType</a><br>
+    Usage(使い方): GetSpType(ActID, FrameID, PatternID)<br>
+    Desc.: Returns "SpType" of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"SpType"が返ってきます。
+  </li>
+  <li><a name="GetXYOffs">GetXYOffs</a><br>
+    Usage(使い方): GetXYOffs(ActID, FrameID, PatternID)<br>
+    Desc.: Returns "Xoffs" and "Yoffs" of pattern "PatternID" of frame "FrameID" of action "ActID". This function returns two values.<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"Xoffs"と"Yoffs"が返ってきます。この関数は、2つの値を返します。
+  </li>
+  <li><a name="IsMirror">IsMirror</a><br>
+    Usage(使い方): IsMirror(ActID, FrameID, PatternID)<br>
+    Desc.: Returns "Mirror" of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"Mirror"が返ってきます。
+  </li>
+  <li><a name="GetA">GetA</a><br>
+    Usage(使い方): GetA(ActID, FrameID, PatternID)<br>
+    Desc.: Returns alpha value of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"のα値が返ってきます。
+  </li>
+  <li><a name="GetR">GetR</a><br>
+    Usage(使い方): GetR(ActID, FrameID, PatternID)<br>
+    Desc.: Returns red value of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の赤色度が返ってきます。
+  </li>
+  <li><a name="GetG">GetG</a><br>
+    Usage(使い方): GetG(ActID, FrameID, PatternID)<br>
+    Desc.: Returns green value of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の緑色度が返ってきます。
+  </li>
+  <li><a name="GetB">GetB</a><br>
+    Usage(使い方): GetB(ActID, FrameID, PatternID)<br>
+    Desc.: Returns blue value of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の青色度が返ってきます。
+  </li>
+  <li><a name="GetXMag">GetXMag</a><br>
+    Usage(使い方): GetXMag(ActID, FrameID, PatternID)<br>
+    Desc.: Returns "XMag" of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"XMag"が返ってきます。
+  </li>
+  <li><a name="GetYMag">GetYMag</a><br>
+    Usage(使い方): GetYMag(ActID, FrameID, PatternID)<br>
+    Desc.: Returns "YMag" of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"YMag"が返ってきます。
+  </li>
+  <li><a name="GetRot">GetRot</a><br>
+    Usage(使い方): GetRot(ActID, FrameID, PatternID)<br>
+    Desc.: Returns "Rot" of pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"Rot"が返ってきます。
+  </li>
+  <li><a name="GetSprWH">GetSprWH</a><br>
+    Usage(使い方): GetSprWH(ActID, FrameID, PatternID)<br>
+    Desc.: Returns width and height of "SprNo" of pattern "PatternID" of frame "FrameID" of action "ActID". This function returns two value. Please see "GetImageWH".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"の"SprNo"の幅と高さが返ってきます。この関数は、2つの値を返します。"GetImageWH"も参照してください。
+  </li>
+  <li><a name="GetExtXYOffs">GetExtXYOffs</a><br>
+    Usage(使い方): GetExtXYOffs(ActID, FrameID)<br>
+    Desc.: Returns Ext.Xoffset and Ext.Yoffset of frame "FrameID" of action "ActID". This function returns two values. Ext.XYOffset is used for definition of position of head and accessory.<br>
+    説明: アクション"ActID"のフレーム"FrameID"のExt.XoffsetとExt.Yoffsetが返ってきます。この関数は、2つの値を返します。Ext.XYOffsetは、頭と頭装備の位置決定に用いられます。
+  </li>
+  <li><a name="GetSoundNo">GetSoundNo</a><br>
+    Usage(使い方): GetSoundNo(ActID, FrameID)<br>
+    Desc.: Returns SoundID of frame "FrameID" of action "ActID". If the return value is -1, silence in the frame.<br>
+    説明: アクション"ActID"のフレーム"FrameID"のSoundIDが返ってきます。返値が-1の時は、そのフレームは無音です。
+  </li>
+  <li><a name="GetInterval">GetInterval</a><br>
+    Usage(使い方): GetInterval(ActID)<br>
+    Desc.: Returns a waittime for next frame of action "ActID".<br>
+    説明: アクション"ActID"の描画更新間隔が返ってきます。
+  </li>
+  <li><a name="GetNumImage">GetNumImage</a><br>
+    Usage(使い方): GetNumImage()<br>
+    Desc.: Returns the number of images (in .spr file).<br>
+    説明: (.sprにある)イメージの総数が返ってきます。
+  </li>
+  <li><a name="GetNumPalImage">GetNumPalImage</a><br>
+    Usage(使い方): GetNumPalImage()<br>
+    Desc.: Returns the number of palette images (in .spr file).<br>
+    説明: (.sprにある)パレットを使ったイメージの総数が返ってきます。
+  </li>
+  <li><a name="GetNumFlatImage">GetNumFlatImage</a><br>
+    Usage(使い方): GetNumFlatImage()<br>
+    Desc.: Returns the number of flat images (in .spr file).<br>
+    説明: (.sprにある)ベタイメージの総数が返ってきます。
+  </li>
+  <li><a name="GetImageWH">GetImageWH</a><br>
+    Usage(使い方): GetImageWH(ImageID)<br>
+    Desc.: Returns width and height of image "ImageID".This function returns two value. Please see "GetSprWH".<br>
+    説明: イメージ"ImageID"の幅と高さが返ってきます。この関数は、2つの値を返します。"GetSprWH"も参照してください。
+  </li>
+  </ol>
+</li>
+<li>Setting Functions(設定用関数)
+  <ol>
+  <li><a name="SetSprNoType">SetSprNoType</a><br>
+    Usage(使い方): SetSprNoType(ActID, FrameID, PatternID, SprNo, SpType)<br>
+    Desc.: Sets "SprNo" and "SpType" to pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: "SprNo"と"SpType"を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。
+  </li>
+  <li><a name="SetXYOffs">SetXYOffs</a><br>
+    Usage(使い方): SetXYOffs(ActID, FrameID, PatternID, XOffs, YOffs)<br>
+    Desc.: Sets "XOffs" and "YOffs" to pattern "PatternID" of frame "FrameID" of action "ActID". Please see "MoveSprite".<br>
+    説明: "XOffs"と"YOffs"を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。"MoveSprite"も参照してください。
+  </li>
+  <li><a name="SetMirror">SetMirror</a><br>
+    Usage(使い方): SetMirror(ActID, FrameID, PatternID, true or false)<br>
+    Desc.: Sets "Mirror" to pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: "Mirror"を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。
+  </li>
+  <li><a name="SetA">SetA</a><br>
+    Usage(使い方): SetA(ActID, FrameID, PatternID, AValue)<br>
+    Desc.: Sets alpha value to pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: α値を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。
+  </li>
+  <li><a name="SetR">SetR</a><br>
+    Usage(使い方): SetR(ActID, FrameID, PatternID, RValue)<br>
+    Desc.: Sets red value to pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: 赤色値を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。
+  </li>
+  <li><a name="SetG">SetG</a><br>
+    Usage(使い方): SetG(ActID, FrameID, PatternID, GValue)<br>
+    Desc.: Sets gree value to pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: 緑色値を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。
+  </li>
+  <li><a name="SetB">SetB</a><br>
+    Usage(使い方): SetB(ActID, FrameID, PatternID, BValue)<br>
+    Desc.: Sets blue value to pattern "PatternID" of frame "FrameID" of action "ActID".<br>
+    説明: 青色値を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。
+  </li>
+  <li><a name="SetXMag">SetXMag</a><br>
+    Usage(使い方): SetXMag(ActID, FrameID, PatternID, XMag)<br>
+    Desc.: Sets "XMag" to pattern "PatternID" of frame "FrameID" of action "ActID". Please see "ChangeMagnify".<br>
+    説明: 幅拡大率を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。"ChangeMagnify"も参照してください。
+  </li>
+  <li><a name="SetYMag">SetYMag</a><br>
+    Usage(使い方): SetYMag(ActID, FrameID, PatternID, YMag)<br>
+    Desc.: Sets "YMag" to pattern "PatternID" of frame "FrameID" of action "ActID". Please see "ChangeMagnify".<br>
+    説明: 高さの拡大率を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。"ChangeMagnify"も参照してください。
+  </li>
+  <li><a name="SetRot">SetRot</a><br>
+    Usage(使い方): SetRot(ActID, FrameID, PatternID, Rot)<br>
+    Desc.: Sets "Rot" to pattern "PatternID" of frame "FrameID" of action "ActID". Please see "ChangeRotation".<br>
+    説明: "Rot"を、アクション"ActID"のフレーム"FrameID"のパターン"PatternID"に設定します。"ChangeRotation"も参照してください。
+  </li>
+  <li><a name="SetExtXYOffs">SetExtEXOffs</a><br>
+    Usage(使い方): SetExtXYOffs(ActID, FrameID, XOffs, YOffs)<br>
+    Desc.: Sets Ext.Xoffset and Ext.Yoffset to frame "FrameID" of action "ActID". Ext.XYOffset is used for definition of position of head and accessory. Please see "MoveExtSprite".<br>
+    説明: Ext.XoffsetとExt.Yoffsetを、アクション"ActID"のフレーム"FrameID"に設定します。Ext.XYOffsetは、頭と頭装備の位置決定に用いられます。"MoveExtSprite"も参照してください。
+  </li>
+  <li><a name="SetSoundNo">SetSoundNo</a><br>
+    Usage(使い方): SetSoundNo(ActID, FrameID, SndID)<br>
+    Desc.: Sets SndID to frame "FrameID" of action "ActID". If you want to be silence, set -1.<br>
+    説明: SndIDを、アクション"ActID"のフレーム"FrameID"に設定します。無音にしたいときは、-1を設定してください。
+  </li>
+  <li><a name="SetInterval">SetInterval</a><br>
+    Usage(使い方): SetInterval(ActID)<br>
+    Desc.: Sets a waittime for next frame of action "ActID".<br>
+    説明: アクション"ActID"の描画更新間隔を設定します。
+  </li>
+  </ol>
+</li>
+<li>Differential setting Functions(差分設定用関数)
+  <ol>
+  <li><a name="MoveSprite">MoveSprite</a><br>
+    Usage(使い方): SetXYOffs(ActID, FrameID, PatternID, dX, dY)<br>
+    Desc.: Pattern "PatternID" of frame "FrameID" of action "ActID" moves current position(CX, CY) to (CX+dX, CY+dY). Please see "SetXYOffs".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"が、現在の場所から(dx, dy)ずれた位置に移動します。"SetXYOffs"も参照してください。
+  </li>
+  <li><a name="ChangeMagnify">ChangeMagnify</a><br>
+    Usage(使い方): ChangeMagnify(ActID, FrameID, PatternID, dXMag, dYMag)<br>
+    Desc.: Pattern "PatternID" of frame "FrameID" of action "ActID" is magnified dXMag, dYMag times. Please see "SetXMag", "SetYMag".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"が、dXMag, dYMag倍に拡大されます。"SetXMag", "SetYMag"も参照してください。
+  </li>
+  <li><a name="ChangeRotation">ChangeRotation</a><br>
+    Usage(使い方): ChangeRotation(ActID, FrameID, PatternID, dRot)<br>
+    Desc.: Forthermore pattern "PatternID" of frame "FrameID" of action "ActID" is rotated dRot degree. Please see "SetRot".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"が、さらに、dRot度回転します。"SetRot"も参照してください。
+  </li>
+  <li><a name="MoveExtSprite">MoveExtSprite</a><br>
+    Usage(使い方): SetXYOffs(ActID, FrameID, dX, dY)<br>
+    Desc.: Ext.XYoffset of frame "FrameID" of action "ActID" changes current position(CX, CY) to (CX+dX, CY+dY). Please see "SetExtXYOffs".<br>
+    説明: アクション"ActID"のフレーム"FrameID"のExt.XYoffsetが、現在の場所から(dx, dy)ずれた位置になります。"SetExtXYOffs"も参照してください。
+  </li>
+  </ol>
+</li>
+<li>Add, Delete Functions(追加・削除用関数)
+  <ol>
+  <li><a name="AddPat">AddPat</a><br>
+    Usage(使い方): AddPat(ActID, FrameID, SprNo, SpType)<br>
+    Desc.: Adds a sprite that is "SprNo", "SpType" to frame "FrameID" of action "ActID".<br> 
+    説明: アクション"ActID"のフレーム"FrameID"に、"SprNo"・"SpType"のスプライトを追加します。
+  </li>
+  <li><a name="DelPat">DelPat</a><br>
+    Usage(使い方): DelPat(ActID, FrameID, PatternID)<br>
+    Desc.: Deletes a sprite of pattern "PatternID" of frame "FrameID" of action "ActID".<br> 
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID"を削除します。
+  </li>
+  <li><a name="SwapPat">SwapPat</a><br>
+    Usage(使い方): SwapPat(ActID, FrameID, PatternID_A, PatternID_B)<br>
+    Desc.: Swaps pattern "PatternID_A" with pattern "PatternID_B" of frame "FrameID" of action "ActID".<br> 
+    説明: アクション"ActID"のフレーム"FrameID"のパターン"PatternID_A"とパターン"PatternID_B"を入れ替えます。
+  </li>
+  <li><a name="CopyToNextFrame">CopyToNextFrame</a><br>
+    Usage(使い方): CopyToNextFrame(ActID, FrameID)<br>
+    Desc.: Copies frame "FrameID" of action "ActID", and inserts(or adds) into next frame. Please see "CopyInsertFrame".<br> 
+    説明: アクション"ActID"のフレーム"FrameID"を、コピーして次のフレームに挿入します。"CopyInsertFrame"も参照してください。
+  </li>
+  <li><a name="DelFrame">DelFrame</a><br>
+    Usage(使い方): DelFrame(ActID, FrameID)<br>
+    Desc.: Deletes frame "FrameID" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID"を、削除します。
+  </li>
+  <li><a name="SwapFrame">SwapFrame</a><br>
+    Usage(使い方): SwapFrame(ActID, FrameID_A, FrameID_B)<br>
+    Desc.: Swaps frame "FrameID_A" with frame "FrameID_B" of action "ActID".<br>
+    説明: アクション"ActID"のフレーム"FrameID_A"とフレーム"FrameID_B"を、交換します。
+  </li>
+  <li><a name="CopyAct">CopyAct</a><br>
+    Usage(使い方): CopyAct(ActID_From, ActID_To)<br>
+    Desc.: Copies action "ActID_From" to action "ActID_To". THIS IS "OVERWRITE". NOT INSERTED.<br>
+    説明: アクション"ActID_From"をアクション"ActID_To"へ上書きコピーします。挿入はしません。
+  </li>
+  <li><a name="CopyInsertFrame">CopyInsertFrame</a><br>
+    Usage(使い方): CopyInsertFrame(ActID_From, FrameID_From, ActID_To, FrameID_To)<br>
+    Desc.: Copies frame "FrameID_From" of action "ActID_From", and inserts(or adds) into frame "FrameID_to" of action "ActID_To". Please see "CopyToNextFrame".<br>
+    説明: アクション"ActID_From"のフレーム"FrameID_From"をコピーして、アクション"ActID_To"のフレーム"FrameID_To"へ挿入します。"CopyToNextFrame"も参照してください。
+  </li>
+  </ol>
+</li>
+<li>Palette Functions(パレット用関数)
+  <ol>
+  <li><a name="GetPalCol">GetPalCol</a><br>
+    Usage(使い方): GetPalCol(PalID)<br>
+    Desc.: Returns PalID's color. It is Red*65536+Green*256+Blue. The range of Red, Green, and Blue is 0 to 255.<br>
+    説明: PalIDの色を返します。値は、Red*65536+Green*256+Blueです。値の範囲は、0〜255です。
+  </li>
+  <li><a name="SetPalCol">SetPalCol</a><br>
+    Usage(使い方): SetPalCol(PalID, COLOR)<br>
+    Desc.: Sets COLOR to PalID's color. The COLOR value is same as "GetPalCol".<br>
+    説明: PalIDの色を設定します。COLORの値は、"GetPalCol"と同じです。
+  </li>
+  <li><a name="RGB2HSV">RGB2HSV</a><br>
+    Usage(使い方): RGB2HSV(Red, Green, Blue)<br>
+    Desc.: Converts RGB color space to HSV color space. This function returns three value. The range of R, G, and B are 0 to 255. The range of S, and V are 0.0 to 1.0. The range of H is 0.0 to 360.0.<br>
+    説明: RGB色空間をHSV色空間に変換します。この関数は３つの値を返します。それぞれの値の範囲は、R・G・Bが0から255。SとVは、0.0から1.0。Hは0.0から360.0です。
+  </li>
+  <li><a name="HSV2RGB">HSV2RGB</a><br>
+    Usage(使い方): HSV2RGB(Hue, Saturation, Value)<br>
+    Desc.: Converts HSV color space to HSV color space. This function returns three value. Ranges are same as "RGB2HSV".<br>
+    説明: RGB色空間をHSV色空間に変換します。この関数は３つの値を返します。それぞれの値の範囲は、"RGB2HSV"と同じです。
+  </li>
+  </ol>
+</li>
+<li>Miscellaneous(その他)
+  <ol>
+  <li><a name="Print">Print</a><br>
+    Usage(使い方): Print(Arg1)<br>
+    Desc.: Display stack "Arg1"<br>
+    説明: "Arg1"のスタックを表示します
+  </li>
+  </ol>
+</li>
+</ol>
+</p>
+</body>
+</html>

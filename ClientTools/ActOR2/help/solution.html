@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Solution(解決法)</title>
+</head>
+<body>
+<a href="#Japanese">日本語はこちら</a>
+<p> </p>
+The solution according to the problem is show here.<br>
+<i><b>But I hope to make the ACT and/or SPR files freely excluding the method that shows here.</b></i><br>
+<font size="-3">How many years did it take so that you might know to be able to insert a full-color image in the SPR file?</font>
+<p>
+<ul>
+<li><H3>Change the color (excluding the body and hair(head))</H3>
+  <ul>
+  <li>In the case of not including the full-color image
+    <ul>
+    <li>Method 1: To change few colors
+      <ol>
+      <li>Open the target SPR file
+      <li>MENU [Edit]-[Change palette]
+      <li>Save SPR
+      </li>
+      </ol>
+    <li>Method 2: To change many colors
+      <ol>
+      <li>Open the target SPR file
+      <li>Save PAL as your favorite application format
+      <li>Change many colors like gradation in your favorite application
+      <li>Save PAL in your favorite application
+      <li>Open PAL file in actOR2
+      <li>Save SPR
+      </li>
+      </ol>
+    <li>Method 3: By modifing the BMP file
+      <ol>
+      <li>Open the target SPR file
+      <li>Save BMP
+      <li>Modify the palette color of the minimum numbered BMP file (basename000.bmp) in your application
+      <li>Save the BMP file in your application. Be sure, the format is 256color format.
+      <li>Open the continuous numbered BMP files in actOR2
+      <li>Save SPR
+      </li>
+      </ol>
+      <b>This program use the palette of the first image.</b>
+    <li>Method 4: By script
+      <ol>
+      <li>Open the target ACT&amp;SPR file
+      <li>MENU [Scirpt]-[Edit]
+      <li>Load the sample lua file "gradation.lua"
+      <li>Edit this sample
+      <li>Run the script
+      <li>Save SPR
+      </li>
+      </ol>
+      <b>This program needs the ACT file to run scripts.</b>
+    </li>
+    </ul>
+  <li>Change the color of the full-color image
+    <ol>
+    <li>Open the target SPR file
+    <li>Save BMP
+    <li>Modify the each TGA files in your application
+    <li>Open the continuous numbered BMP&amp;TGA files in actOR2
+    <li>Save SPR
+    </li>
+    </ol>
+  </li>
+  </ul>
+<li><H3>Change the color of body or hair(head)</H3>
+  The body and hair(head) have the PAL file separately. So, you need to make the PAL file. (exclude No.0)<br>
+  These PAL files are in "data\palette\..." of the GRF file.<br>
+  You will find the target PAL file of the hair. So, you can change the hair color easy.<br>
+  But it is few here compared with an actual job class. Be sure, what do you want to change of the job class? If you don't know what file do you change, do google. And you will find the complex problem.(I don't know the detail.)<br>
+  The method of making PAL looks like the making of SPR. It is only changed to the saving of PAL file to have made it at the end of to making the SPR file.
+<li><H3>Change images (not change the width, height, position, and the image format)</H3>
+  <ol>
+  <li>Open the target SPR file
+  <li>Save BMP
+  <li>Modify many many files in your application
+  <li>Save the BMP and/or TGA files in your application. Be sure, the image format. Don't change.
+  <li>Open the continuous numbered BMP&amp;TGA files in actOR2
+  <li>Save SPR
+  </li>
+  </ol>
+  If you want to change few images, try MENU [Edit]-[Insert/Replace/Delete image].
+<li><H3>Change images (not change the image format)</H3>
+  <ol>
+  <li>Do "Change images (not change the width, height, position, and the image format)"
+  <li>Rename the target ACT file to be suitable for the new SPR file
+  <li>Open the new ACT&amp;SPR files
+  <li>Adjust any patterns in any frames in any actions<br>
+    <ul>
+    <li>If you want to make the original body, use the reference of the head.<br>
+    The position of the head is defined in the ACT of the body. It can be changed by the reference of the head.<br>
+    Prepare the your favorite head's ACT&amp;SPR files. Click Ref. button of Reference-Head. Then, check the checkbox. You will can find "Head" in the DataTable. Select this. And, adjust you want.
+    <li>If you want to make accessories, use the reference of the head and/or body.<br>
+    If you want to make the wing, it seems that the reference of the body is necessary. If you want to make head gears, it seems that the reference of the head is necessary. Be carefull. These references is only reference. Don't move like making the original body.
+    <li>As for using the references, there is the important thing. Especially, about the dynamic-accessories.<br>
+    <b>Please make the number of frames of the reference ACT same as the target ACT.</b>
+    If you want to make dynamic-accessories, make the dynamic-head for the reference.<br>
+    (This dynamic-head can't use in the RO client.)
+    </li>
+    </ul>
+  <li>Save ACT
+  </li>
+  </ol>
+<li><H3>Change images</H3>
+  <i>This program hates the number of images in the SPR file is less than SprNo is defined at the ACT file.(Probably this program don't freeze. But this is not good situation.)<br>
+  So, a tedious method is adopted.<br></i>
+  Here, it explains how to make full-color head gear. If this operation is understood, it is likely to be able to apply it variously.<br>
+  This example uses Sea-Otter hat. Please prepare the ACT&amp;SPR files of this.<br>
+  <ol>
+  <li>Check the number of images in the SPR file. You will count 9 palette images and 0 full-color images.
+  <li>So, you must make 9 full-color images. Don't worry. 9 DUMMY full-color images are necessary. However, you should draw something.
+  <li>Open the SPR in actOR2
+  <li>Save BMP (save as "sea" in this example)
+  <li>You will find sea000.bmp~sea008.bmp. (If some full-color images in the SPR file, you will find **.tga.)
+  <li>Rename 9 DUMMY full-color images to sea009.tga~sea017.tga.
+  <li>Open sea000.bmp in actOR2
+  <li>You will see 18 images in SubView
+  <li>Save SPR (save as "sea_full.spr")
+  <li>Copy original ACT to "sea_full.act"
+  <li>Open "sea_full.act"
+  <li>Try animation. You will see that nothing change. And, stop animation.
+  <li>MENU [Script]-[Load&amp;Run]. And, Select the sample lua file. "changeto32bit.lua"<br>
+    This lua script changes SpType of all patterns of all frames of all actions to 1.
+  <li>Try animation. You will see that all images are changed. Stop animation.
+  <li>Save ACT (save as "sea_full2.act"). And, exit actOR2.
+  <li>Rename sea008.bmp to the other.(or delete)
+  <li>Open sea009.tga in actOR2<br>
+    This program search the minimum numbered file from your selection. Even if you select sea010.tga, this program read from sea009.tga. Because there is not sea008.bmp here. (If you had not rename sea008.bmp, this program read from sea000.bmp.)
+  <li>You will sea 9 full-color images in SubView
+  <li>Save SPR (save as "sea_full2.spr")
+  <li>Open ACT "sea_full2.act"
+  <li>Now, it only has to change it like liking number of images and location, etc.
+  </li>
+  </ol>
+  The basis is easy only of changing SpType to 1.<br>
+  It is good to use what 3 palette images in the SPR file whether finished more easily.
+<li><H3>Add actions</H3>
+  At first. Why do you want to add actions? I hit on the only one. It wants only to do a usual mob to the pet/hom. I want to satisfy your only one demand.　But, the other cases are nonsense. So, this program can't add actions. (If you show the special original client &amp; server program, I praise your great effort, and I will release this limitation.)<br>
+  Here, it explains how to change a usual mob to the pet/hom.<br>
+  Prepare the pet/hom's ACT&amp;SPR files that you want to make finally. (These are named ZZ.act&amp;.spr)
+  And, prepare the favorite mob's ACT&amp;SPR files. (These are named XX.act&amp;.spr)
+  <ol>
+  <li>Open XX.act
+  <li>Save ACT as Text (as "XX.lua")
+  <li>Open XX.act
+  <li>Save BMP (as "XX000.bmp" ~ "XXnnn.bmp")
+  <li>Open ZZ.act
+  <li>Save BMP (as "ZZ000.bmp" ~ "ZZmmm.bmp")
+  <li>Rename "ZZ000.bmp" ~ "ZZmmm.bmp" to "ZZ(nnn+1).bmp" ~ "ZZ(nnn+1+mmm).bmp"<br>
+    Use a good rename program.<br>
+    If you have TGA files, rename such as "XX000.bmp" ~, "ZZ(nnn+1).bmp" ~, "XXooo.tga" ~, and "ZZppp.tga" ~.
+  <li>Once, exit actOR2. And reopen. Then, open "ZZ000.bmp"
+  <li>Save SPR (as "YY.spr")
+  <li>Copy "ZZ.act" to "YY.act"
+  <li>Open "YY.act" in actOR2
+  <li>MENU [Script]-[Load&amp;Run]. Select "XX.lua".
+  <li>Save ACT (as "YY.act")
+  <li>Delete "ZZ*.bmp" and "ZZ*.tga"
+  <li>If you have "XXooo.tga", rename to "XX(nnn+1).tga" ~.
+    Use a very good rename program.
+  <li>Once, exit actOR2. And reopen. Then, open "XX000.bmp".
+  <li>Save SPR (as "YY.spr")
+  <li>Now you get the ACT&amp;SPR files(YY.act&amp;.spr) these are your purpose. But these files have broken pet motions.
+  <li>Adjust pet motions
+  </li>
+  </ol>
+  This method is a tedious method like "Change images". If you have known the number of images in the "XX.spr" is more than the number of images in the "ZZ.spr", you can take a shortcut.
+</li>
+</ul>
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<a name="Japanese">From here to explanation in Japanese.</a>
+<p> </p>
+問題別の解決法を書いておきます。<br>
+が、<b>ここに書いてある方法以外で、自由にACTやSPRファイルを作成することを望みます。</b><br>
+<font size="-3">SPRファイルにフルカラーイメージを挿入できることを知るのに、何年かかりましたか？</font>
+<p>
+<ul>
+<li><H3>色変え（胴体と髪(頭)を除く）</H3>
+  <ul>
+  <li>フルカラーイメージを含まない場合
+    <ul>
+    <li>方法 1: 数色だけ変える
+      <ol>
+      <li>目的のSPRファイルを開く
+      <li>メニューの[編集]-[パレット色変更]
+      <li>SPRを保存
+      </li>
+      </ol>
+    <li>方法 2: 多くの色を変える
+      <ol>
+      <li>目的のSPRファイルを開く
+      <li>好きなアプリ用の形式で、PALを保存
+      <li>好きなアプリで、グラデーションのように多くの色を変える
+      <li>好きなアプリで、PALを保存
+      <li>actOR2でPALを開く
+      <li>SPRを保存
+      </li>
+      </ol>
+    <li>方法 3: BMPファイルの修正で色を変える
+      <ol>
+      <li>目的のSPRを開く
+      <li>BMPで保存
+      <li>好きなアプリで、連番の番号の一番小さいBMPファイル(basename000.bmpとか)を編集
+      <li>好きなアプリで、BMPで保存。画像形式が256色のフォーマットであることを確認してください
+      <li>actOR2で連番ファイルを開く
+      <li>SPRで保存
+      </li>
+      </ol>
+      <b>This program use the palette of the first image.</b>
+    <li>方法 4: スクリプトにより変える
+      <ol>
+      <li>目的のACTとSPRを開く
+      <li>メニューの [スクリプト]-[編集]
+      <li>"gradation.lua"というサンプルluaファイルをロード
+      <li>このサンプルを編集
+      <li>スクリプトの実行
+      <li>SPRで保存
+      </li>
+      </ol>
+      <b>このプログラムは、スクリプトを実行させるのに、ACTファイルが必要です</b>
+    </li>
+    </ul>
+  <li>フルカラーイメージを変える場合
+    <ol>
+    <li>目的のSPRを開く
+    <li>BMPで保存
+    <li>好きなアプリでTGAファイルを修正
+    <li>actOR2で連番BMP&amp;TGAファイルを開く
+    <li>SPRで保存
+    </li>
+    </ol>
+  </li>
+  </ul>
+<li><H3>胴体・髪(頭)の色変え</H3>
+  胴体と髪(頭)は、別にPALファイルを持っています。だから、PALファイル作成するひつようがあります。(0番は除く）<br>
+  これらのPALファイルは、GRFファイルの "data\palette\..." にあります。<br>
+  目的の髪のPALファイルは見つけられるでしょう。だから、簡単に髪の色変えはできます。<br>
+  しかし、実際の職業に比べ、ファイルは足りていません。どの職業の色を変えたいか確認してください。もし、どのファイルを変更していいかわからないなら、ググってください。そして、複雑な問題がみつかるでしょう。（私は詳細はしりません）<br>
+  PALの作成法は、SPRの作成法に似ています。SPR作成の最後に、PALで保存するだけです。
+<li><H3>イメージの差し替え (幅・高さ・位置・画像形式の変更なし）</H3>
+  <ol>
+  <li>目的のSPRを開く
+  <li>BMPで保存
+  <li>好きなアプリで多くのファイルを修正
+  <li>好きなアプリでBMP/TGAで保存。画像形式に注意してください。変えてはいけません。
+  <li>連番BMP&amp;TGAをactOR2で開いてください
+  <li>SPRで保存
+  </li>
+  </ol>
+  数枚の絵を変えたいなら、メニュー[編集]-[選択イメージの挿入/置換/削除]も試してください。
+<li><H3>イメージの差し替え (画像形式の変更なし）</H3>
+  <ol>
+  <li>"イメージの差し替え (幅・高さ・位置・画像形式の変更なし）"を行ってください。
+  <li>目的のACTを、新しく作ったSPRに合うように、リネーム
+  <li>新たらしいACT&amp;SPRを開く
+  <li>すべてのアクションのすべてのフレームのすべてのパターンを調整してください<br>
+    <ul>
+    <li>独自の胴体を作りたいときは、参照の頭を使ってください。<br>
+    頭の位置は、胴体のACTで定義されています。それは、参照の頭で変更することができます。<br>
+    あなたの好きな頭のACTとSPRを用意してください。参照の頭の参照ボタンをクリックし、その後、チェックボックスをチェック。DataTableの中に"Head"を見つけることができるでしょう。これを選択し、好きなように調整してください。
+    <li>装飾品を作りたいなら、参照の頭/胴体を使ってください。<br>
+    翼を作りたいなら参照用の胴体が必要ですし、頭装備を作りたいなら、参照用の頭が必要です。ただし、注意してください。参照用はあくまで参照用です。独自の胴体の作成時のように、動かさないでください。
+    <li>参照を使う上で重要なことがあります。特に動く装飾品の作成時にです。<br>
+    <b>参照用のACTのフレーム数を、目的のACTと同じにしてください。</b>
+    動く装飾品を作りたいなら、参照用に動く頭を作ってください。<br>
+    (この動く頭はROのクライアントでは使うことはできません）
+    </li>
+    </ul>
+  <li>ACTを保存
+  </li>
+  </ol>
+<li><H3>イメージの差し替え</H3>
+  <i>このプログラムは、ACTで定義されているSprNoよりも、SPRファイルにある画像数が少ないのを嫌います。(おそらく、フリーズしませんが…。しかし、これは、良い状態ではありません）<br>
+  ですので、遠回りな方法を適用します。<br></i>
+  以下に、フルカラー頭装備の作成法を説明します。この操作が理解できれば、色々なことに適用できると思います。
+<br>
+  この例では、ラッコ帽を使います。このACTとSPRを用意してください。<br>
+  <ol>
+  <li>SPRファイルにある画像数を確認してください。9枚のパレットイメージと、0枚のフルカラーイメージがあります。
+  <li>ですので、9枚のフルカラーイメージを作成しなければなりません。心配しないでください。9枚のダミーのフルカラーイメージが必要です。けれども、何かを描くべきです。
+  <li>actOR2でSPRを開いてください
+  <li>BMPで保存（この例では、"sea"とします）
+  <li>sea000.bmp ～sea008.bmpが見つかるでしょう。（もし、SPRにフルカラーイメージがあるなら、**.tgaが見つかります）
+  <li>9枚のダミーフルカラーイメージを、sea009.tga ～ sea017.tga にリネームしてください
+  <li>actOR2でsea000.bmpを開いてください
+  <li>SubViewに18枚のイメージを確認できるとおもいます
+  <li>SPRで保存 ("sea_full.spr"とします)
+  <li>元々のACTを "sea_full.act"としてコピーします
+  <li>"sea_full.act"を開いてください
+  <li>アニメーションをさせてみて、何も変化がないとわかるでしょう。確認後、アニメーションを止めてください
+  <li>メニューの[スクリプト]-[ロード&amp;実行]で、サンプルluaファイル"changeto32bit.lua"を実行してください<br>
+    このluaスクリプトは、すべてのアクションのすべてのフレームのすべてのパターンのSpTypeを1にします。
+  <li>アニメーションをさせてみて、すべてのイメージが変更されたのがわかるでしょう。。確認後、アニメーションを止めてください
+  <li>ACTを保存 ("sea_full2.act"とします) そして、actOR2を終了してください
+  <li>sea008.bmpを何かにリネーム（あるいは削除）
+  <li>actOR2で sea009.tga を開いてください<br>
+    このプログラムは、あなたが選択したものから最小番号のファイルを探します。あなたが、sea010.tgaを選択しても、このプログラムは、sea009.tgaから読みます。なぜなら、sea008.bmpがないからです。(もし、sea008.bmpをリネームしなかったなら、このプログラムは、sea000.bmpから読みます）
+  <li>SubViewに9枚のフルカラーイメージがあるのがわかるとおもいます
+  <li>SPRで保存 ("sea_full2.spr"とします)
+  <li>"sea_full2.act" を開いてください
+  <li>あとは、イメージの数や、位置などを好きなように変更するだけです
+  </li>
+  </ol>
+  基本は、SpTypeを1にするだけの簡単なことです。<br>
+  もっと簡単に終わらせたいなら、3枚のパレットイメージが入っているSPRファイルを使うのがいいでしょう。
+<li><H3>アクションの追加</H3>
+  最初に。なぜ、アクションを増やしたいのですか？ わたしには、たった１つしか思いつきません。それは、普通のmobをペットやホムにしたい時だけでしょう。わたしは、あなたのたった１つの要求に応えたいと思います。しかし、これ以外は、ナンセンスです。だから、このプログラムはアクションを追加することはできません。(もし、特別なオリジナルクライアントとサーバプログラムを見せてくれれば、私は偉大な努力を賞賛し、この制限を解除するでしょう）<br>
+  以下に、普通のmobをペットやホムに変える方法を示します。<br>
+  最終的に作りたいペットやホムのACTとSPRを用意してください。(これらを ZZ.act&amp;.sprとします)
+  そして、好きなmobのACTとSPRも用意してください。(これらを XX.act&amp;.sprとします)
+  <ol>
+  <li>XX.actを開く
+  <li>ACTをテキストで保存 ("XX.lua"とします)
+  <li>BMPで保存 ("XX000.bmp" ～ "XXnnn.bmp"とします)
+  <li>ZZ.actを開く
+  <li>BMPで保存 ("ZZ000.bmp" ～ "ZZmmm.bmp"とします)
+  <li>"ZZ000.bmp" ～ "ZZmmm.bmp" を "ZZ(nnn+1).bmp" ～ "ZZ(nnn+1+mmm).bmp"にリネーム<br>
+    良いリネームプログラムを使ってください<br>
+    TGAファイルがあるなら、"XX000.bmp" ～, "ZZ(nnn+1).bmp" ～, "XXooo.tga" ～, and "ZZppp.tga" ～　のようにリネームしてください
+  <li>一旦、actOR2を終了し、"ZZ000.bmp"を開いてください
+  <li>SPRで保存 ("YY.spr"　とします)
+  <li>"ZZ.act"を、"YY.act"としてコピー
+  <li>"YY.act"を開く
+  <li>メニューの[スクリプト]-[ロード&amp;実行]で、"XX.lua"を実行
+  <li>ACTで保存 ("YY.act"とします)
+  <li>"ZZ*.bmp"と"ZZ*.tga"を削除
+  <li>もし、"XXooo.tga"があるなら、"XX(nnn+1).tga" ～にリネームしてください。
+    とても良いリネームプログラムを使ってください
+  <li>一旦、actOR2を終了し、"XX000.bmp"を開いてください
+  <li>SPRで保存 ("YY.spr"とします)
+  <li>これで、目的のACTとSPR(YY.act&amp;.spr)ができました。しかし、これらのペットモーションは壊れています
+  <li>ペットモーションを調整してください
+  </li>
+  </ol>
+  この方法は、"イメージの差し替え"と同じように遠回りな方法です。もし、"XX.spr"の画像数が、"ZZ.spr"の画像数よりも多いことを知っているなら、ショートカットできます。
+</li>
+</ul>
+</p>
+</body>
+</html>

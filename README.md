@@ -15,6 +15,8 @@ ClientTools
 
 **ActOR** 					- 用来编辑spr和act图档的工具
 
+**ActOR2**					- 也是编辑spr和act图档的工具, 若 ActOR 无法处理某些图档的话, 试试 ActOR2
+
 **Advanced Grf Tool Suite** - 这是一套老牌的Grf套件
 
 **C32Asm** 					- 这是一款小巧的反汇编和十六进制编辑器
